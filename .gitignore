@@ -1,0 +1,16 @@
+# Build outputs
+target/
+build/
+.gradle/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.swp
+*.bak
+.DS_Store
