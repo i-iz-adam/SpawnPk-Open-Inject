@@ -80,7 +80,7 @@ extends c {
             }
             if (this.m >= 32768) {
                 int n2 = this.m - 32768;
-                k k2 = Client.do[n2];
+                k k2 = Client.doField[n2];
                 if (n2 == Client.di) {
                     h h3;
                     rs.a.k.aJ = true;
@@ -122,7 +122,7 @@ extends c {
             }
             if (this.m >= 32768) {
                 int n3 = this.m - 32768;
-                k k3 = Client.do[n3];
+                k k3 = Client.doField[n3];
                 if (n3 == Client.di) {
                     h h5;
                     boolean bl = rs.f.a.N;

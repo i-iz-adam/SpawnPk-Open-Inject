@@ -106,7 +106,7 @@ extends c {
     public static final int dl = 19614;
     public static final int dm = 32598;
     public static final int dn = 32599;
-    public static rs.n.d.c do;
+    public static rs.n.d.c doField;
     public static rs.n.d.c dp;
     public static rs.n.d.c dq;
     public static rs.n.d.c dr;
@@ -145,11 +145,11 @@ extends c {
     @Override
     public void a() {
         this.h();
-        do = rs.n.c.d.a.a(rs.n.c.d.a.d(32300));
+        doField = rs.n.c.d.a.a(rs.n.c.d.a.d(32300));
         dp = rs.n.c.d.a.a(rs.n.c.d.a.d(32297));
-        rs.n.c.d.c.a(do);
+        rs.n.c.d.c.a(doField);
         rs.n.c.d.c.b(dp);
-        do.a();
+        doField.a();
         dp.a();
         dq = rs.n.c.d.a.a(rs.n.c.d.a.d(32299));
         rs.n.c.d.b.a(dq);

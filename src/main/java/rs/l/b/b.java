@@ -286,9 +286,7 @@ public class b {
                 }
             }
         }
-        if (!e.H[199].at.contains("LMS")) ** GOTO lbl-1000
-        if (Client.ed != 197) ** GOTO lbl-1000
-        if (Client.eR.ay != 6095) ** GOTO lbl-1000
+        if (e.H[199].at.contains("LMS") && Client.ed == 197 && Client.eR.ay == 6095)
         if (Client.eR.aT != null) {
             var0.fu = 3209;
         } else if (var0.fu == 3209) {

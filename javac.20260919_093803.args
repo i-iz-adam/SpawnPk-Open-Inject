@@ -1,0 +1,5 @@
+-cp
+libs/client-obfuscated-deps.jar
+-d
+target/classes
+@sources_test.txt

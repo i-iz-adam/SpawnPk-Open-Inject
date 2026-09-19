@@ -50,7 +50,7 @@ final class a {
         var10_10 = var9_9 = var0.h;
         var11_11 = var0.L + 1;
         block0: while (true) {
-            if (var2_2 <= 0) ** GOTO lbl26
+            if (var2_2 <= 0) break;
             while (var9_9 != 0) {
                 if (var2_2 != 1) {
                     var7_7[var8_8] = var1_1;
@@ -66,7 +66,7 @@ final class a {
                 var7_7[var8_8] = var1_1;
                 ++var8_8;
                 --var9_9;
-lbl26:
+// // lbl26:
                 // 2 sources
 
                 var12_12 = 1;

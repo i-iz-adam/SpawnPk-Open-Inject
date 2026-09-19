@@ -1726,7 +1726,7 @@ extends rs.a.a {
                     this.L[var5_8] = 19;
                 }
             }
-            ** if ((var4_5 = rs.r.b.a((int)var1_1)) == null) goto lbl275
+            if ((var4_5 = rs.r.b.a((int)var1_1)) != null) {
             for (var5_8 = 0; var5_8 < var4_5.length; ++var5_8) {
                 var6_10 = var4_5[var5_8];
                 if (var6_10[0] == -1) {
@@ -1760,12 +1760,8 @@ extends rs.a.a {
                     continue;
                 }
                 this.L[var6_10[0]] = var6_10[1] + 1;
-lbl-1000:
-                // 2 sources
-
-                {
-                    continue;
-                }
+                continue;
+            }
             }
         }
 lbl275:

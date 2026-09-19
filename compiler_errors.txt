@@ -1,0 +1,387 @@
+src\main\java\rs\a\a\a.java:12: error: cannot find symbol
+extends rs.a {
+          ^
+  symbol:   class a
+  location: package rs
+src\main\java\rs\f_0.java:6: error: cannot find symbol
+import rs.a;
+         ^
+  symbol:   class a
+  location: package rs
+src\main\java\rs\f_0.java:8: error: cannot find symbol
+import rs.o;
+         ^
+  symbol:   class o
+  location: package rs
+src\main\java\rs\f_0.java:14: error: cannot find symbol
+    private final a c = new a();
+                  ^
+  symbol:   class a
+  location: class f_0
+src\main\java\rs\f_0.java:16: error: cannot find symbol
+    public o a;
+           ^
+  symbol:   class o
+  location: class f_0
+src\main\java\rs\b_0.java:6: error: cannot find symbol
+import rs.a;
+         ^
+  symbol:   class a
+  location: package rs
+src\main\java\rs\f_0.java:26: error: cannot find symbol
+    public a a(long l2) {
+           ^
+  symbol:   class a
+  location: class f_0
+src\main\java\rs\f_0.java:34: error: cannot find symbol
+    public void a(a a2, long l2) {
+                  ^
+  symbol:   class a
+  location: class f_0
+src\main\java\rs\b_0.java:12: error: cannot find symbol
+    private final a a;
+                  ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\b_0.java:13: error: cannot find symbol
+    private a b;
+            ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\b_0.java:20: error: cannot find symbol
+    public void a(a a2) {
+                  ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\b_0.java:30: error: cannot find symbol
+    public a a() {
+           ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\b_0.java:39: error: cannot find symbol
+    public a b() {
+           ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\b_0.java:49: error: cannot find symbol
+    public a c() {
+           ^
+  symbol:   class a
+  location: class b_0
+src\main\java\rs\a\a\a.java:355: error: class a is already defined in package rs.a.a
+    public static final class a
+                        ^
+src\main\java\rs\a\b\a.java:9: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+src\main\java\rs\a\b\a.java:12: error: cannot find symbol
+import rs.a.b.b;
+             ^
+  symbol:   class b
+  location: package rs.a.b
+src\main\java\rs\a\b\a.java:14: error: package rs.s.c does not exist
+import rs.s.c.d;
+             ^
+src\main\java\rs\a\b\a.java:17: error: cannot find symbol
+extends b {
+        ^
+  symbol: class b
+src\main\java\rs\a\b\a.java:18: error: cannot find symbol
+    private i a;
+            ^
+  symbol:   class i
+  location: class a
+src\main\java\rs\a\b\a.java:19: error: cannot find symbol
+    private i b;
+            ^
+  symbol:   class i
+  location: class a
+src\main\java\rs\a\h.java:21: error: package rs.gui does not exist
+import rs.gui.Launcher;
+             ^
+src\main\java\rs\a\h.java:22: error: cannot find symbol
+import rs.k;
+         ^
+  symbol:   class k
+  location: package rs
+src\main\java\rs\a\h.java:24: error: package rs.l does not exist
+import rs.l.e_0;
+           ^
+src\main\java\rs\a\h.java:25: error: package rs.r does not exist
+import rs.r.b;
+           ^
+src\main\java\rs\a\h.java:26: error: package rs.r does not exist
+import rs.r.j_0;
+           ^
+src\main\java\rs\a\h.java:27: error: package rs.runelite.a does not exist
+import rs.runelite.a.m;
+                    ^
+src\main\java\rs\a\h.java:28: error: package rs.runelite.a does not exist
+import rs.runelite.a.o;
+                    ^
+src\main\java\rs\a\h.java:30: error: package rs.u does not exist
+import rs.u.g;
+           ^
+src\main\java\rs\a\h.java:31: error: package rs.u does not exist
+import rs.u.j;
+           ^
+src\main\java\rs\a\h.java:32: error: cannot find symbol
+import rs.v;
+         ^
+  symbol:   class v
+  location: package rs
+src\main\java\rs\a\h.java:33: error: package rs.x does not exist
+import rs.x.e;
+           ^
+src\main\java\rs\a\h.java:36: error: cannot find symbol
+extends rs.a.a {
+            ^
+  symbol:   class a
+  location: package rs.a
+src\main\java\rs\a\b\a.java:61: error: cannot find symbol
+    public i a() {
+           ^
+  symbol:   class i
+  location: class a
+src\main\java\rs\a\b\a.java:65: error: cannot find symbol
+    public i b() {
+           ^
+  symbol:   class i
+  location: class a
+src\main\java\rs\a\h.java:45: error: cannot find symbol
+    public static v[] o;
+                  ^
+  symbol:   class v
+  location: class h
+src\main\java\rs\a\h.java:141: error: package rs.cache does not exist
+    static rs.cache.e aU;
+                   ^
+src\main\java\rs\a\h.java:180: error: package rs.runelite.a does not exist
+    HashMap<Integer, rs.runelite.a.a> bH;
+                                  ^
+src\main\java\rs\a\m.java:7: error: cannot find symbol
+import rs.a.a;
+           ^
+  symbol:   class a
+  location: package rs.a
+src\main\java\rs\a\m.java:9: error: package rs.d does not exist
+import rs.d.r;
+           ^
+src\main\java\rs\a\m.java:10: error: package rs.d does not exist
+import rs.d.y;
+           ^
+src\main\java\rs\a\m.java:13: error: cannot find symbol
+extends a {
+        ^
+  symbol: class a
+src\main\java\rs\a\h.java:2363: error: cannot find symbol
+    public static v[] j() {
+                  ^
+  symbol:   class v
+  location: class h
+src\main\java\rs\a\h.java:2367: error: cannot find symbol
+    public static v[] b(boolean bl) {
+                  ^
+  symbol:   class v
+  location: class h
+src\main\java\rs\a\h.java:2445: error: package rs.cache does not exist
+    public static void a(int n2, rs.cache.e e2) {
+                                         ^
+src\main\java\rs\a\h.java:3443: error: package rs.u does not exist
+    public void a(rs.u.b b2, int n2) {
+                      ^
+src\main\java\rs\a\j.java:10: error: package rs.d does not exist
+import rs.d.d;
+           ^
+src\main\java\rs\a\j.java:11: error: package rs.d does not exist
+import rs.d.x;
+           ^
+src\main\java\rs\a\j.java:12: error: package rs.f does not exist
+import rs.f.a;
+           ^
+src\main\java\rs\a\j.java:13: error: package rs.l does not exist
+import rs.l.f_0;
+           ^
+src\main\java\rs\a\c.java:10: error: package rs.gui does not exist
+import rs.gui.Launcher;
+             ^
+src\main\java\rs\a\c.java:11: error: package rs.runelite.a does not exist
+import rs.runelite.a.f;
+                    ^
+src\main\java\rs\a\c.java:12: error: package rs.runelite.a does not exist
+import rs.runelite.a.p;
+                    ^
+src\main\java\rs\a\c.java:15: error: cannot find symbol
+extends rs.a.a {
+            ^
+  symbol:   class a
+  location: package rs.a
+src\main\java\rs\a\h.java:3495: error: package rs.u does not exist
+    void b(rs.u.b b2, int n2) {
+               ^
+src\main\java\rs\k_0.java:6: error: package rs.cache.osrs does not exist
+import rs.cache.osrs.c;
+                    ^
+src\main\java\rs\k_0.java:7: error: package rs.u does not exist
+import rs.u.j;
+           ^
+src\main\java\rs\k_0.java:8: error: package rs.x does not exist
+import rs.x.e;
+           ^
+src\main\java\rs\a\h.java:3518: error: package rs.u does not exist
+    public void a(k_0 k_02, rs.u.b b2, int n2, boolean[] blArray, boolean bl, boolean bl2) {
+                                ^
+src\main\java\rs\a\h.java:4283: error: package rs.k.c does not exist
+    void a(rs.k.c.d d2, int n2, int n3, int n4, int n5, int n6, boolean bl) {
+                 ^
+src\main\java\rs\a\h.java:5323: error: package rs.runelite.a does not exist
+    public HashMap<Integer, rs.runelite.a.a> y() {
+                                         ^
+src\main\java\rs\a\h.java:5327: error: package rs.runelite.a does not exist
+    public rs.runelite.a.a p(int n2) {
+                        ^
+src\main\java\rs\k_0.java:14: error: cannot find symbol
+    j a;
+    ^
+  symbol:   class j
+  location: class k_0
+src\main\java\rs\k_0.java:20: error: cannot find symbol
+    public k_0(e e2, boolean bl, int n2) {
+               ^
+  symbol:   class e
+  location: class k_0
+src\main\java\rs\k_0.java:64: error: cannot find symbol
+    public k_0(e e2) {
+               ^
+  symbol:   class e
+  location: class k_0
+src\main\java\rs\k_0.java:68: error: cannot find symbol
+    public k_0(e e2, boolean bl) {
+               ^
+  symbol:   class e
+  location: class k_0
+src\main\java\rs\k_0.java:90: error: cannot find symbol
+    public j b() {
+           ^
+  symbol:   class j
+  location: class k_0
+src\main\java\rs\a\e.java:10: error: package rs.f does not exist
+import rs.f.a;
+           ^
+src\main\java\rs\a\c.java:83: error: package rs.d does not exist
+    public final rs.d.a[] d() {
+                     ^
+src\main\java\rs\a\c.java:189: error: cannot find symbol
+    public p g() {
+           ^
+  symbol:   class p
+  location: class c
+src\main\java\rs\a\f.java:9: error: package rs.f does not exist
+import rs.f.a;
+           ^
+src\main\java\rs\a\f.java:10: error: package rs.l does not exist
+import rs.l.f_0;
+           ^
+src\main\java\rs\a\f.java:11: error: package rs.l does not exist
+import rs.l.j_0;
+           ^
+src\main\java\rs\Client.java:11: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+src\main\java\rs\Client.java:56: error: cannot find symbol
+import rs.d;
+         ^
+  symbol:   class d
+  location: package rs
+src\main\java\rs\Client.java:57: error: package rs.d does not exist
+import rs.d.h;
+           ^
+src\main\java\rs\Client.java:58: error: package rs.d does not exist
+import rs.d.r;
+           ^
+src\main\java\rs\Client.java:59: error: package rs.d does not exist
+import rs.d.t;
+           ^
+src\main\java\rs\Client.java:60: error: package rs.d does not exist
+import rs.d.v;
+           ^
+src\main\java\rs\Client.java:61: error: package rs.d does not exist
+import rs.d.y;
+           ^
+src\main\java\rs\Client.java:62: error: package rs.d does not exist
+import rs.d.z;
+           ^
+src\main\java\rs\Client.java:63: error: cannot find symbol
+import rs.e;
+         ^
+  symbol:   class e
+  location: package rs
+src\main\java\rs\Client.java:64: error: package rs.eventbus does not exist
+import rs.eventbus.EventBus;
+                  ^
+src\main\java\rs\Client.java:65: error: cannot find symbol
+import rs.f;
+         ^
+  symbol:   class f
+  location: package rs
+src\main\java\rs\Client.java:66: error: package rs.f does not exist
+import rs.f.a;
+           ^
+src\main\java\rs\Client.java:67: error: package rs.gui does not exist
+import rs.gui.Launcher;
+             ^
+src\main\java\rs\Client.java:69: error: cannot find symbol
+import rs.j;
+         ^
+  symbol:   class j
+  location: package rs
+src\main\java\rs\Client.java:70: error: cannot find symbol
+import rs.k;
+         ^
+  symbol:   class k
+  location: package rs
+src\main\java\rs\Client.java:71: error: package rs.k does not exist
+import rs.k.p;
+           ^
+src\main\java\rs\Client.java:72: error: cannot find symbol
+import rs.l;
+         ^
+  symbol:   class l
+  location: package rs
+src\main\java\rs\Client.java:73: error: package rs.l does not exist
+import rs.l.a_0;
+           ^
+src\main\java\rs\Client.java:74: error: package rs.l.d does not exist
+import rs.l.d.c;
+             ^
+src\main\java\rs\Client.java:75: error: package rs.l.e does not exist
+import rs.l.e.g;
+             ^
+src\main\java\rs\Client.java:76: error: package rs.l.e does not exist
+import rs.l.e.o;
+             ^
+src\main\java\rs\Client.java:77: error: package rs.l.e does not exist
+import rs.l.e.q;
+             ^
+src\main\java\rs\Client.java:78: error: package rs.l does not exist
+import rs.l.e_0;
+           ^
+src\main\java\rs\Client.java:79: error: package rs.l.f.a.c does not exist
+import rs.l.f.a.c.c;
+                 ^
+src\main\java\rs\Client.java:80: error: package rs.l does not exist
+import rs.l.f_0;
+           ^
+src\main\java\rs\Client.java:81: error: package rs.l does not exist
+import rs.l.i_0;
+           ^
+src\main\java\rs\Client.java:82: error: package rs.l does not exist
+import rs.l.s;
+           ^
+100 errors
+only showing the first 100 errors, of 405 total; use -Xmaxerrs if you would like to see more
+printing javac parameters to: C:\Users\naxos\Documents\SpawnPK-Open-Client\javac.20260919_094029.args

@@ -78,7 +78,7 @@ extends g {
         }
         if (this.v >= 32768) {
             int n7 = this.v - 32768;
-            k k2 = Client.do[n7];
+            k k2 = Client.doField[n7];
             if (k2 != null && k2.aZ.equalsIgnoreCase(this.r)) {
                 n6 = k2.M;
             }

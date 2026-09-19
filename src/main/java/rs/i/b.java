@@ -348,7 +348,7 @@ public class b {
                 }
                 break block35;
             }
-            if (Client.hP < 400) ** GOTO lbl-1000
+            if (Client.hP >= 400)
             if (Client.hP <= 456) {
                 if (this.l.fi == rs.i.a.e) {
                     this.e.f(401, var2_2);

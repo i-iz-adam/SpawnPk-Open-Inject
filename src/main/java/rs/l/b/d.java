@@ -1221,9 +1221,8 @@ public class d {
                                     if (Client.cH == 60600) break block164;
                                     if (Client.cH != 23000) break block165;
                                 }
-                                if (var2_2.ax[var12_12] == 0) ** GOTO lbl-1000
                             }
-                            if (Client.cH == 50600 && var2_2.aw == 50615 && var12_12 < var0.P || var18_19 != 0) lbl-1000:
+                            if (var2_2.ax[var12_12] == 0 || (Client.cH == 50600 && var2_2.aw == 50615 && var12_12 < var0.P || var18_19 != 0))
                             // 2 sources
 
                             {

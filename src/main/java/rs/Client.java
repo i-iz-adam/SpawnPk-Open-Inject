@@ -188,7 +188,7 @@ extends rs.c_0 {
     private static long ic;
     private long id;
     private List<rs.q.a.a> ie = new ArrayList<rs.q.a.a>();
-    private Map<String, Boolean> if = new HashMap<String, Boolean>();
+    private Map<String, Boolean> ifField = new HashMap<String, Boolean>();
     public j Z = new j();
     public static o aa;
     public static rs.l.e.k ab;
@@ -478,7 +478,7 @@ extends rs.c_0 {
     public static String dm;
     private final int kt;
     public static final int dn = 2047;
-    public static rs.a.k[] do;
+    public static rs.a.k[] doField;
     private int ku;
     private int[] kv;
     private int kw;
@@ -2452,7 +2452,7 @@ extends rs.c_0 {
             if (j2 == null || !j2.l() || j2.aG.K != bl) continue;
             int n6 = j2.ac >> 7;
             int n7 = j2.ad >> 7;
-            if (n6 < 0 || n6 >= 104 || n7 < 0 || n7 >= 104 || !bl && (n4 = ((n3 = eh + (j2.ac - 6 >> 7)) >> 6) * 256 + ((n2 = ei + (j2.ad - 6 >> 7)) >> 6)) == 10806 && this.if.get(n3 + "," + n2) != null) continue;
+            if (n6 < 0 || n6 >= 104 || n7 < 0 || n7 >= 104 || !bl && (n4 = ((n3 = eh + (j2.ac - 6 >> 7)) >> 6) * 256 + ((n2 = ei + (j2.ad - 6 >> 7)) >> 6)) == 10806 && this.ifField.get(n3 + "," + n2) != null) continue;
             if (j2.S == 1 && (j2.ac & 0x7F) == 64 && (j2.ad & 0x7F) == 64) {
                 if (this.kS[n6][n7] == gf) continue;
                 this.kS[n6][n7] = gf;
@@ -3512,7 +3512,7 @@ extends rs.c_0 {
             for (n4 = -1; n4 < this.ku + this.cB; ++n4) {
                 int n6;
                 rs.d.d d2;
-                rs.a.c c2 = n4 == -1 ? eR : (n4 < this.ku ? do[this.kv[n4]] : this.cA[this.cC[n4 - this.ku]]);
+                rs.a.c c2 = n4 == -1 ? eR : (n4 < this.ku ? doField[this.kv[n4]] : this.cA[this.cC[n4 - this.ku]]);
                 if (c2 == null || !c2.l()) continue;
                 n3 = 0;
                 if (c2 instanceof rs.a.j) {
@@ -4334,7 +4334,7 @@ extends rs.c_0 {
         }
         for (n3 = -1; n3 < this.ku; ++n3) {
             n2 = n3 == -1 ? 2047 : this.kv[n3];
-            c2 = do[n2];
+            c2 = doField[n2];
             if (c2 == null || c2.O <= 0) continue;
             --c2.O;
             if (c2.O != 0) continue;
@@ -4642,7 +4642,7 @@ extends rs.c_0 {
             c2.b();
         }
         this.u.clear();
-        this.if.clear();
+        this.ifField.clear();
         this.jD = 0;
         this.cY = 0;
         this.nD = null;
@@ -4933,11 +4933,11 @@ extends rs.c_0 {
                 n3 = 2047;
             }
             this.iJ = n3;
-            k3 = do[n3];
+            k3 = doField[n3];
             if (k3 != null && !k3.aZ.equalsIgnoreCase(Client.eR.aZ)) {
                 k4 = k3;
             }
-        } else if (this.iJ >= 0 && this.iJ <= do.length - 1 && (k2 = do[this.iJ]) != null && !k2.aZ.equalsIgnoreCase(Client.eR.aZ)) {
+        } else if (this.iJ >= 0 && this.iJ <= doField.length - 1 && (k2 = doField[this.iJ]) != null && !k2.aZ.equalsIgnoreCase(Client.eR.aZ)) {
             k4 = k2;
         }
         for (int i2 = 0; i2 < n2; ++i2) {
@@ -4949,14 +4949,14 @@ extends rs.c_0 {
                 k3 = eR;
                 n7 = 33538048;
             } else {
-                k3 = do[this.kv[i2]];
+                k3 = doField[this.kv[i2]];
                 n7 = this.kv[i2] << 14;
             }
             if (k3 == null || !k3.l()) continue;
             k3.aU = false;
             int n8 = k3.ac >> 7;
             int n9 = k3.ad >> 7;
-            if (n8 < 0 || n8 >= 104 || n9 < 0 || n9 >= 104 || (bl ? rs.f.a.bq : (n6 = ((n5 = eh + (k3.ac - 6 >> 7)) >> 6) * 256 + ((n4 = ei + (k3.ad - 6 >> 7)) >> 6)) == 10806 && this.if.get(n5 + "," + n4) != null)) continue;
+            if (n8 < 0 || n8 >= 104 || n9 < 0 || n9 >= 104 || (bl ? rs.f.a.bq : (n6 = ((n5 = eh + (k3.ac - 6 >> 7)) >> 6) * 256 + ((n4 = ei + (k3.ad - 6 >> 7)) >> 6)) == 10806 && this.ifField.get(n5 + "," + n4) != null)) continue;
             if (k4 != null && k4.ac == k3.ac && k4.ad == k3.ad && !k4.aZ.equals(k3.aZ) && !k3.aZ.equalsIgnoreCase(Client.eR.aZ)) continue;
             if (ed != 197 && rs.f.a.aY && !rs.k.e.a()) {
                 boolean bl2 = k3.aU = this.ku >= 35 && !bl && k3.w == k3.t && k3.F <= 0;
@@ -5086,7 +5086,7 @@ extends rs.c_0 {
         long l2 = System.currentTimeMillis();
         for (int i2 = 0; i2 < this.kw; ++i2) {
             int n2 = this.kx[i2];
-            rs.a.k k2 = do[n2];
+            rs.a.k k2 = doField[n2];
             int n3 = e2.y();
             if (rs.f.a.d.booleanValue()) {
                 cx.add("\t->[" + n2 + "] STARTING mask=" + n3);
@@ -5456,7 +5456,7 @@ extends rs.c_0 {
                 if (l2.n > 0 && (j2 = this.cA[l2.n - 1]) != null && j2.ac >= 0 && j2.ac < 13312 && j2.ad >= 0 && j2.ad < 13312) {
                     l2.a(ff, j2.ad, this.c(l2.p, j2.ad, j2.ac) - l2.j, j2.ac);
                 }
-                if (l2.n < 0 && (k2 = (n2 = -l2.n - 1) == di ? eR : do[n2]) != null && k2.ac >= 0 && k2.ac < 13312 && k2.ad >= 0 && k2.ad < 13312) {
+                if (l2.n < 0 && (k2 = (n2 = -l2.n - 1) == di ? eR : doField[n2]) != null && k2.ac >= 0 && k2.ac < 13312 && k2.ad >= 0 && k2.ad < 13312) {
                     l2.a(ff, k2.ad, this.c(l2.p, k2.ad, k2.ac) - l2.j, k2.ac);
                 }
                 l2.a(this.dE);
@@ -6415,7 +6415,7 @@ extends rs.c_0 {
                 }
             }
         }
-        if (n2 == 561 && (object2 = do[n3]) != null) {
+        if (n2 == 561 && (object2 = doField[n3]) != null) {
             this.a(2, 0, 1, 0, Client.eR.l[0], 1, 0, ((rs.a.k)object2).l[0], Client.eR.k[0], false, ((rs.a.k)object2).k[0]);
             this.ds = this.hV;
             this.dt = this.hW;
@@ -6440,7 +6440,7 @@ extends rs.c_0 {
             entityInteraction.setEntity((rs.a.c)object2);
             this.p.post(entityInteraction);
         }
-        if (n2 == 779 && (object2 = do[n3]) != null) {
+        if (n2 == 779 && (object2 = doField[n3]) != null) {
             this.a(2, 0, 1, 0, Client.eR.l[0], 1, 0, ((rs.a.k)object2).l[0], Client.eR.k[0], false, ((rs.a.k)object2).k[0]);
             this.ds = this.hV;
             this.dt = this.hW;
@@ -6602,7 +6602,7 @@ extends rs.c_0 {
             String string4 = o_0.c(o_0.a(o_0.a((String)object2)));
             boolean bl = false;
             for (int i2 = 0; i2 < this.ku; ++i2) {
-                rs.a.k k6 = do[this.kv[i2]];
+                rs.a.k k6 = doField[this.kv[i2]];
                 if (k6 == null || k6.aZ == null || !k6.aZ.equalsIgnoreCase(string4)) continue;
                 if (n2 == 484) {
                     fv.a(39);
@@ -6727,7 +6727,7 @@ extends rs.c_0 {
                 this.fX = 3;
             }
         }
-        if (n2 == 27 && (object2 = do[n3]) != null) {
+        if (n2 == 27 && (object2 = doField[n3]) != null) {
             this.ds = this.hV;
             this.dt = this.hW;
             this.dv = 2;
@@ -7112,7 +7112,7 @@ extends rs.c_0 {
             entityInteraction5.setCombat(true);
             this.p.post(entityInteraction5);
         }
-        if (n2 == 365 && (k5 = do[n3]) != null) {
+        if (n2 == 365 && (k5 = doField[n3]) != null) {
             this.ds = this.hV;
             this.dt = this.hW;
             this.dv = 2;
@@ -7121,7 +7121,7 @@ extends rs.c_0 {
             fv.o(n3);
             fv.n(this.nl);
         }
-        if (n2 == 729 && (k4 = do[n3]) != null) {
+        if (n2 == 729 && (k4 = doField[n3]) != null) {
             this.ds = this.hV;
             this.dt = this.hW;
             this.dv = 2;
@@ -7129,7 +7129,7 @@ extends rs.c_0 {
             fv.a(39);
             fv.n(n3);
         }
-        if (n2 == 577 && (k3 = do[n3]) != null) {
+        if (n2 == 577 && (k3 = doField[n3]) != null) {
             this.ds = this.hV;
             this.dt = this.hW;
             this.dv = 2;
@@ -7227,7 +7227,7 @@ extends rs.c_0 {
                 this.a("Please close the interface you have open before using 'report abuse'", 0, "");
             }
         }
-        if (n2 == 491 && (k2 = do[n3]) != null) {
+        if (n2 == 491 && (k2 = doField[n3]) != null) {
             this.a(2, 0, 1, 0, Client.eR.l[0], 1, 0, k2.l[0], Client.eR.k[0], false, k2.k[0]);
             this.ds = this.hV;
             this.dt = this.hW;
@@ -7575,7 +7575,7 @@ extends rs.c_0 {
                         this.a(c2.aG, this.cC[n3], n6, n5);
                     }
                     for (n3 = 0; n3 < this.ku; ++n3) {
-                        c2 = do[this.kv[n3]];
+                        c2 = doField[this.kv[n3]];
                         if (c2 == null || ((rs.a.k)c2).ac != ((rs.a.j)object).ac || ((rs.a.k)c2).ad != ((rs.a.j)object).ad) continue;
                         this.a(n5, this.kv[n3], (rs.a.k)c2, n6);
                     }
@@ -7584,7 +7584,7 @@ extends rs.c_0 {
             }
             if (n7 == 0) {
                 Object object2;
-                object = do[n8];
+                object = doField[n8];
                 if (object == null) continue;
                 ArrayList<Integer> arrayList = new ArrayList<Integer>();
                 if ((((rs.a.k)object).ac & 0x7F) == 64 && (((rs.a.k)object).ad & 0x7F) == 64) {
@@ -7595,7 +7595,7 @@ extends rs.c_0 {
                         this.a(((rs.a.j)object2).aG, this.cC[n9], n6, n5);
                     }
                     for (n9 = 0; n9 < this.ku; ++n9) {
-                        object2 = do[this.kv[n9]];
+                        object2 = doField[this.kv[n9]];
                         if (object2 == null || object2 == object || ((rs.a.k)object2).ac != ((rs.a.k)object).ac || ((rs.a.k)object2).ad != ((rs.a.k)object).ad) continue;
                         arrayList.add(this.kv[n9]);
                     }
@@ -7603,24 +7603,24 @@ extends rs.c_0 {
                 arrayList.add(n8);
                 int n10 = -1;
                 for (Integer n11 : arrayList) {
-                    int n12 = Client.do[n11.intValue()].m - 32768;
+                    int n12 = Client.doField[n11.intValue()].m - 32768;
                     if (n12 == di && n10 == -1) {
                         n10 = n11;
                     }
                     if (Client.eR.m - 32768 == n11) {
                         n10 = n11;
                     }
-                    if (do[n11] == null || Client.do[n11.intValue()].aZ == null || this.z.r == null || this.z.r.equalsIgnoreCase(Client.do[n11.intValue()].aZ)) continue;
+                    if (doField[n11] == null || Client.doField[n11.intValue()].aZ == null || this.z.r == null || this.z.r.equalsIgnoreCase(Client.doField[n11.intValue()].aZ)) continue;
                     n10 = n11;
                     break;
                 }
                 if (n10 != -1) {
-                    object2 = do[n10];
+                    object2 = doField[n10];
                     this.a(n5, n10, (rs.a.k)object2, n6);
                 }
                 for (Integer n11 : arrayList) {
                     if (n10 != -1 && n10 == n11) continue;
-                    rs.a.k k2 = do[n11];
+                    rs.a.k k2 = doField[n11];
                     this.a(n5, (int)n11, k2, n6);
                 }
             }
@@ -7777,7 +7777,7 @@ extends rs.c_0 {
         this.mq = null;
         this.me = null;
         this.kS = null;
-        do = null;
+        doField = null;
         this.kv = null;
         this.kx = null;
         this.ky = null;
@@ -9933,13 +9933,13 @@ extends rs.c_0 {
         this.ku = 0;
         this.cB = 0;
         for (n2 = 0; n2 < this.kt; ++n2) {
-            Client.do[n2] = null;
+            Client.doField[n2] = null;
             this.ky[n2] = null;
         }
         for (n2 = 0; n2 < 16384; ++n2) {
             this.cA[n2] = null;
         }
-        eR = Client.do[2047] = new rs.a.k();
+        eR = Client.doField[2047] = new rs.a.k();
         this.ea.f();
         this.et.f();
         for (n2 = 0; n2 < 4; ++n2) {
@@ -10731,8 +10731,8 @@ extends rs.c_0 {
                         bl3 = true;
                     }
                     if (ed == 197 && rs.n.e.H[199].at != null && rs.n.e.H[199].at.contains("Tourney")) {
-                        if (this.jZ == 10 && this.kV >= 0 && this.kV < do.length) {
-                            if (k2.aZ != null && do[this.kV] != null && Client.do[this.kV].aZ != null && !Client.do[this.kV].aZ.equalsIgnoreCase(k2.aZ)) {
+                        if (this.jZ == 10 && this.kV >= 0 && this.kV < doField.length) {
+                            if (k2.aZ != null && doField[this.kV] != null && Client.doField[this.kV].aZ != null && !Client.doField[this.kV].aZ.equalsIgnoreCase(k2.aZ)) {
                                 bl3 = true;
                             }
                         } else {
@@ -11685,17 +11685,17 @@ extends rs.c_0 {
                 cx.add("\t-> index=" + n4);
             }
             if (n4 == 2047) break;
-            if (do[n4] == null) {
-                Client.do[n4] = new rs.a.k();
+            if (doField[n4] == null) {
+                Client.doField[n4] = new rs.a.k();
                 if (this.ky[n4] != null) {
                     if (rs.f.a.d.booleanValue()) {
                         cx.add("\t-> updatePlayer() call for index=" + n4);
                     }
-                    do[n4].a(this.ky[n4]);
+                    doField[n4].a(this.ky[n4]);
                 }
             }
             this.kv[this.ku++] = n4;
-            rs.a.k k2 = do[n4];
+            rs.a.k k2 = doField[n4];
             k2.P = ff;
             int n5 = e2.k(1);
             if (rs.f.a.d.booleanValue()) {
@@ -12263,7 +12263,7 @@ extends rs.c_0 {
             if (n5 == di) {
                 n5 = 2047;
             }
-            if ((k2 = do[n5]) != null) {
+            if ((k2 = doField[n5]) != null) {
                 n3 = c2.ac - k2.ac;
                 int n6 = c2.ad - k2.ad;
                 if (n3 != 0 || n6 != 0) {
@@ -13397,7 +13397,7 @@ extends rs.c_0 {
     private void bI() {
         for (int i2 = -1; i2 < this.ku; ++i2) {
             int n2 = i2 == -1 ? 2047 : this.kv[i2];
-            rs.a.k k2 = do[n2];
+            rs.a.k k2 = doField[n2];
             if (k2 == null) continue;
             this.b(k2);
         }
@@ -14623,7 +14623,7 @@ extends rs.c_0 {
             this.a(this.mD, n3, n2);
         }
         for (n5 = 0; n5 < this.ku; ++n5) {
-            rs.a.k k2 = do[this.kv[n5]];
+            rs.a.k k2 = doField[this.kv[n5]];
             if (k2 == null || !k2.l() || k2.aC == 25 && !rs.f.a.bp && k2.m == -1 || rs.l.e.f.a.e() && k2.aT != null) continue;
             int n12 = k2.ac / 32 - Client.eR.ac / 32;
             n3 = k2.ad / 32 - Client.eR.ad / 32;
@@ -14681,7 +14681,7 @@ extends rs.c_0 {
                 int n16 = (this.kX - ei) * 4 + 2 - Client.eR.ad / 32;
                 this.b(this.kh, n16, n15);
             }
-            if (this.jZ == 10 && this.kV >= 0 && this.kV < do.length && (k3 = do[this.kV]) != null) {
+            if (this.jZ == 10 && this.kV >= 0 && this.kV < doField.length && (k3 = doField[this.kV]) != null) {
                 int n17 = k3.ac / 32 - Client.eR.ac / 32;
                 int n18 = k3.ad / 32 - Client.eR.ad / 32;
                 this.b(this.kh, n18, n17);
@@ -14895,7 +14895,7 @@ extends rs.c_0 {
             int n4;
             int n5;
             int n6 = this.kv[i2];
-            rs.a.k k2 = do[n6];
+            rs.a.k k2 = doField[n6];
             int n7 = e2.k(1);
             if (rs.f.a.d.booleanValue()) {
                 cx.add("\t\t-> [" + n6 + "] j1=" + n7);
@@ -15113,7 +15113,7 @@ extends rs.c_0 {
             n3 = e2.z();
             int n32 = e2.A();
             int n33 = e2.Q();
-            rs.a.k k2 = n12 == di ? eR : do[n12];
+            rs.a.k k2 = n12 == di ? eR : doField[n12];
             if (k2 != null && (h4 = (r2 = rs.d.r.c(n32)).a(n6, n5, n31 = this.fC[dw][n14][n13], n30 = this.fC[dw][n14 + 1][n13], n29 = this.fC[dw][n14 + 1][n13 + 1], n28 = this.fC[dw][n14][n13 + 1], -1, -1)) != null) {
                 int n34;
                 this.a(n8 + 1, -1, 0, n4, n13, 0, dw, n14, n10 + 1);
@@ -15202,7 +15202,7 @@ extends rs.c_0 {
             n9 = this.oF + (n11 & 7);
             n8 = n10 + eh;
             n7 = n9 + ei;
-            this.if.remove(n8 + "," + n7);
+            this.ifField.remove(n8 + "," + n7);
             if (n10 >= 0 && n9 >= 0 && n10 < 104 && n9 < 104) {
                 this.a(-1, -1, n13, n12, n9, n14, dw, n10, 0);
             }
@@ -15537,8 +15537,8 @@ extends rs.c_0 {
         for (n3 = 0; n3 < this.jN; ++n3) {
             int n4 = this.jO[n3];
             int n5 = n4 << 14;
-            if (Client.do[n4].P == ff) continue;
-            Client.do[n4] = null;
+            if (Client.doField[n4].P == ff) continue;
+            Client.doField[n4] = null;
             rs.k.c.c.a(n5);
         }
         if (e2.h != n2) {
@@ -15549,7 +15549,7 @@ extends rs.c_0 {
             throw new RuntimeException("eek");
         }
         for (n3 = 0; n3 < this.ku; ++n3) {
-            if (do[this.kv[n3]] != null) continue;
+            if (doField[this.kv[n3]] != null) continue;
             rs.v.a.e(this.fk + " null entry in pl list - pos:" + n3 + " size:" + this.ku);
             throw new RuntimeException("eek");
         }
@@ -16256,7 +16256,7 @@ extends rs.c_0 {
                     j2.ad -= n18 * 128;
                 }
                 for (n10 = 0; n10 < this.kt; ++n10) {
-                    rs.a.k k2 = do[n10];
+                    rs.a.k k2 = doField[n10];
                     if (k2 == null) continue;
                     n8 = 0;
                     while (n8 < 10) {
@@ -16590,9 +16590,9 @@ extends rs.c_0 {
             }
             if (this.lO == 1) {
                 int n69;
-                for (n69 = 0; n69 < do.length; ++n69) {
-                    if (do[n69] == null) continue;
-                    Client.do[n69].F = -1;
+                for (n69 = 0; n69 < doField.length; ++n69) {
+                    if (doField[n69] == null) continue;
+                    Client.doField[n69].F = -1;
                 }
                 for (n69 = 0; n69 < this.cA.length; ++n69) {
                     if (this.cA[n69] == null) continue;
@@ -17719,15 +17719,15 @@ extends rs.c_0 {
                     String[] stringArray14 = string.split(" ");
                     int n122 = Integer.parseInt(stringArray14[0]);
                     int n123 = Integer.parseInt(stringArray14[1]);
-                    if (do != null && n122 <= do.length - 1 && do[n122] != null) {
-                        Client.do[n122].bd = n123;
+                    if (doField != null && n122 <= doField.length - 1 && doField[n122] != null) {
+                        Client.doField[n122].bd = n123;
                     }
                 }
                 if (n87 == 34) {
                     String[] stringArray15 = string.split(",");
                     int n124 = Integer.parseInt(stringArray15[0]);
                     int n125 = Integer.parseInt(stringArray15[1]);
-                    this.if.put(n124 + "," + n125, true);
+                    this.ifField.put(n124 + "," + n125, true);
                 }
                 if (n87 == 35) {
                     String[] stringArray16 = string.split(",");
@@ -18342,7 +18342,7 @@ extends rs.c_0 {
         dj = false;
         dk = "";
         this.kt = 2048;
-        do = new rs.a.k[this.kt];
+        doField = new rs.a.k[this.kt];
         this.kv = new int[this.kt];
         this.kx = new int[this.kt];
         this.ky = new rs.x.e[this.kt];

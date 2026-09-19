@@ -119,11 +119,11 @@ extends rs.s.a {
                     if (!l || !rs.runelite.a.g.b(n6)) break block15;
                     n5 = client.eJ[n7];
                     if (n5 < 0) break block16;
-                    if (n5 < Client.do.length) break block17;
+                    if (n5 < Client.doField.length) break block17;
                 }
                 return;
             }
-            c2 = Client.do[n5];
+            c2 = Client.doField[n5];
             if (c2 == null || ((k)c2).o() == null) {
                 return;
             }
