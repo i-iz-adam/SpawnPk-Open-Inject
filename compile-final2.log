@@ -1,0 +1,1165 @@
+
+> Task :compileJava
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+         if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method found for a(C_Client_mc,int,int,C_e,int)
+      rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                        ^
+    method C_d.a() is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String,String[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                     if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && !rs.p_d.C_k.a(null, var19 - 512)) {
+                                                                                                             ^
+  both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: Object cannot be converted to String
+                  var2.add(var4);
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.java:289: error: incompatible types: Object cannot be converted to int
+            for (int var9 : var6) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: Object cannot be converted to int
+                  for (int var24 : var22.keySet()) {
+                                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in C_O_uc; cannot be accessed from outside package
+         C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] cannot be converted to a_type
+         C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+         } catch (ThreadDeath var8) {
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_c.java:67: error: method does not override or implement a method from a supertype
+   @Override
+   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_a.java:83: error: method does not override or implement a method from a supertype
+   @Override
+   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+      this.a = var1;
+          ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+      if (C_e.a(this.a) != C_e.a.a) {
+                    ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+         C_e.b(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) cannot be referenced from a static context
+         C_e.b(this.a);
+            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+         C_e.c(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:39: error: cannot find symbol
+                  var3 = C_b.a.a;
+                              ^
+  symbol:   variable a
+  location: variable a of type List<Integer>
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:41: error: cannot find symbol
+                  var3 = C_b.a.b;
+                              ^
+  symbol:   variable b
+  location: variable a of type List<Integer>
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:43: error: cannot find symbol
+                  var3 = C_b.a.c;
+                              ^
+  symbol:   variable c
+  location: variable a of type List<Integer>
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:44: error: cannot find symbol
+               } else if (var3 != null && !var2.isEmpty() && var3 == C_b.a.a) {
+                                                                          ^
+  symbol:   variable a
+  location: variable a of type List<Integer>
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_d.java:16: error: no suitable method found for a(C_c)
+      if (C_c.a(this.a) != null) {
+             ^
+    method C_c.a(C_a) is not applicable
+      (argument mismatch; C_c cannot be converted to C_a)
+    method C_c.a(boolean) is not applicable
+      (argument mismatch; C_c cannot be converted to boolean)
+    method C_c.a(int) is not applicable
+      (argument mismatch; C_c cannot be converted to int)
+    method C_c.a(a) is not applicable
+      (argument mismatch; C_c cannot be converted to a)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_d.java:17: error: no suitable method found for a(C_c)
+         if (!C_c.a(this.a).fc && var1.getY() >= 460 && var1.getY() <= 485 && var1.getX() >= 10 && var1.getX() <= 132) {
+                 ^
+    method C_c.a(C_a) is not applicable
+      (argument mismatch; C_c cannot be converted to C_a)
+    method C_c.a(boolean) is not applicable
+      (argument mismatch; C_c cannot be converted to boolean)
+    method C_c.a(int) is not applicable
+      (argument mismatch; C_c cannot be converted to int)
+    method C_c.a(a) is not applicable
+      (argument mismatch; C_c cannot be converted to a)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:37: error: method b in class C_c cannot be applied to given types;
+               if (C_c.b(this.a) == null) {
+                      ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:38: error: incompatible types: C_c cannot be converted to String
+                  C_c.a(this.a, String.valueOf(var9));
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:39: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("&quot;", "\""));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:40: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("&amp;", "&"));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:41: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("&rsquo;", "�"));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:42: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("&#039;", "'"));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:44: error: method b in class C_c cannot be applied to given types;
+                  if (C_c.b(this.a).length() > var10) {
+                         ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:45: error: method b in class C_c cannot be applied to given types;
+                     C_c.a(this.a, C_c.b(this.a).substring(0, var10 - 1) + "...");
+                                      ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:48: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("[", "@yel@["));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:49: error: method b in class C_c cannot be applied to given types;
+                  C_c.a(this.a, C_c.b(this.a).replace("]", "] @whi@"));
+                                   ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:55: error: method b in class C_c cannot be applied to given types;
+                           C_c.b(this.a, var15.replace("href='", ""));
+                              ^
+  required: no arguments
+  found:    C_c,String
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:56: error: method c in class C_c cannot be applied to given types;
+                           C_c.b(this.a, C_c.c(this.a).substring(0, C_c.c(this.a).length() - 1));
+                                                                       ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:56: error: method c in class C_c cannot be applied to given types;
+                           C_c.b(this.a, C_c.c(this.a).substring(0, C_c.c(this.a).length() - 1));
+                                            ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:62: error: method b in class C_c cannot be applied to given types;
+                  String[] var23 = C_c.b(this.a).split("]");
+                                      ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:64: error: method c in class C_c cannot be applied to given types;
+                     C_c.c(this.a, var23[0]);
+                        ^
+  required: no arguments
+  found:    C_c,String
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:65: error: method d in class C_c cannot be applied to given types;
+                     C_c.c(this.a, C_c.d(this.a).replace("[", ""));
+                                      ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:66: error: method d in class C_c cannot be applied to given types;
+                     C_c.c(this.a, C_c.d(this.a).replace("@yel@", ""));
+                                      ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:94: error: method d in class C_c cannot be applied to given types;
+         C_c.d(this.a, var7);
+            ^
+  required: no arguments
+  found:    C_c,String
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:95: error: method e in class C_c cannot be applied to given types;
+         C_c.a(this.a, (int)((double)C_c.e(this.a).length() * 3.75));
+                                        ^
+  required: no arguments
+  found:    C_c
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:95: error: incompatible types: C_c cannot be converted to String
+         C_c.a(this.a, (int)((double)C_c.e(this.a).length() * 3.75));
+                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:99: error: method d in class C_c cannot be applied to given types;
+         C_c.d(this.a, "");
+            ^
+  required: no arguments
+  found:    C_c,String
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_m.java:41: error: incomparable types: a and C_f
+      if (C_Client_mc.cH == -1 && var2 == rs.p_l.p_e.C_f.a.b) {
+                                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_a.java:29: error: incomparable types: a and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_v.java:29: error: incomparable types: a and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_k.java:22: error: incomparable types: a and C_f
+      if (var2 == rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_u.java:18: error: incomparable types: a and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_c.java:54: error: incomparable types: a and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:16: error: incompatible types: boolean cannot be converted to C_f
+               C_c.b(var3 == 1);
+                          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:18: error: method c in class C_c cannot be applied to given types;
+               C_c.c(var3 == 1);
+                  ^
+  required: no arguments
+  found:    boolean
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:20: error: method d in class C_f cannot be applied to given types;
+               C_c.d(var3 == 1);
+                  ^
+  required: no arguments
+  found:    boolean
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:42: error: no suitable method found for a(String)
+            C_c.a(var4);
+               ^
+    method C_f.a(C_f) is not applicable
+      (argument mismatch; String cannot be converted to C_f)
+    method C_c.a(C_Client_mc) is not applicable
+      (argument mismatch; String cannot be converted to C_Client_mc)
+    method C_c.a(boolean) is not applicable
+      (argument mismatch; String cannot be converted to boolean)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:43: error: incompatible types: String cannot be converted to C_f
+            C_c.b(var5);
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:48: error: no suitable method found for a(int)
+               C_c.a(this.c());
+                  ^
+    method C_f.a(C_f) is not applicable
+      (argument mismatch; int cannot be converted to C_f)
+    method C_c.a(C_Client_mc) is not applicable
+      (argument mismatch; int cannot be converted to C_Client_mc)
+    method C_c.a(boolean) is not applicable
+      (argument mismatch; int cannot be converted to boolean)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:49: error: incompatible types: int cannot be converted to C_f
+               C_c.b(this.c());
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:50: error: cannot find symbol
+               C_c.c(C_c.h() + " / " + C_c.i());
+                        ^
+  symbol:   method h()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:50: error: cannot find symbol
+               C_c.c(C_c.h() + " / " + C_c.i());
+                                          ^
+  symbol:   method i()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:52: error: method c in class C_c cannot be applied to given types;
+               C_c.c(this.c());
+                  ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:53: error: method d in class C_f cannot be applied to given types;
+               C_c.d(this.c());
+                  ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:54: error: cannot find symbol
+               C_c.d(C_c.j() + " / " + C_c.k());
+                        ^
+  symbol:   method j()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:54: error: cannot find symbol
+               C_c.d(C_c.j() + " / " + C_c.k());
+                                          ^
+  symbol:   method k()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:57: error: cannot find symbol
+            boolean var7 = C_c.h() <= 0;
+                              ^
+  symbol:   method h()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:58: error: cannot find symbol
+            boolean var8 = C_c.j() <= 0;
+                              ^
+  symbol:   method j()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:72: error: method e in class C_f cannot be applied to given types;
+               C_c.e(this.c());
+                  ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:73: error: method f in class C_c cannot be applied to given types;
+               C_c.f(this.c());
+                  ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+               float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                ^
+  symbol:   method l()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+               float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                ^
+  symbol:   method m()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+               float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                                             ^
+  symbol:   method l()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+               float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                                                              ^
+  symbol:   method m()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:76: error: cannot find symbol
+               C_c.e(C_c.l() + "/" + C_c.m() + " (" + var21 + "%)");
+                        ^
+  symbol:   method l()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:76: error: cannot find symbol
+               C_c.e(C_c.l() + "/" + C_c.m() + " (" + var21 + "%)");
+                                        ^
+  symbol:   method m()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:78: error: method g in class C_c cannot be applied to given types;
+               C_c.g(this.c());
+                  ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:79: error: cannot find symbol
+               C_c.h(this.c());
+                  ^
+  symbol:   method h(int)
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+               float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                ^
+  symbol:   method n()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+               float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                ^
+  symbol:   method o()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+               float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                                             ^
+  symbol:   method n()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+               float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                                                              ^
+  symbol:   method o()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:82: error: cannot find symbol
+               C_c.f(C_c.n() + "/" + C_c.o() + " (" + var20 + "%)");
+                        ^
+  symbol:   method n()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:82: error: cannot find symbol
+               C_c.f(C_c.n() + "/" + C_c.o() + " (" + var20 + "%)");
+                                        ^
+  symbol:   method o()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:86: error: cannot find symbol
+               rs.p_s.p_q.C_d.e.i().d().a(C_c.l(), C_c.m());
+                                             ^
+  symbol:   method l()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:86: error: cannot find symbol
+               rs.p_s.p_q.C_d.e.i().d().a(C_c.l(), C_c.m());
+                                                      ^
+  symbol:   method m()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:87: error: cannot find symbol
+               rs.p_s.p_q.C_d.e.i().e().a(C_c.n(), C_c.o());
+                                             ^
+  symbol:   method n()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:87: error: cannot find symbol
+               rs.p_s.p_q.C_d.e.i().e().a(C_c.n(), C_c.o());
+                                                      ^
+  symbol:   method o()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:94: error: cannot find symbol
+               C_c.i(this.c());
+                  ^
+  symbol:   method i(int)
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:95: error: cannot find symbol
+               C_c.j(this.c());
+                  ^
+  symbol:   method j(int)
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+               float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                ^
+  symbol:   method p()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+               float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                ^
+  symbol:   method q()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+               float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                                             ^
+  symbol:   method p()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+               float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                                                              ^
+  symbol:   method q()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:98: error: cannot find symbol
+               C_c.g(C_c.p() + "/" + C_c.q() + " (" + var23 + "%)");
+                        ^
+  symbol:   method p()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:98: error: cannot find symbol
+               C_c.g(C_c.p() + "/" + C_c.q() + " (" + var23 + "%)");
+                                        ^
+  symbol:   method q()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:100: error: cannot find symbol
+               C_c.k(this.c());
+                  ^
+  symbol:   method k(int)
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:101: error: cannot find symbol
+               C_c.l(this.c());
+                  ^
+  symbol:   method l(int)
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:102: error: cannot find symbol
+               float var18 = C_c.r() == 0 && C_c.s() == 0 ? 1.0F : (float)C_c.r() / (float)C_c.s();
+                                ^
+  symbol:   method r()
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+29 warnings
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:37: error: method b in class C_c cannot be applied to given types;
+                 if (C_c.b(this.a) == null) {
+                        ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:39: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("&quot;", "\""));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:40: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("&amp;", "&"));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:41: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("&rsquo;", "�"));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:42: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("&#039;", "'"));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:44: error: method b in class C_c cannot be applied to given types;
+                    if (C_c.b(this.a).length() > var10) {
+                           ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:45: error: method b in class C_c cannot be applied to given types;
+                       C_c.a(this.a, C_c.b(this.a).substring(0, var10 - 1) + "...");
+                                        ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:48: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("[", "@yel@["));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:49: error: method b in class C_c cannot be applied to given types;
+                    C_c.a(this.a, C_c.b(this.a).replace("]", "] @whi@"));
+                                     ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:55: error: method b in class C_c cannot be applied to given types;
+                             C_c.b(this.a, var15.replace("href='", ""));
+                                ^
+    required: no arguments
+    found:    C_c,String
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:56: error: method c in class C_c cannot be applied to given types;
+                             C_c.b(this.a, C_c.c(this.a).substring(0, C_c.c(this.a).length() - 1));
+                                                                         ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:56: error: method c in class C_c cannot be applied to given types;
+                             C_c.b(this.a, C_c.c(this.a).substring(0, C_c.c(this.a).length() - 1));
+                                              ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:62: error: method b in class C_c cannot be applied to given types;
+                    String[] var23 = C_c.b(this.a).split("]");
+                                        ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:64: error: method c in class C_c cannot be applied to given types;
+                       C_c.c(this.a, var23[0]);
+                          ^
+    required: no arguments
+    found:    C_c,String
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:65: error: method d in class C_c cannot be applied to given types;
+                       C_c.c(this.a, C_c.d(this.a).replace("[", ""));
+                                        ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:66: error: method d in class C_c cannot be applied to given types;
+                       C_c.c(this.a, C_c.d(this.a).replace("@yel@", ""));
+                                        ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:94: error: method d in class C_c cannot be applied to given types;
+           C_c.d(this.a, var7);
+              ^
+    required: no arguments
+    found:    C_c,String
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:95: error: method e in class C_c cannot be applied to given types;
+           C_c.a(this.a, (int)((double)C_c.e(this.a).length() * 3.75));
+                                          ^
+    required: no arguments
+    found:    C_c
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:99: error: method d in class C_c cannot be applied to given types;
+           C_c.d(this.a, "");
+              ^
+    required: no arguments
+    found:    C_c,String
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:18: error: method c in class C_c cannot be applied to given types;
+                 C_c.c(var3 == 1);
+                    ^
+    required: no arguments
+    found:    boolean
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:20: error: method d in class C_f cannot be applied to given types;
+                 C_c.d(var3 == 1);
+                    ^
+    required: no arguments
+    found:    boolean
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:52: error: method c in class C_c cannot be applied to given types;
+                 C_c.c(this.c());
+                    ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:53: error: method d in class C_f cannot be applied to given types;
+                 C_c.d(this.c());
+                    ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:72: error: method e in class C_f cannot be applied to given types;
+                 C_c.e(this.c());
+                    ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:73: error: method f in class C_c cannot be applied to given types;
+                 C_c.f(this.c());
+                    ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:78: error: method g in class C_c cannot be applied to given types;
+                 C_c.g(this.c());
+                    ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method found for a(C_Client_mc,int,int,C_e,int)
+        rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                          ^
+      method C_d.a() is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String,String[]) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int,int) is not applicable
+        (actual and formal argument lists differ in length)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_d.java:16: error: no suitable method found for a(C_c)
+        if (C_c.a(this.a) != null) {
+               ^
+      method C_c.a(C_a) is not applicable
+        (argument mismatch; C_c cannot be converted to C_a)
+      method C_c.a(boolean) is not applicable
+        (argument mismatch; C_c cannot be converted to boolean)
+      method C_c.a(int) is not applicable
+        (argument mismatch; C_c cannot be converted to int)
+      method C_c.a(a) is not applicable
+        (argument mismatch; C_c cannot be converted to a)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_d.java:17: error: no suitable method found for a(C_c)
+           if (!C_c.a(this.a).fc && var1.getY() >= 460 && var1.getY() <= 485 && var1.getX() >= 10 && var1.getX() <= 132) {
+                   ^
+      method C_c.a(C_a) is not applicable
+        (argument mismatch; C_c cannot be converted to C_a)
+      method C_c.a(boolean) is not applicable
+        (argument mismatch; C_c cannot be converted to boolean)
+      method C_c.a(int) is not applicable
+        (argument mismatch; C_c cannot be converted to int)
+      method C_c.a(a) is not applicable
+        (argument mismatch; C_c cannot be converted to a)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:42: error: no suitable method found for a(String)
+              C_c.a(var4);
+                 ^
+      method C_f.a(C_f) is not applicable
+        (argument mismatch; String cannot be converted to C_f)
+      method C_c.a(C_Client_mc) is not applicable
+        (argument mismatch; String cannot be converted to C_Client_mc)
+      method C_c.a(boolean) is not applicable
+        (argument mismatch; String cannot be converted to boolean)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:48: error: no suitable method found for a(int)
+                 C_c.a(this.c());
+                    ^
+      method C_f.a(C_f) is not applicable
+        (argument mismatch; int cannot be converted to C_f)
+      method C_c.a(C_Client_mc) is not applicable
+        (argument mismatch; int cannot be converted to C_Client_mc)
+      method C_c.a(boolean) is not applicable
+        (argument mismatch; int cannot be converted to boolean)
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:39: error: cannot find symbol
+                    var3 = C_b.a.a;
+                                ^
+    symbol:   variable a
+    location: variable a of type List<Integer>
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:41: error: cannot find symbol
+                    var3 = C_b.a.b;
+                                ^
+    symbol:   variable b
+    location: variable a of type List<Integer>
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:43: error: cannot find symbol
+                    var3 = C_b.a.c;
+                                ^
+    symbol:   variable c
+    location: variable a of type List<Integer>
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_b\p_a\p_b\C_b.java:44: error: cannot find symbol
+                 } else if (var3 != null && !var2.isEmpty() && var3 == C_b.a.a) {
+                                                                            ^
+    symbol:   variable a
+    location: variable a of type List<Integer>
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in C_O_uc; cannot be accessed from outside package
+           C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                        ^
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Some input files use or override a deprecated API.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_c.java:67: error: method does not override or implement a method from a supertype
+     @Override
+     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_a.java:83: error: method does not override or implement a method from a supertype
+     @Override
+     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     extends Applet
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+           if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+     public AppletContext getAppletContext() {
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+           } catch (ThreadDeath var8) {
+                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+  public class C_Launcher_mc extends Applet implements ActionListener {
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public C_a(@Nullable Applet var1) {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public static final Applet h = null;
+                         ^
+  Note: Some input files use unchecked or unsafe operations.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:50: error: cannot find symbol
+                 C_c.c(C_c.h() + " / " + C_c.i());
+                          ^
+    symbol:   method h()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:50: error: cannot find symbol
+                 C_c.c(C_c.h() + " / " + C_c.i());
+                                            ^
+    symbol:   method i()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:54: error: cannot find symbol
+                 C_c.d(C_c.j() + " / " + C_c.k());
+                          ^
+    symbol:   method j()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:54: error: cannot find symbol
+                 C_c.d(C_c.j() + " / " + C_c.k());
+                                            ^
+    symbol:   method k()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:57: error: cannot find symbol
+              boolean var7 = C_c.h() <= 0;
+                                ^
+    symbol:   method h()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:58: error: cannot find symbol
+              boolean var8 = C_c.j() <= 0;
+                                ^
+    symbol:   method j()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+                 float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                  ^
+    symbol:   method l()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+                 float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                  ^
+    symbol:   method m()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+                 float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                                               ^
+    symbol:   method l()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:74: error: cannot find symbol
+                 float var17 = C_c.l() == 0 && C_c.m() == 0 ? 1.0F : (float)C_c.l() / (float)C_c.m();
+                                                                                                ^
+    symbol:   method m()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:76: error: cannot find symbol
+                 C_c.e(C_c.l() + "/" + C_c.m() + " (" + var21 + "%)");
+                          ^
+    symbol:   method l()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:76: error: cannot find symbol
+                 C_c.e(C_c.l() + "/" + C_c.m() + " (" + var21 + "%)");
+                                          ^
+    symbol:   method m()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:79: error: cannot find symbol
+                 C_c.h(this.c());
+                    ^
+    symbol:   method h(int)
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+                 float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                  ^
+    symbol:   method n()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+                 float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                  ^
+    symbol:   method o()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+                 float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                                               ^
+    symbol:   method n()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:80: error: cannot find symbol
+                 float var16 = C_c.n() == 0 && C_c.o() == 0 ? 1.0F : (float)C_c.n() / (float)C_c.o();
+                                                                                                ^
+    symbol:   method o()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:82: error: cannot find symbol
+                 C_c.f(C_c.n() + "/" + C_c.o() + " (" + var20 + "%)");
+                          ^
+    symbol:   method n()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:82: error: cannot find symbol
+                 C_c.f(C_c.n() + "/" + C_c.o() + " (" + var20 + "%)");
+                                          ^
+    symbol:   method o()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:86: error: cannot find symbol
+                 rs.p_s.p_q.C_d.e.i().d().a(C_c.l(), C_c.m());
+                                               ^
+    symbol:   method l()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:86: error: cannot find symbol
+                 rs.p_s.p_q.C_d.e.i().d().a(C_c.l(), C_c.m());
+                                                        ^
+    symbol:   method m()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:87: error: cannot find symbol
+                 rs.p_s.p_q.C_d.e.i().e().a(C_c.n(), C_c.o());
+                                               ^
+    symbol:   method n()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:87: error: cannot find symbol
+                 rs.p_s.p_q.C_d.e.i().e().a(C_c.n(), C_c.o());
+                                                        ^
+    symbol:   method o()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:94: error: cannot find symbol
+                 C_c.i(this.c());
+                    ^
+    symbol:   method i(int)
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:95: error: cannot find symbol
+                 C_c.j(this.c());
+                    ^
+    symbol:   method j(int)
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+                 float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                  ^
+    symbol:   method p()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+                 float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                  ^
+    symbol:   method q()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+                 float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                                               ^
+    symbol:   method p()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:96: error: cannot find symbol
+                 float var19 = C_c.p() == 0 && C_c.q() == 0 ? 1.0F : (float)C_c.p() / (float)C_c.q();
+                                                                                                ^
+    symbol:   method q()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:98: error: cannot find symbol
+                 C_c.g(C_c.p() + "/" + C_c.q() + " (" + var23 + "%)");
+                          ^
+    symbol:   method p()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:98: error: cannot find symbol
+                 C_c.g(C_c.p() + "/" + C_c.q() + " (" + var23 + "%)");
+                                          ^
+    symbol:   method q()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:100: error: cannot find symbol
+                 C_c.k(this.c());
+                    ^
+    symbol:   method k(int)
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:101: error: cannot find symbol
+                 C_c.l(this.c());
+                    ^
+    symbol:   method l(int)
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:102: error: cannot find symbol
+                 float var18 = C_c.r() == 0 && C_c.s() == 0 ? 1.0F : (float)C_c.r() / (float)C_c.s();
+                                  ^
+    symbol:   method r()
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                       if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && !rs.p_d.C_k.a(null, var19 - 512)) {
+                                                                                                               ^
+    both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_m.java:41: error: incomparable types: a and C_f
+        if (C_Client_mc.cH == -1 && var2 == rs.p_l.p_e.C_f.a.b) {
+                                         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_a.java:29: error: incomparable types: a and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_v.java:29: error: incomparable types: a and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_k.java:22: error: incomparable types: a and C_f
+        if (var2 == rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_u.java:18: error: incomparable types: a and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_c.java:54: error: incomparable types: a and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: Object cannot be converted to String
+                    var2.add(var4);
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.java:289: error: incompatible types: Object cannot be converted to int
+              for (int var9 : var6) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: Object cannot be converted to int
+                    for (int var24 : var22.keySet()) {
+                                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] cannot be converted to a_type
+           C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:38: error: incompatible types: C_c cannot be converted to String
+                    C_c.a(this.a, String.valueOf(var9));
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_e.java:95: error: incompatible types: C_c cannot be converted to String
+           C_c.a(this.a, (int)((double)C_c.e(this.a).length() * 3.75));
+                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:16: error: incompatible types: boolean cannot be converted to C_f
+                 C_c.b(var3 == 1);
+                            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:43: error: incompatible types: String cannot be converted to C_f
+              C_c.b(var5);
+                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_d.java:49: error: incompatible types: int cannot be converted to C_f
+                 C_c.b(this.c());
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) cannot be referenced from a static context
+           C_e.b(this.a);
+              ^
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+        this.a = var1;
+            ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+        if (C_e.a(this.a) != C_e.a.a) {
+                      ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+           C_e.b(this.a);
+                     ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+           C_e.c(this.a);
+                     ^
+    symbol: variable a
+  100 errors
+  29 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 21s
+1 actionable task: 1 executed

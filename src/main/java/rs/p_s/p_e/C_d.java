@@ -1,0 +1,111 @@
+package rs.p_s.p_e;
+
+import rs.p_e.C_g;
+import rs.p_e.C_o;
+
+@rs.p_e.C_e(
+   a = "gpu"
+)
+public interface C_d extends rs.p_e.C_b {
+   String a = "gpu";
+
+   @C_g(
+      b = "enabled",
+      c = "Enabled",
+      d = "Whether GPU is enabled or disabled",
+      a = 1
+   )
+   default boolean a() {
+      return false;
+   }
+
+   @C_g(
+      b = "smoothBanding",
+      c = "Smooth banding",
+      d = "Smooths out the color banding that is present in the CPU renderer",
+      a = 2
+   )
+   default boolean b() {
+      return false;
+   }
+
+   @C_g(
+      b = "antiAliasingMode",
+      c = "Anti Aliasing",
+      d = "Configures the anti-aliasing mode",
+      a = 3
+   )
+   default rs.p_k.p_a.C_a c() {
+      return rs.p_k.p_a.C_a.a;
+   }
+
+   @C_g(
+      b = "stretchedMode",
+      c = "Stretched Mode",
+      d = "Allows you to stretch the game screen in fixed mode",
+      a = 4
+   )
+   default boolean d() {
+      return false;
+   }
+
+   @C_g(
+      b = "maintainAspectRatio",
+      c = "Maintain aspect ratio",
+      d = "Whether or not to maintain aspect ratio in stretched mode",
+      a = 5
+   )
+   default boolean e() {
+      return false;
+   }
+
+   @C_g(
+      b = "uiScalingMode",
+      c = "UI scaling mode",
+      d = "Sampling function to use for the UI in stretched mode",
+      a = 6
+   )
+   default C_e f() {
+      return C_e.d;
+   }
+
+   @C_o(
+      a = 0,
+      b = 16
+   )
+   @C_g(
+      b = "anisotropicFilteringLevel",
+      c = "Anisotropic Filtering",
+      d = "Configures the anisotropic filtering level.",
+      a = 7
+   )
+   default int g() {
+      return 0;
+   }
+
+   @C_g(
+      b = "colorBlindMode",
+      c = "Colorblindness Correction",
+      d = "Adjusts colors to account for colorblindness",
+      a = 8
+   )
+   default rs.p_k.p_a.C_b h() {
+      return rs.p_k.p_a.C_b.a;
+   }
+
+   @C_g(
+      b = "vsyncMode",
+      c = "Vsync Mode",
+      d = "Method to synchronize frame rate with refresh rate",
+      a = 11
+   )
+   default rs.p_k.p_a.C_c i() {
+      return rs.p_k.p_a.C_c.c;
+   }
+
+   public static enum a {
+      a,
+      b,
+      c;
+   }
+}

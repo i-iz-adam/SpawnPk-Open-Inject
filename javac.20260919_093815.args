@@ -1,5 +1,0 @@
--cp
-libs/client-obfuscated-deps.jar;C:\\Users\\naxos\\.spawnpk-data\\client.jar
--d
-target/classes
-@sources_test.txt

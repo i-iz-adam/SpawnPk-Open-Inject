@@ -1,0 +1,624 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+1 actionable task: 1 executed
+
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: <identifier> expected
+   private Map<String, Boolean> if = new HashMap<>();
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: illegal start of type
+   private Map<String, Boolean> if = new HashMap<>();
+                                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: <identifier> expected
+   private Map<String, Boolean> if = new HashMap<>();
+                                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:1471: error: <identifier> expected
+   public static rs.p_a.C_k[] do;
+                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: <identifier> expected
+                  if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: '(' expected
+                  if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: not a statement
+                  if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: ';' expected
+                  if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                                                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: illegal start of expression
+               var3 = do[this.kv[var2]];
+                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: illegal start of expression
+               var3 = do[this.kv[var2]];
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: not a statement
+               var3 = do[this.kv[var2]];
+                                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: ';' expected
+               var3 = do[this.kv[var2]];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: illegal start of expression
+            rs.p_a.C_k var3 = do[var2];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: illegal start of expression
+            rs.p_a.C_k var3 = do[var2];
+                                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: not a statement
+            rs.p_a.C_k var3 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: ';' expected
+            rs.p_a.C_k var3 = do[var2];
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: <identifier> expected
+      this.if.clear();
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: not a statement
+      this.if.clear();
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: '(' expected
+      this.if.clear();
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: illegal start of expression
+         rs.p_a.C_k var5 = do[var12];
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: illegal start of expression
+         rs.p_a.C_k var5 = do[var12];
+                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: not a statement
+         rs.p_a.C_k var5 = do[var12];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: ';' expected
+         rs.p_a.C_k var5 = do[var12];
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: illegal start of expression
+      } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: illegal start of expression
+      } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: not a statement
+      } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: ';' expected
+      } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: illegal start of expression
+         rs.p_a.C_k var4 = do[this.iJ];
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: illegal start of expression
+         rs.p_a.C_k var4 = do[this.iJ];
+                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: not a statement
+         rs.p_a.C_k var4 = do[this.iJ];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: ';' expected
+         rs.p_a.C_k var4 = do[this.iJ];
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: illegal start of expression
+            var14 = do[this.kv[var13]];
+                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: illegal start of expression
+            var14 = do[this.kv[var13]];
+                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: not a statement
+            var14 = do[this.kv[var13]];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: ';' expected
+            var14 = do[this.kv[var13]];
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: <identifier> expected
+                  if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: '(' expected
+                  if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: not a statement
+                  if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: ';' expected
+                  if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                                                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: illegal start of expression
+         rs.p_a.C_k var6 = do[var5];
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: illegal start of expression
+         rs.p_a.C_k var6 = do[var5];
+                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: not a statement
+         rs.p_a.C_k var6 = do[var5];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: ';' expected
+         rs.p_a.C_k var6 = do[var5];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: illegal start of expression
+                  var3 = do[var4];
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: illegal start of expression
+                  var3 = do[var4];
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: not a statement
+                  var3 = do[var4];
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: ';' expected
+                  var3 = do[var4];
+                                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: illegal start of expression
+         rs.p_a.C_k var30 = do[var2];
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: illegal start of expression
+         rs.p_a.C_k var30 = do[var2];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: not a statement
+         rs.p_a.C_k var30 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: ';' expected
+         rs.p_a.C_k var30 = do[var2];
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: illegal start of expression
+         rs.p_a.C_k var32 = do[var2];
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: illegal start of expression
+         rs.p_a.C_k var32 = do[var2];
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: not a statement
+         rs.p_a.C_k var32 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: ';' expected
+         rs.p_a.C_k var32 = do[var2];
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: illegal start of expression
+               rs.p_a.C_k var60 = do[this.kv[var57]];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: illegal start of expression
+               rs.p_a.C_k var60 = do[this.kv[var57]];
+                                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: not a statement
+               rs.p_a.C_k var60 = do[this.kv[var57]];
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: ';' expected
+               rs.p_a.C_k var60 = do[this.kv[var57]];
+                                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: illegal start of expression
+            rs.p_a.C_k var36 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: illegal start of expression
+            rs.p_a.C_k var36 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: not a statement
+            rs.p_a.C_k var36 = do[var2];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: ';' expected
+            rs.p_a.C_k var36 = do[var2];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: illegal start of expression
+            rs.p_a.C_k var73 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: illegal start of expression
+            rs.p_a.C_k var73 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: not a statement
+            rs.p_a.C_k var73 = do[var2];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: ';' expected
+            rs.p_a.C_k var73 = do[var2];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: illegal start of expression
+            rs.p_a.C_k var74 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: illegal start of expression
+            rs.p_a.C_k var74 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: not a statement
+            rs.p_a.C_k var74 = do[var2];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: ';' expected
+            rs.p_a.C_k var74 = do[var2];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: illegal start of expression
+            rs.p_a.C_k var75 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: illegal start of expression
+            rs.p_a.C_k var75 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: not a statement
+            rs.p_a.C_k var75 = do[var2];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: ';' expected
+            rs.p_a.C_k var75 = do[var2];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: illegal start of expression
+            rs.p_a.C_k var78 = do[var2];
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: illegal start of expression
+            rs.p_a.C_k var78 = do[var2];
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: not a statement
+            rs.p_a.C_k var78 = do[var2];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: ';' expected
+            rs.p_a.C_k var78 = do[var2];
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: illegal start of expression
+                     rs.p_a.C_k var23 = do[this.kv[var20]];
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: illegal start of expression
+                     rs.p_a.C_k var23 = do[this.kv[var20]];
+                                          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: not a statement
+                     rs.p_a.C_k var23 = do[this.kv[var20]];
+                                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: ';' expected
+                     rs.p_a.C_k var23 = do[this.kv[var20]];
+                                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: illegal start of expression
+               rs.p_a.C_k var17 = do[var7];
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: illegal start of expression
+               rs.p_a.C_k var17 = do[var7];
+                                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: not a statement
+               rs.p_a.C_k var17 = do[var7];
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: ';' expected
+               rs.p_a.C_k var17 = do[var7];
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: illegal start of expression
+                     rs.p_a.C_k var28 = do[this.kv[var25]];
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: illegal start of expression
+                     rs.p_a.C_k var28 = do[this.kv[var25]];
+                                          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: not a statement
+                     rs.p_a.C_k var28 = do[this.kv[var25]];
+                                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: ';' expected
+                     rs.p_a.C_k var28 = do[this.kv[var25]];
+                                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: illegal start of expression
+                  int var13 = do[var12].m - 32768;
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: illegal start of expression
+                  int var13 = do[var12].m - 32768;
+                                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: not a statement
+                  int var13 = do[var12].m - 32768;
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: ';' expected
+                  int var13 = do[var12].m - 32768;
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: not a statement
+                  int var13 = do[var12].m - 32768;
+                                          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: illegal start of expression
+                  if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: illegal start of expression
+                  if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: not a statement
+                  if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: ';' expected
+                  if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                              ^
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: not a statement
+                    if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: not a statement
+                 var3 = do[this.kv[var2]];
+                                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: not a statement
+              rs.p_a.C_k var3 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: not a statement
+        this.if.clear();
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: not a statement
+           rs.p_a.C_k var5 = do[var12];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: not a statement
+        } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: not a statement
+           rs.p_a.C_k var4 = do[this.iJ];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: not a statement
+              var14 = do[this.kv[var13]];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: not a statement
+                    if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: not a statement
+           rs.p_a.C_k var6 = do[var5];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: not a statement
+                    var3 = do[var4];
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: not a statement
+           rs.p_a.C_k var30 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: not a statement
+           rs.p_a.C_k var32 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: not a statement
+                 rs.p_a.C_k var60 = do[this.kv[var57]];
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: not a statement
+              rs.p_a.C_k var36 = do[var2];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: not a statement
+              rs.p_a.C_k var73 = do[var2];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: not a statement
+              rs.p_a.C_k var74 = do[var2];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: not a statement
+              rs.p_a.C_k var75 = do[var2];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: not a statement
+              rs.p_a.C_k var78 = do[var2];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: not a statement
+                       rs.p_a.C_k var23 = do[this.kv[var20]];
+                                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: not a statement
+                 rs.p_a.C_k var17 = do[var7];
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: not a statement
+                       rs.p_a.C_k var28 = do[this.kv[var25]];
+                                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: not a statement
+                    int var13 = do[var12].m - 32768;
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: not a statement
+                    int var13 = do[var12].m - 32768;
+                                            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: not a statement
+                    if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: illegal start of expression
+                 var3 = do[this.kv[var2]];
+                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: illegal start of expression
+                 var3 = do[this.kv[var2]];
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: illegal start of expression
+              rs.p_a.C_k var3 = do[var2];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: illegal start of expression
+              rs.p_a.C_k var3 = do[var2];
+                                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: illegal start of expression
+           rs.p_a.C_k var5 = do[var12];
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: illegal start of expression
+           rs.p_a.C_k var5 = do[var12];
+                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: illegal start of expression
+        } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: illegal start of expression
+        } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: illegal start of expression
+           rs.p_a.C_k var4 = do[this.iJ];
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: illegal start of expression
+           rs.p_a.C_k var4 = do[this.iJ];
+                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: illegal start of expression
+              var14 = do[this.kv[var13]];
+                      ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: illegal start of expression
+              var14 = do[this.kv[var13]];
+                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: illegal start of expression
+           rs.p_a.C_k var6 = do[var5];
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: illegal start of expression
+           rs.p_a.C_k var6 = do[var5];
+                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: illegal start of expression
+                    var3 = do[var4];
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: illegal start of expression
+                    var3 = do[var4];
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: illegal start of expression
+           rs.p_a.C_k var30 = do[var2];
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: illegal start of expression
+           rs.p_a.C_k var30 = do[var2];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: illegal start of expression
+           rs.p_a.C_k var32 = do[var2];
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: illegal start of expression
+           rs.p_a.C_k var32 = do[var2];
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: illegal start of expression
+                 rs.p_a.C_k var60 = do[this.kv[var57]];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: illegal start of expression
+                 rs.p_a.C_k var60 = do[this.kv[var57]];
+                                      ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: illegal start of expression
+              rs.p_a.C_k var36 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: illegal start of expression
+              rs.p_a.C_k var36 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: illegal start of expression
+              rs.p_a.C_k var73 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: illegal start of expression
+              rs.p_a.C_k var73 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: illegal start of expression
+              rs.p_a.C_k var74 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: illegal start of expression
+              rs.p_a.C_k var74 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: illegal start of expression
+              rs.p_a.C_k var75 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: illegal start of expression
+              rs.p_a.C_k var75 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: illegal start of expression
+              rs.p_a.C_k var78 = do[var2];
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: illegal start of expression
+              rs.p_a.C_k var78 = do[var2];
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: illegal start of expression
+                       rs.p_a.C_k var23 = do[this.kv[var20]];
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: illegal start of expression
+                       rs.p_a.C_k var23 = do[this.kv[var20]];
+                                            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: illegal start of expression
+                 rs.p_a.C_k var17 = do[var7];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: illegal start of expression
+                 rs.p_a.C_k var17 = do[var7];
+                                      ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: illegal start of expression
+                       rs.p_a.C_k var28 = do[this.kv[var25]];
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: illegal start of expression
+                       rs.p_a.C_k var28 = do[this.kv[var25]];
+                                            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: illegal start of expression
+                    int var13 = do[var12].m - 32768;
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: illegal start of expression
+                    int var13 = do[var12].m - 32768;
+                                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: illegal start of expression
+                    if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: illegal start of expression
+                    if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: illegal start of type
+     private Map<String, Boolean> if = new HashMap<>();
+                                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: <identifier> expected
+     private Map<String, Boolean> if = new HashMap<>();
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:383: error: <identifier> expected
+     private Map<String, Boolean> if = new HashMap<>();
+                                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:1471: error: <identifier> expected
+     public static rs.p_a.C_k[] do;
+                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: <identifier> expected
+                    if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: '(' expected
+                    if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3661: error: ';' expected
+                    if (var9 == 10806 && this.if.get(var7 + "," + var8) != null) {
+                                                                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:4961: error: ';' expected
+                 var3 = do[this.kv[var2]];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:5932: error: ';' expected
+              rs.p_a.C_k var3 = do[var2];
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: <identifier> expected
+        this.if.clear();
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6291: error: '(' expected
+        this.if.clear();
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6620: error: ';' expected
+           rs.p_a.C_k var5 = do[var12];
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6624: error: ';' expected
+        } else if (this.iJ >= 0 && this.iJ <= do.length - 1) {
+                                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6625: error: ';' expected
+           rs.p_a.C_k var4 = do[this.iJ];
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6638: error: ';' expected
+              var14 = do[this.kv[var13]];
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: <identifier> expected
+                    if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: '(' expected
+                    if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6651: error: ';' expected
+                    if (var11 == 10806 && this.if.get(var9 + "," + var10) != null) {
+                                                                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:6821: error: ';' expected
+           rs.p_a.C_k var6 = do[var5];
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7223: error: ';' expected
+                    var3 = do[var4];
+                                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8291: error: ';' expected
+           rs.p_a.C_k var30 = do[var2];
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8326: error: ';' expected
+           rs.p_a.C_k var32 = do[var2];
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8522: error: ';' expected
+                 rs.p_a.C_k var60 = do[this.kv[var57]];
+                                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:8675: error: ';' expected
+              rs.p_a.C_k var36 = do[var2];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9157: error: ';' expected
+              rs.p_a.C_k var73 = do[var2];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9170: error: ';' expected
+              rs.p_a.C_k var74 = do[var2];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9182: error: ';' expected
+              rs.p_a.C_k var75 = do[var2];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9300: error: ';' expected
+              rs.p_a.C_k var78 = do[var2];
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9728: error: ';' expected
+                       rs.p_a.C_k var23 = do[this.kv[var20]];
+                                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9739: error: ';' expected
+                 rs.p_a.C_k var17 = do[var7];
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9754: error: ';' expected
+                       rs.p_a.C_k var28 = do[this.kv[var25]];
+                                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9765: error: ';' expected
+                    int var13 = do[var12].m - 32768;
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:9774: error: ';' expected
+                    if (do[var12] != null && do[var12].aZ != null && this.z.r != null && !this.z.r.equalsIgnoreCase(do[var12].aZ)) {
+                                ^
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 10s

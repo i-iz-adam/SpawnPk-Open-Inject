@@ -1,0 +1,15 @@
+package rs.p_gui;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class C_I_uc implements ActionListener {
+   C_I_uc(C_G_uc var1) {
+      this.a = var1;
+   }
+
+   @Override
+   public void actionPerformed(ActionEvent var1) {
+      C_G_uc.a(this.a);
+   }
+}

@@ -1,0 +1,1037 @@
+
+> Task :compileJava
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+         if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method found for a(C_Client_mc,int,int,C_e,int)
+      rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                        ^
+    method C_d.a() is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String,String[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                     if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && !rs.p_d.C_k.a(null, var19 - 512)) {
+                                                                                                             ^
+  both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: Object cannot be converted to String
+                  var2.add(var4);
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.java:289: error: incompatible types: Object cannot be converted to int
+            for (int var9 : var6) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: Object cannot be converted to int
+                  for (int var24 : var22.keySet()) {
+                                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in C_O_uc; cannot be accessed from outside package
+         C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] cannot be converted to a_type
+         C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+         } catch (ThreadDeath var8) {
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+      this.a = var1;
+          ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+      if (C_e.a(this.a) != C_e.a.a) {
+                    ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+         C_e.b(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) cannot be referenced from a static context
+         C_e.b(this.a);
+            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+         C_e.c(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_f.java:96: error: incomparable types: C_f and Mode
+      this.a(var1, var2 == Mode.a ? C_f.Mode.a : C_f.Mode.b);
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:58: error: cannot find symbol
+                  rs.p_n.C_e.H['\uecc9'].E = rs.p_n.C_e.H['\uecca'].E = C_h.f();
+                                                                           ^
+  symbol:   method f()
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:59: error: cannot find symbol
+                  rs.p_n.C_e.H['\ueccd'].E = C_h.g();
+                                                ^
+  symbol:   method g()
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:61: error: cannot find symbol
+                  rs.p_n.C_e.H['\uecc9'].E = rs.p_n.C_e.H['\uecca'].E = C_h.g();
+                                                                           ^
+  symbol:   method g()
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:62: error: cannot find symbol
+                  rs.p_n.C_e.H['\ueccd'].E = C_h.f();
+                                                ^
+  symbol:   method f()
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_j.java:8: error: cannot find symbol
+      this.a = var1;
+          ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_p.java:5: error: cannot find symbol
+      this.a = var1;
+          ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:7: error: cannot find symbol
+         a[C_l.c.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:12: error: cannot find symbol
+         a[C_l.d.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:17: error: cannot find symbol
+         a[C_l.e.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:22: error: cannot find symbol
+         a[C_l.f.ordinal()] = 4;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:27: error: cannot find symbol
+         a[C_l.g.ordinal()] = 5;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:32: error: cannot find symbol
+         a[C_l.h.ordinal()] = 6;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:37: error: cannot find symbol
+         a[C_l.i.ordinal()] = 7;
+         ^
+  symbol:   variable a
+  location: class C_d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:53: error: cannot find symbol
+      if (rs.p_f.C_a.c == 1) {
+                    ^
+  symbol:   variable c
+  location: class C_a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:179: error: incompatible types: Object cannot be converted to C_b
+         for (C_b var4 : var2) {
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:185: error: incompatible types: Object cannot be converted to C_g
+         for (C_g var11 : var7) {
+                          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_d.java:73: error: method does not override or implement a method from a supertype
+   @Override
+   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:368: error: reference to b is ambiguous
+                  this.p.b(null);
+                        ^
+  both method b(C_l) in C_g and method b(Point) in C_g match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:399: error: reference to a is ambiguous
+                     this.p.a(null);
+                           ^
+  both method a(Color) in C_g and method a(String) in C_g match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:611: error: reference to a is ambiguous
+         var1.a(null);
+             ^
+  both method a(Color) in C_g and method a(String) in C_g match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:619: error: reference to b is ambiguous
+         var1.b(null);
+             ^
+  both method b(C_l) in C_g and method b(Point) in C_g match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:7: error: cannot find symbol
+         a[C_l.j.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:12: error: cannot find symbol
+         a[C_l.b.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:17: error: cannot find symbol
+         a[C_l.a.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:8: error: a has private access in C_i
+      this.a = var1;
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:8: error: incompatible types: C_i cannot be converted to Supplier<C_l>
+      this.a = var1;
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:13: error: a has private access in C_i
+      C_i.a(this.a, true);
+                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:13: error: no suitable method found for a(Supplier<C_l>,boolean)
+      C_i.a(this.a, true);
+         ^
+    method C_i.a(C_a,List<C_g>) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+    method C_i.a(C_g,boolean) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:18: error: a has private access in C_i
+      if (C_i.a(this.a)) {
+                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:18: error: no suitable method found for a(Supplier<C_l>)
+      if (C_i.a(this.a)) {
+             ^
+    method C_i.a(MouseEvent) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to MouseEvent)
+    method C_i.a(C_g) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+    method C_i.a(C_b) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_b)
+    method C_i.a(C_a) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:19: error: a has private access in C_i
+         C_i.a(this.a, false);
+                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:19: error: no suitable method found for a(Supplier<C_l>,boolean)
+         C_i.a(this.a, false);
+            ^
+    method C_i.a(C_a,List<C_g>) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+    method C_i.a(C_g,boolean) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:20: error: a has private access in C_i
+         C_i.b(this.a);
+                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:20: error: no suitable method found for b(Supplier<C_l>)
+         C_i.b(this.a);
+            ^
+    method C_i.b(MouseEvent) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to MouseEvent)
+    method C_i.b(C_a) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+    method C_i.b(C_g) is not applicable
+      (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_k.java:7: error: cannot find symbol
+         a[C_l.i.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_k
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_k.java:12: error: cannot find symbol
+         a[C_l.h.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_k
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_m.java:69: error: cannot find symbol
+      switch (C_n.a[var0.ordinal()]) {
+                 ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:7: error: cannot find symbol
+         a[C_l.f.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:12: error: cannot find symbol
+         a[C_l.g.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:17: error: cannot find symbol
+         a[C_l.c.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:22: error: cannot find symbol
+         a[C_l.d.ordinal()] = 4;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:27: error: cannot find symbol
+         a[C_l.i.ordinal()] = 5;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:32: error: cannot find symbol
+         a[C_l.e.ordinal()] = 6;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:37: error: cannot find symbol
+         a[C_l.h.ordinal()] = 7;
+         ^
+  symbol:   variable a
+  location: class C_n
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_a\C_b.java:7: error: cannot find symbol
+         a[C_e.a.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_a\C_b.java:12: error: cannot find symbol
+         a[C_e.b.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_c.java:7: error: cannot find symbol
+         a[C_e.b.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:7: error: cannot find symbol
+         a[C_e.a.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:12: error: cannot find symbol
+         a[C_e.b.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:17: error: cannot find symbol
+         a[C_e.c.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:22: error: cannot find symbol
+         a[C_e.d.ordinal()] = 4;
+         ^
+  symbol:   variable a
+  location: class C_f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_a.java:84: error: incompatible types: Object cannot be converted to int
+            for (int var36 : var9) {
+                             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_b.java:7: error: cannot find symbol
+         a[rs.p_l.p_f.p_a.p_i.C_e.b.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_b.java:12: error: cannot find symbol
+         a[rs.p_l.p_f.p_a.p_i.C_e.a.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_a\p_a\C_c.java:34: error: cannot find symbol
+         rs.p_l.p_b.C_d.a(C_Launcher_mc.n().o(), var4, var0, var8, var9);
+                   ^
+  symbol:   class C_d
+  location: package rs.p_l.p_b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_b\C_b.java:20: error: incompatible types: Object cannot be converted to C_a
+         for (C_a var3 : (List)this.a.b(var1)) {
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:47: error: int cannot be dereferenced
+      for (C_ap.c var3 : C_ap.c.values()) {
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:54: error: int cannot be dereferenced
+         if (var0 == C_ap.c.a) {
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:61: error: non-static variable a cannot be referenced from a static context
+               C_ap.a var6 = C_ap.a.c;
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:61: error: cannot find symbol
+               C_ap.a var6 = C_ap.a.c;
+                                   ^
+  symbol:   variable c
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:62: error: non-static variable b cannot be referenced from a static context
+               C_ap.b var7 = C_ap.b.a(var1.al[var4]);
+                                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:62: error: boolean cannot be dereferenced
+               C_ap.b var7 = C_ap.b.a(var1.al[var4]);
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:150: error: non-static variable a cannot be referenced from a static context
+      f.add(C_ap.a.a);
+                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:150: error: cannot find symbol
+      f.add(C_ap.a.a);
+                  ^
+  symbol:   variable a
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:151: error: non-static variable a cannot be referenced from a static context
+      f.add(C_ap.a.b);
+                ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:151: error: cannot find symbol
+      f.add(C_ap.a.b);
+                  ^
+  symbol:   variable b
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:217: error: non-static variable a cannot be referenced from a static context
+         C_ap.a var1 = C_ap.a.a;
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:217: error: cannot find symbol
+         C_ap.a var1 = C_ap.a.a;
+                             ^
+  symbol:   variable a
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:219: error: non-static variable a cannot be referenced from a static context
+            var1 = C_ap.a.b;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:219: error: cannot find symbol
+            var1 = C_ap.a.b;
+                         ^
+  symbol:   variable b
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:223: error: non-static variable a cannot be referenced from a static context
+            var1 = C_ap.a.c;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:223: error: cannot find symbol
+            var1 = C_ap.a.c;
+                         ^
+  symbol:   variable c
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:244: error: non-static variable a cannot be referenced from a static context
+      rs.p_n.C_e.H['ꎲ'].E = f.contains(C_ap.a.a) ? C_V_uc.f : C_V_uc.g;
+                                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:244: error: cannot find symbol
+      rs.p_n.C_e.H['ꎲ'].E = f.contains(C_ap.a.a) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  symbol:   variable a
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:245: error: non-static variable a cannot be referenced from a static context
+      rs.p_n.C_e.H['ꎳ'].E = f.contains(C_ap.a.b) ? C_V_uc.f : C_V_uc.g;
+                                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:245: error: cannot find symbol
+      rs.p_n.C_e.H['ꎳ'].E = f.contains(C_ap.a.b) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  symbol:   variable b
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:246: error: non-static variable a cannot be referenced from a static context
+      rs.p_n.C_e.H['ꎴ'].E = f.contains(C_ap.a.c) ? C_V_uc.f : C_V_uc.g;
+                                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:246: error: cannot find symbol
+      rs.p_n.C_e.H['ꎴ'].E = f.contains(C_ap.a.c) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  symbol:   variable c
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:812: error: non-static variable a cannot be referenced from a static context
+      a(1152, 1, C_ap.a.a),
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:812: error: cannot find symbol
+      a(1152, 1, C_ap.a.a),
+                       ^
+  symbol:   variable a
+  location: variable a of type C_K_uc[]
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+29 warnings
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method found for a(C_Client_mc,int,int,C_e,int)
+        rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                          ^
+      method C_d.a() is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String,String[]) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int,int) is not applicable
+        (actual and formal argument lists differ in length)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:13: error: no suitable method found for a(Supplier<C_l>,boolean)
+        C_i.a(this.a, true);
+           ^
+      method C_i.a(C_a,List<C_g>) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+      method C_i.a(C_g,boolean) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:18: error: no suitable method found for a(Supplier<C_l>)
+        if (C_i.a(this.a)) {
+               ^
+      method C_i.a(MouseEvent) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to MouseEvent)
+      method C_i.a(C_g) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+      method C_i.a(C_b) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_b)
+      method C_i.a(C_a) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:19: error: no suitable method found for a(Supplier<C_l>,boolean)
+           C_i.a(this.a, false);
+              ^
+      method C_i.a(C_a,List<C_g>) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+      method C_i.a(C_g,boolean) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:20: error: no suitable method found for b(Supplier<C_l>)
+           C_i.b(this.a);
+              ^
+      method C_i.b(MouseEvent) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to MouseEvent)
+      method C_i.b(C_a) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_a)
+      method C_i.b(C_g) is not applicable
+        (argument mismatch; Supplier<C_l> cannot be converted to C_g)
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:7: error: cannot find symbol
+           a[C_l.c.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:12: error: cannot find symbol
+           a[C_l.d.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:17: error: cannot find symbol
+           a[C_l.e.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:22: error: cannot find symbol
+           a[C_l.f.ordinal()] = 4;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:27: error: cannot find symbol
+           a[C_l.g.ordinal()] = 5;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:32: error: cannot find symbol
+           a[C_l.h.ordinal()] = 6;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_d.java:37: error: cannot find symbol
+           a[C_l.i.ordinal()] = 7;
+           ^
+    symbol:   variable a
+    location: class C_d
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:53: error: cannot find symbol
+        if (rs.p_f.C_a.c == 1) {
+                      ^
+    symbol:   variable c
+    location: class C_a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:7: error: cannot find symbol
+           a[C_l.j.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:12: error: cannot find symbol
+           a[C_l.b.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_h.java:17: error: cannot find symbol
+           a[C_l.a.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_k.java:7: error: cannot find symbol
+           a[C_l.i.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_k
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_k.java:12: error: cannot find symbol
+           a[C_l.h.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_k
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_m.java:69: error: cannot find symbol
+        switch (C_n.a[var0.ordinal()]) {
+                   ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:7: error: cannot find symbol
+           a[C_l.f.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:12: error: cannot find symbol
+           a[C_l.g.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:17: error: cannot find symbol
+           a[C_l.c.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:22: error: cannot find symbol
+           a[C_l.d.ordinal()] = 4;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:27: error: cannot find symbol
+           a[C_l.i.ordinal()] = 5;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:32: error: cannot find symbol
+           a[C_l.e.ordinal()] = 6;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_n.java:37: error: cannot find symbol
+           a[C_l.h.ordinal()] = 7;
+           ^
+    symbol:   variable a
+    location: class C_n
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_a\C_b.java:7: error: cannot find symbol
+           a[C_e.a.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_b
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_a\C_b.java:12: error: cannot find symbol
+           a[C_e.b.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_b
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_c.java:7: error: cannot find symbol
+           a[C_e.b.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:7: error: cannot find symbol
+           a[C_e.a.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_f
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:12: error: cannot find symbol
+           a[C_e.b.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_f
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:17: error: cannot find symbol
+           a[C_e.c.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_f
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_i\C_f.java:22: error: cannot find symbol
+           a[C_e.d.ordinal()] = 4;
+           ^
+    symbol:   variable a
+    location: class C_f
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_b.java:7: error: cannot find symbol
+           a[rs.p_l.p_f.p_a.p_i.C_e.b.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_b
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_b.java:12: error: cannot find symbol
+           a[rs.p_l.p_f.p_a.p_i.C_e.a.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_b
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_a\p_a\C_c.java:34: error: cannot find symbol
+           rs.p_l.p_b.C_d.a(C_Launcher_mc.n().o(), var4, var0, var8, var9);
+                     ^
+    symbol:   class C_d
+    location: package rs.p_l.p_b
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:61: error: cannot find symbol
+                 C_ap.a var6 = C_ap.a.c;
+                                     ^
+    symbol:   variable c
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:150: error: cannot find symbol
+        f.add(C_ap.a.a);
+                    ^
+    symbol:   variable a
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:151: error: cannot find symbol
+        f.add(C_ap.a.b);
+                    ^
+    symbol:   variable b
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:217: error: cannot find symbol
+           C_ap.a var1 = C_ap.a.a;
+                               ^
+    symbol:   variable a
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:219: error: cannot find symbol
+              var1 = C_ap.a.b;
+                           ^
+    symbol:   variable b
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:223: error: cannot find symbol
+              var1 = C_ap.a.c;
+                           ^
+    symbol:   variable c
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:244: error: cannot find symbol
+        rs.p_n.C_e.H['ꎲ'].E = f.contains(C_ap.a.a) ? C_V_uc.f : C_V_uc.g;
+                                               ^
+    symbol:   variable a
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:245: error: cannot find symbol
+        rs.p_n.C_e.H['ꎳ'].E = f.contains(C_ap.a.b) ? C_V_uc.f : C_V_uc.g;
+                                               ^
+    symbol:   variable b
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:246: error: cannot find symbol
+        rs.p_n.C_e.H['ꎴ'].E = f.contains(C_ap.a.c) ? C_V_uc.f : C_V_uc.g;
+                                               ^
+    symbol:   variable c
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:812: error: cannot find symbol
+        a(1152, 1, C_ap.a.a),
+                         ^
+    symbol:   variable a
+    location: variable a of type C_K_uc[]
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:8: error: a has private access in C_i
+        this.a = var1;
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:13: error: a has private access in C_i
+        C_i.a(this.a, true);
+                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:18: error: a has private access in C_i
+        if (C_i.a(this.a)) {
+                      ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:19: error: a has private access in C_i
+           C_i.a(this.a, false);
+                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:20: error: a has private access in C_i
+           C_i.b(this.a);
+                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in C_O_uc; cannot be accessed from outside package
+           C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                        ^
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Some input files use or override a deprecated API.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\p_a\p_d\C_d.java:73: error: method does not override or implement a method from a supertype
+     @Override
+     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     extends Applet
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+           if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+     public AppletContext getAppletContext() {
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+           } catch (ThreadDeath var8) {
+                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+  public class C_Launcher_mc extends Applet implements ActionListener {
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public C_a(@Nullable Applet var1) {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public static final Applet h = null;
+                         ^
+  Note: Some input files use unchecked or unsafe operations.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:58: error: cannot find symbol
+                    rs.p_n.C_e.H['\uecc9'].E = rs.p_n.C_e.H['\uecca'].E = C_h.f();
+                                                                             ^
+    symbol:   method f()
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:59: error: cannot find symbol
+                    rs.p_n.C_e.H['\ueccd'].E = C_h.g();
+                                                  ^
+    symbol:   method g()
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:61: error: cannot find symbol
+                    rs.p_n.C_e.H['\uecc9'].E = rs.p_n.C_e.H['\uecca'].E = C_h.g();
+                                                                             ^
+    symbol:   method g()
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_i.java:62: error: cannot find symbol
+                    rs.p_n.C_e.H['\ueccd'].E = C_h.f();
+                                                  ^
+    symbol:   method f()
+    location: class C_h
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                       if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && !rs.p_d.C_k.a(null, var19 - 512)) {
+                                                                                                               ^
+    both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:368: error: reference to b is ambiguous
+                    this.p.b(null);
+                          ^
+    both method b(C_l) in C_g and method b(Point) in C_g match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:399: error: reference to a is ambiguous
+                       this.p.a(null);
+                             ^
+    both method a(Color) in C_g and method a(String) in C_g match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:611: error: reference to a is ambiguous
+           var1.a(null);
+               ^
+    both method a(Color) in C_g and method a(String) in C_g match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_i.java:619: error: reference to b is ambiguous
+           var1.b(null);
+               ^
+    both method b(C_l) in C_g and method b(Point) in C_g match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_f.java:96: error: incomparable types: C_f and Mode
+        this.a(var1, var2 == Mode.a ? C_f.Mode.a : C_f.Mode.b);
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: Object cannot be converted to String
+                    var2.add(var4);
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.java:289: error: incompatible types: Object cannot be converted to int
+              for (int var9 : var6) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: Object cannot be converted to int
+                    for (int var24 : var22.keySet()) {
+                                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] cannot be converted to a_type
+           C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:179: error: incompatible types: Object cannot be converted to C_b
+           for (C_b var4 : var2) {
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_e.java:185: error: incompatible types: Object cannot be converted to C_g
+           for (C_g var11 : var7) {
+                            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_f\C_j.java:8: error: incompatible types: C_i cannot be converted to Supplier<C_l>
+        this.a = var1;
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\C_a.java:84: error: incompatible types: Object cannot be converted to int
+              for (int var36 : var9) {
+                               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_b\C_b.java:20: error: incompatible types: Object cannot be converted to C_a
+           for (C_a var3 : (List)this.a.b(var1)) {
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) cannot be referenced from a static context
+           C_e.b(this.a);
+              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:61: error: non-static variable a cannot be referenced from a static context
+                 C_ap.a var6 = C_ap.a.c;
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:62: error: non-static variable b cannot be referenced from a static context
+                 C_ap.b var7 = C_ap.b.a(var1.al[var4]);
+                                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:150: error: non-static variable a cannot be referenced from a static context
+        f.add(C_ap.a.a);
+                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:151: error: non-static variable a cannot be referenced from a static context
+        f.add(C_ap.a.b);
+                  ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:217: error: non-static variable a cannot be referenced from a static context
+           C_ap.a var1 = C_ap.a.a;
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:219: error: non-static variable a cannot be referenced from a static context
+              var1 = C_ap.a.b;
+                         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:223: error: non-static variable a cannot be referenced from a static context
+              var1 = C_ap.a.c;
+                         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:244: error: non-static variable a cannot be referenced from a static context
+        rs.p_n.C_e.H['ꎲ'].E = f.contains(C_ap.a.a) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:245: error: non-static variable a cannot be referenced from a static context
+        rs.p_n.C_e.H['ꎳ'].E = f.contains(C_ap.a.b) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:246: error: non-static variable a cannot be referenced from a static context
+        rs.p_n.C_e.H['ꎴ'].E = f.contains(C_ap.a.c) ? C_V_uc.f : C_V_uc.g;
+                                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:812: error: non-static variable a cannot be referenced from a static context
+        a(1152, 1, C_ap.a.a),
+                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:47: error: int cannot be dereferenced
+        for (C_ap.c var3 : C_ap.c.values()) {
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:54: error: int cannot be dereferenced
+           if (var0 == C_ap.c.a) {
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_ap.java:62: error: boolean cannot be dereferenced
+                 C_ap.b var7 = C_ap.b.a(var1.al[var4]);
+                                     ^
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+        this.a = var1;
+            ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+        if (C_e.a(this.a) != C_e.a.a) {
+                      ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+           C_e.b(this.a);
+                     ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+           C_e.c(this.a);
+                     ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_j.java:8: error: cannot find symbol
+        this.a = var1;
+            ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_p.java:5: error: cannot find symbol
+        this.a = var1;
+            ^
+    symbol: variable a
+  100 errors
+  29 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 21s
+1 actionable task: 1 executed

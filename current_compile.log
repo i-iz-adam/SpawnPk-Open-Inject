@@ -1,0 +1,949 @@
+
+> Task :compileJava
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:4: error: cannot find symbol
+import rs.F;
+         ^
+  symbol:   class F
+  location: package rs
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:5: error: cannot find symbol
+import rs.S;
+         ^
+  symbol:   class S
+  location: package rs
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:6: error: cannot find symbol
+import rs.a.d;
+           ^
+  symbol:   class d
+  location: package rs.a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:8: error: cannot find symbol
+public class a extends rs.a {
+                         ^
+  symbol:   class a
+  location: package rs
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:12: error: cannot find symbol
+   public S i;
+          ^
+  symbol:   class S
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:13: error: cannot find symbol
+   public S j;
+          ^
+  symbol:   class S
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:14: error: cannot find symbol
+   public d k;
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:23: error: cannot find symbol
+   public static rs.a.a.a a(F var0, int var1) {
+                            ^
+  symbol:   class F
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:33: error: cannot find symbol
+   public d a(int var1) {
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:47: error: cannot find symbol
+   public S b(int var1) {
+          ^
+  symbol:   class S
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:62: error: cannot find symbol
+   public S c(int var1) {
+          ^
+  symbol:   class S
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:241: error: method a(a) is already defined in class a
+   private int a(rs.a.a.a var1) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:256: error: class a is already defined in package rs.a.a
+   public static enum a {
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:8: error: package rs.gui does not exist
+import rs.gui.Launcher;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:9: error: package rs.l does not exist
+import rs.l.F;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:12: error: cannot find symbol
+   private final com.google.common.cache.LoadingCache<rs.A.a.a, d> a = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new rs.A.b(this));
+                                                            ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:12: error: cannot find symbol
+   private final com.google.common.cache.LoadingCache<rs.A.a.a, d> a = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new rs.A.b(this));
+                                                                ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:13: error: cannot find symbol
+   private final com.google.common.cache.LoadingCache<rs.A.a.b, d> b = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new c(this));
+                                                            ^
+  symbol:   class b
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:13: error: cannot find symbol
+   private final com.google.common.cache.LoadingCache<rs.A.a.b, d> b = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new c(this));
+                                                                ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:22: error: cannot find symbol
+   public d a(int var1) {
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:26: error: cannot find symbol
+   public d a(int var1, int var2, int var3) {
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:34: error: cannot find symbol
+   public d a(String var1, int var2) {
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:42: error: cannot find symbol
+   public d a(String var1) {
+          ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:46: error: cannot find symbol
+   private d b(int var1) {
+           ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:50: error: cannot find symbol
+   private d b(int var1, int var2, int var3) {
+           ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:73: error: cannot find symbol
+   private d b(String var1, int var2) {
+           ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:104: error: class a is already defined in package rs.A
+   private static final class a {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:3: error: package gnu.trove.set.hash does not exist
+import gnu.trove.set.hash.TIntHashSet;
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:6: error: cannot find symbol
+import rs.a.h;
+           ^
+  symbol:   class h
+  location: package rs.a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:8: error: cannot find symbol
+public class a extends b {
+                       ^
+  symbol: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:9: error: cannot find symbol
+   private i a;
+           ^
+  symbol:   class i
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:10: error: cannot find symbol
+   private i b;
+           ^
+  symbol:   class i
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:11: error: cannot find symbol
+   private List<rs.a.b.a.a> c = new ArrayList<>();
+                        ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:38: error: cannot find symbol
+   public void a(h var1) {
+                 ^
+  symbol:   class h
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:45: error: cannot find symbol
+   public void a(h var1, int var2) {
+                 ^
+  symbol:   class h
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:56: error: cannot find symbol
+   public i a() {
+          ^
+  symbol:   class i
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:60: error: cannot find symbol
+   public i b() {
+          ^
+  symbol:   class i
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:64: error: class a is already defined in package rs.a.b
+   class a {
+   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:14: error: cannot find symbol
+import rs.V;
+         ^
+  symbol:   class V
+  location: package rs
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:15: error: package rs.l does not exist
+import rs.l.E;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:16: error: package rs.n.c does not exist
+import rs.n.c.ap;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:17: error: package rs.n.c does not exist
+import rs.n.c.ap$a;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:20: error: cannot find symbol
+   public static final rs.f.a.a a = rs.f.a.a.a;
+                             ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:33: error: cannot find symbol
+   public static rs.f.a.d n = rs.f.a.d.a;
+                       ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:34: error: cannot find symbol
+   public static rs.f.a.b o = rs.f.a.b.a;
+                       ^
+  symbol:   class b
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:35: error: cannot find symbol
+   public static rs.f.a.b p = null;
+                       ^
+  symbol:   class b
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:37: error: cannot find symbol
+   public static rs.f.a.b r = o;
+                       ^
+  symbol:   class b
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:80: error: cannot find symbol
+   public static rs.f.a.c ai = rs.f.a.c.a;
+                       ^
+  symbol:   class c
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:733: error: class a is already defined in package rs.f
+   public static enum a {
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:7: error: class a clashes with package of same name
+public class a {
+       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:12: error: cannot find symbol
+   private e e;
+           ^
+  symbol:   class e
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:13: error: cannot find symbol
+   private rs.gui.b.a.a f = rs.gui.b.a.a.a;
+                     ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:17: error: cannot find symbol
+   private final f[] j = new f[28];
+                 ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:18: error: package rs.gui.b.c does not exist
+   private final Map<rs.gui.b.c.c, f> k = new HashMap<>();
+                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:18: error: cannot find symbol
+   private final Map<rs.gui.b.c.c, f> k = new HashMap<>();
+                                   ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:34: error: package rs.gui.b.c does not exist
+   public Map<rs.gui.b.c.c, f> a() {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:34: error: cannot find symbol
+   public Map<rs.gui.b.c.c, f> a() {
+                            ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:50: error: cannot find symbol
+   public f[] d() {
+          ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:54: error: cannot find symbol
+   public void a(int var1, f var2) {
+                           ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:74: error: cannot find symbol
+   public rs.gui.b.a.a g() {
+                    ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:78: error: cannot find symbol
+   public void a(rs.gui.b.a.a var1) {
+                           ^
+  symbol:   class a
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:82: error: package rs.gui.b.c does not exist
+   public void a(rs.gui.b.c.c var1, int var2) {
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:86: error: package rs.gui.b.c does not exist
+   public void a(rs.gui.b.c.c var1, f var2) {
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:86: error: cannot find symbol
+   public void a(rs.gui.b.c.c var1, f var2) {
+                                    ^
+  symbol:   class f
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:114: error: cannot find symbol
+   public e k() {
+          ^
+  symbol:   class e
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:118: error: cannot find symbol
+   public void a(e var1) {
+                 ^
+  symbol:   class e
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:122: error: class a is already defined in package rs.gui.b
+   public static enum a {
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:9: error: package rs.gui.b_0.c does not exist
+import rs.gui.b_0.c.c;
+                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:10: error: package rs.gui.b_0 does not exist
+import rs.gui.b_0.e;
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:11: error: package rs.gui.b_0 does not exist
+import rs.gui.b_0.f;
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:18: error: cannot find symbol
+    private e e;
+            ^
+  symbol:   class e
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:23: error: cannot find symbol
+    private final f[] j = new f[28];
+                  ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:24: error: cannot find symbol
+    private final Map<c, f> k = new HashMap<c, f>();
+                      ^
+  symbol:   class c
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:24: error: cannot find symbol
+    private final Map<c, f> k = new HashMap<c, f>();
+                         ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:39: error: cannot find symbol
+    public Map<c, f> a_0() {
+               ^
+  symbol:   class c
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:39: error: cannot find symbol
+    public Map<c, f> a_0() {
+                  ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:55: error: cannot find symbol
+    public f[] d() {
+           ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:59: error: cannot find symbol
+    public void a_0(int n2, f f2) {
+                            ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:87: error: cannot find symbol
+    public void a_0(c c2, int n2) {
+                    ^
+  symbol:   class c
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:91: error: cannot find symbol
+    public void a_0(c c2, f f2) {
+                    ^
+  symbol:   class c
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:91: error: cannot find symbol
+    public void a_0(c c2, f f2) {
+                          ^
+  symbol:   class f
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:119: error: cannot find symbol
+    public e k() {
+           ^
+  symbol:   class e
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:123: error: cannot find symbol
+    public void a_0(e e2) {
+                    ^
+  symbol:   class e
+  location: class a_0
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:127: error: class a_0 is already defined in package rs.gui.b
+    public static final class a_0
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:11: error: package rs.l does not exist
+import rs.l.F;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:12: error: package rs.l does not exist
+import rs.l.h;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:13: error: package rs.n does not exist
+import rs.n.d;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:14: error: package rs.n does not exist
+import rs.n.e;
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:3: error: package gnu.trove.map.hash does not exist
+import gnu.trove.map.hash.TIntObjectHashMap;
+                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:50: error: package rs.n.c does not exist
+import rs.n.c.Y;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:51: error: package rs.n.c does not exist
+import rs.n.c.aD;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:52: error: package rs.n.c does not exist
+import rs.n.c.aG;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:53: error: package rs.n.c does not exist
+import rs.n.c.aH;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:54: error: package rs.n.c does not exist
+import rs.n.c.ab;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:55: error: package rs.n.c does not exist
+import rs.n.c.ac;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:56: error: package rs.n.c does not exist
+import rs.n.c.ae;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:57: error: package rs.n.c does not exist
+import rs.n.c.af;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:58: error: package rs.n.c does not exist
+import rs.n.c.ai;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:59: error: package rs.n.c does not exist
+import rs.n.c.al;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:60: error: package rs.n.c does not exist
+import rs.n.c.ap;
+             ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\c.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:3069: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+         if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:7227: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:19618: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:19627: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                  } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\v\a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\c_0.java:60: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+extends Applet
+        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\runelite\events\ClientShutdown.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+         } catch (ThreadDeath var8) {
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\Launcher.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+public class Launcher extends Applet implements ActionListener {
+                              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\ui\a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+   public a(@Nullable Applet var1) {
+                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\ui\a_0.java:23: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    public a_0(@Nullable Applet applet) {
+                         ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+11 warnings
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:7: error: class a clashes with package of same name
+  public class a {
+         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:4: error: cannot find symbol
+  import rs.F;
+           ^
+    symbol:   class F
+    location: package rs
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:5: error: cannot find symbol
+  import rs.S;
+           ^
+    symbol:   class S
+    location: package rs
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:6: error: cannot find symbol
+  import rs.a.d;
+             ^
+    symbol:   class d
+    location: package rs.a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:8: error: cannot find symbol
+  public class a extends rs.a {
+                           ^
+    symbol:   class a
+    location: package rs
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:12: error: cannot find symbol
+     public S i;
+            ^
+    symbol:   class S
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:13: error: cannot find symbol
+     public S j;
+            ^
+    symbol:   class S
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:14: error: cannot find symbol
+     public d k;
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:23: error: cannot find symbol
+     public static rs.a.a.a a(F var0, int var1) {
+                              ^
+    symbol:   class F
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:33: error: cannot find symbol
+     public d a(int var1) {
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:47: error: cannot find symbol
+     public S b(int var1) {
+            ^
+    symbol:   class S
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:62: error: cannot find symbol
+     public S c(int var1) {
+            ^
+    symbol:   class S
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:12: error: cannot find symbol
+     private final com.google.common.cache.LoadingCache<rs.A.a.a, d> a = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new rs.A.b(this));
+                                                              ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:12: error: cannot find symbol
+     private final com.google.common.cache.LoadingCache<rs.A.a.a, d> a = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new rs.A.b(this));
+                                                                  ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:13: error: cannot find symbol
+     private final com.google.common.cache.LoadingCache<rs.A.a.b, d> b = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new c(this));
+                                                              ^
+    symbol:   class b
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:13: error: cannot find symbol
+     private final com.google.common.cache.LoadingCache<rs.A.a.b, d> b = com.google.common.cache.CacheBuilder.a().a(128L).b(1L, TimeUnit.HOURS).a(new c(this));
+                                                                  ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:22: error: cannot find symbol
+     public d a(int var1) {
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:26: error: cannot find symbol
+     public d a(int var1, int var2, int var3) {
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:34: error: cannot find symbol
+     public d a(String var1, int var2) {
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:42: error: cannot find symbol
+     public d a(String var1) {
+            ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:46: error: cannot find symbol
+     private d b(int var1) {
+             ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:50: error: cannot find symbol
+     private d b(int var1, int var2, int var3) {
+             ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:73: error: cannot find symbol
+     private d b(String var1, int var2) {
+             ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:6: error: cannot find symbol
+  import rs.a.h;
+             ^
+    symbol:   class h
+    location: package rs.a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:9: error: cannot find symbol
+     private i a;
+             ^
+    symbol:   class i
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:10: error: cannot find symbol
+     private i b;
+             ^
+    symbol:   class i
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:11: error: cannot find symbol
+     private List<rs.a.b.a.a> c = new ArrayList<>();
+                          ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:38: error: cannot find symbol
+     public void a(h var1) {
+                   ^
+    symbol:   class h
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:45: error: cannot find symbol
+     public void a(h var1, int var2) {
+                   ^
+    symbol:   class h
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:56: error: cannot find symbol
+     public i a() {
+            ^
+    symbol:   class i
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:60: error: cannot find symbol
+     public i b() {
+            ^
+    symbol:   class i
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:14: error: cannot find symbol
+  import rs.V;
+           ^
+    symbol:   class V
+    location: package rs
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:20: error: cannot find symbol
+     public static final rs.f.a.a a = rs.f.a.a.a;
+                               ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:33: error: cannot find symbol
+     public static rs.f.a.d n = rs.f.a.d.a;
+                         ^
+    symbol:   class d
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:34: error: cannot find symbol
+     public static rs.f.a.b o = rs.f.a.b.a;
+                         ^
+    symbol:   class b
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:35: error: cannot find symbol
+     public static rs.f.a.b p = null;
+                         ^
+    symbol:   class b
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:37: error: cannot find symbol
+     public static rs.f.a.b r = o;
+                         ^
+    symbol:   class b
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:80: error: cannot find symbol
+     public static rs.f.a.c ai = rs.f.a.c.a;
+                         ^
+    symbol:   class c
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:12: error: cannot find symbol
+     private e e;
+             ^
+    symbol:   class e
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:13: error: cannot find symbol
+     private rs.gui.b.a.a f = rs.gui.b.a.a.a;
+                       ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:17: error: cannot find symbol
+     private final f[] j = new f[28];
+                   ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:18: error: cannot find symbol
+     private final Map<rs.gui.b.c.c, f> k = new HashMap<>();
+                                     ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:34: error: cannot find symbol
+     public Map<rs.gui.b.c.c, f> a() {
+                              ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:50: error: cannot find symbol
+     public f[] d() {
+            ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:54: error: cannot find symbol
+     public void a(int var1, f var2) {
+                             ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:74: error: cannot find symbol
+     public rs.gui.b.a.a g() {
+                      ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:78: error: cannot find symbol
+     public void a(rs.gui.b.a.a var1) {
+                             ^
+    symbol:   class a
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:86: error: cannot find symbol
+     public void a(rs.gui.b.c.c var1, f var2) {
+                                      ^
+    symbol:   class f
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:114: error: cannot find symbol
+     public e k() {
+            ^
+    symbol:   class e
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:118: error: cannot find symbol
+     public void a(e var1) {
+                   ^
+    symbol:   class e
+    location: class a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:18: error: cannot find symbol
+      private e e;
+              ^
+    symbol:   class e
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:23: error: cannot find symbol
+      private final f[] j = new f[28];
+                    ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:24: error: cannot find symbol
+      private final Map<c, f> k = new HashMap<c, f>();
+                        ^
+    symbol:   class c
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:24: error: cannot find symbol
+      private final Map<c, f> k = new HashMap<c, f>();
+                           ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:39: error: cannot find symbol
+      public Map<c, f> a_0() {
+                 ^
+    symbol:   class c
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:39: error: cannot find symbol
+      public Map<c, f> a_0() {
+                    ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:55: error: cannot find symbol
+      public f[] d() {
+             ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:59: error: cannot find symbol
+      public void a_0(int n2, f f2) {
+                              ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:87: error: cannot find symbol
+      public void a_0(c c2, int n2) {
+                      ^
+    symbol:   class c
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:91: error: cannot find symbol
+      public void a_0(c c2, f f2) {
+                      ^
+    symbol:   class c
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:91: error: cannot find symbol
+      public void a_0(c c2, f f2) {
+                            ^
+    symbol:   class f
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:119: error: cannot find symbol
+      public e k() {
+             ^
+    symbol:   class e
+    location: class a_0
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:123: error: cannot find symbol
+      public void a_0(e e2) {
+                      ^
+    symbol:   class e
+    location: class a_0
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Some input files use or override a deprecated API.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\c.java:42: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     extends Applet
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:3069: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+           if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:7227: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+     public AppletContext getAppletContext() {
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:19618: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:19627: warning: [removal] Integer(int) in Integer has been deprecated and marked for removal
+                    } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\v\a.java:40: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public static final Applet h = null;
+                         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\c_0.java:60: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+  extends Applet
+          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\runelite\events\ClientShutdown.java:32: warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+           } catch (ThreadDeath var8) {
+                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\Launcher.java:43: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+  public class Launcher extends Applet implements ActionListener {
+                                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\ui\a.java:15: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+     public a(@Nullable Applet var1) {
+                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\ui\a_0.java:23: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+      public a_0(@Nullable Applet applet) {
+                           ^
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:8: error: cannot find symbol
+  public class a extends b {
+                         ^
+    symbol: class b
+  Note: Some input files use unchecked or unsafe operations.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:8: error: package rs.gui does not exist
+  import rs.gui.Launcher;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:9: error: package rs.l does not exist
+  import rs.l.F;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:3: error: package gnu.trove.set.hash does not exist
+  import gnu.trove.set.hash.TIntHashSet;
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:15: error: package rs.l does not exist
+  import rs.l.E;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:16: error: package rs.n.c does not exist
+  import rs.n.c.ap;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:17: error: package rs.n.c does not exist
+  import rs.n.c.ap$a;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:18: error: package rs.gui.b.c does not exist
+     private final Map<rs.gui.b.c.c, f> k = new HashMap<>();
+                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:34: error: package rs.gui.b.c does not exist
+     public Map<rs.gui.b.c.c, f> a() {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:82: error: package rs.gui.b.c does not exist
+     public void a(rs.gui.b.c.c var1, int var2) {
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:86: error: package rs.gui.b.c does not exist
+     public void a(rs.gui.b.c.c var1, f var2) {
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:9: error: package rs.gui.b_0.c does not exist
+  import rs.gui.b_0.c.c;
+                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:10: error: package rs.gui.b_0 does not exist
+  import rs.gui.b_0.e;
+                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:11: error: package rs.gui.b_0 does not exist
+  import rs.gui.b_0.f;
+                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:11: error: package rs.l does not exist
+  import rs.l.F;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:12: error: package rs.l does not exist
+  import rs.l.h;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:13: error: package rs.n does not exist
+  import rs.n.d;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\i\b.java:14: error: package rs.n does not exist
+  import rs.n.e;
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:3: error: package gnu.trove.map.hash does not exist
+  import gnu.trove.map.hash.TIntObjectHashMap;
+                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:50: error: package rs.n.c does not exist
+  import rs.n.c.Y;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:51: error: package rs.n.c does not exist
+  import rs.n.c.aD;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:52: error: package rs.n.c does not exist
+  import rs.n.c.aG;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:53: error: package rs.n.c does not exist
+  import rs.n.c.aH;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:54: error: package rs.n.c does not exist
+  import rs.n.c.ab;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:55: error: package rs.n.c does not exist
+  import rs.n.c.ac;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:56: error: package rs.n.c does not exist
+  import rs.n.c.ae;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:57: error: package rs.n.c does not exist
+  import rs.n.c.af;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:58: error: package rs.n.c does not exist
+  import rs.n.c.ai;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:59: error: package rs.n.c does not exist
+  import rs.n.c.al;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\Client.java:60: error: package rs.n.c does not exist
+  import rs.n.c.ap;
+               ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:241: error: method a(a) is already defined in class a
+     private int a(rs.a.a.a var1) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a\a.java:256: error: class a is already defined in package rs.a.a
+     public static enum a {
+                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\a.java:104: error: class a is already defined in package rs.A
+     private static final class a {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\a\b\a.java:64: error: class a is already defined in package rs.a.b
+     class a {
+     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\f\a.java:733: error: class a is already defined in package rs.f
+     public static enum a {
+                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a.java:122: error: class a is already defined in package rs.gui.b
+     public static enum a {
+                   ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\gui\b\a_0.java:127: error: class a_0 is already defined in package rs.gui.b
+      public static final class a_0
+                          ^
+  100 errors
+  11 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 10s
+1 actionable task: 1 executed

@@ -1,0 +1,951 @@
+
+> Task :compileJava
+./gradlew : C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: method a(int) 
+is already defined in class C_c
+At line:1 char:1
++ ./gradlew compileJava > compile2.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\naxos\...ed in class C_c:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   public static void a(int value) { B = value; }
+                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:580: error: method h() is already 
+defined in class C_c
+   public static int h() { return B; }
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in java.applet 
+has been deprecated and marked for removal
+   extends Applet
+           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) 
+in Integer has been deprecated and marked for removal
+         if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] AppletContext 
+in java.applet has been deprecated and marked for removal
+   public AppletContext getAppletContext() {
+          ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method found 
+for a(C_Client_mc,int,int,C_e,int)
+      rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                        ^
+    method C_d.a() is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String,String[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method C_d.a(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] Integer(int) 
+in Integer has been deprecated and marked for removal
+                  if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] Integer(int) 
+in Integer has been deprecated and marked for removal
+                  } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:554: error: non-static variable z 
+cannot be referenced from a static context
+   public static void a(String value) { z = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:554: error: incompatible types: String 
+cannot be converted to C_b
+   public static void a(String value) { z = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:555: error: non-static variable A 
+cannot be referenced from a static context
+   public static void b(String value) { A = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:555: error: incompatible types: String 
+cannot be converted to int
+   public static void b(String value) { A = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: non-static variable B 
+cannot be referenced from a static context
+   public static void a(int value) { B = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: incompatible types: int 
+cannot be converted to boolean
+   public static void a(int value) { B = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:557: error: non-static variable C 
+cannot be referenced from a static context
+   public static void b(int value) { C = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:557: error: incompatible types: int 
+cannot be converted to String
+   public static void b(int value) { C = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:558: error: non-static variable D 
+cannot be referenced from a static context
+   public static void c(int value) { D = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:558: error: incompatible types: int 
+cannot be converted to C_F_uc
+   public static void c(int value) { D = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:559: error: non-static variable E 
+cannot be referenced from a static context
+   public static void d(int value) { E = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:559: error: incompatible types: int 
+cannot be converted to C_F_uc
+   public static void d(int value) { E = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:560: error: non-static variable H 
+cannot be referenced from a static context
+   public static void e(int value) { H = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:560: error: incompatible types: int 
+cannot be converted to C_F_uc
+   public static void e(int value) { H = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:561: error: non-static variable I 
+cannot be referenced from a static context
+   public static void f(int value) { I = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:561: error: incompatible types: int 
+cannot be converted to C_F_uc
+   public static void f(int value) { I = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:562: error: non-static variable J 
+cannot be referenced from a static context
+   public static void g(int value) { J = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:562: error: incompatible types: int 
+cannot be converted to C_b
+   public static void g(int value) { J = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:563: error: non-static variable K 
+cannot be referenced from a static context
+   public static void h(int value) { K = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:563: error: incompatible types: int 
+cannot be converted to C_g
+   public static void h(int value) { K = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:564: error: non-static variable N 
+cannot be referenced from a static context
+   public static void i(int value) { N = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:564: error: incompatible types: int 
+cannot be converted to C_g
+   public static void i(int value) { N = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:565: error: non-static variable O 
+cannot be referenced from a static context
+   public static void j(int value) { O = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:565: error: incompatible types: int 
+cannot be converted to C_g
+   public static void j(int value) { O = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:566: error: non-static variable R 
+cannot be referenced from a static context
+   public static void k(int value) { R = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:566: error: incompatible types: int 
+cannot be converted to C_g
+   public static void k(int value) { R = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:567: error: non-static variable S 
+cannot be referenced from a static context
+   public static void l(int value) { S = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:567: error: incompatible types: int 
+cannot be converted to C_g
+   public static void l(int value) { S = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:568: error: non-static variable T 
+cannot be referenced from a static context
+   public static void m(int value) { T = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:568: error: incompatible types: int 
+cannot be converted to String
+   public static void m(int value) { T = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:569: error: non-static variable U 
+cannot be referenced from a static context
+   public static void n(int value) { U = value; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:569: error: incompatible types: int 
+cannot be converted to String
+   public static void n(int value) { U = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:570: error: non-static variable F 
+cannot be referenced from a static context
+   public static void c(String value) { F = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:570: error: incompatible types: String 
+cannot be converted to C_F_uc
+   public static void c(String value) { F = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:571: error: non-static variable G 
+cannot be referenced from a static context
+   public static void d(String value) { G = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:571: error: incompatible types: String 
+cannot be converted to C_F_uc
+   public static void d(String value) { G = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:572: error: non-static variable L 
+cannot be referenced from a static context
+   public static void e(String value) { L = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:572: error: incompatible types: String 
+cannot be converted to C_g
+   public static void e(String value) { L = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:573: error: non-static variable M 
+cannot be referenced from a static context
+   public static void f(String value) { M = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:573: error: incompatible types: String 
+cannot be converted to C_g
+   public static void f(String value) { M = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:574: error: non-static variable P 
+cannot be referenced from a static context
+   public static void g(String value) { P = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:574: error: incompatible types: String 
+cannot be converted to C_g
+   public static void g(String value) { P = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:575: error: non-static variable Q 
+cannot be referenced from a static context
+   public static void h(String value) { Q = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:575: error: incompatible types: String 
+cannot be converted to C_g
+   public static void h(String value) { Q = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:576: error: non-static variable V 
+cannot be referenced from a static context
+   public static void i(String value) { V = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:576: error: incompatible types: String 
+cannot be converted to int
+   public static void i(String value) { V = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:577: error: non-static variable W 
+cannot be referenced from a static context
+   public static void j(String value) { W = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:577: error: incompatible types: String 
+cannot be converted to int
+   public static void j(String value) { W = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:578: error: non-static variable X 
+cannot be referenced from a static context
+   public static void k(String value) { X = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:578: error: incompatible types: String 
+cannot be converted to int
+   public static void k(String value) { X = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:579: error: non-static variable Y 
+cannot be referenced from a static context
+   public static void l(String value) { Y = value; }
+                                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:579: error: incompatible types: String 
+cannot be converted to int
+   public static void l(String value) { Y = value; }
+                                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:580: error: non-static variable B 
+cannot be referenced from a static context
+   public static int h() { return B; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:581: error: non-static variable C 
+cannot be referenced from a static context
+   public static int i() { return C; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:582: error: non-static variable D 
+cannot be referenced from a static context
+   public static int j() { return D; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:583: error: non-static variable E 
+cannot be referenced from a static context
+   public static int k() { return E; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:584: error: non-static variable H 
+cannot be referenced from a static context
+   public static int l() { return H; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:585: error: non-static variable I 
+cannot be referenced from a static context
+   public static int m() { return I; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:586: error: non-static variable J 
+cannot be referenced from a static context
+   public static int n() { return J; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:587: error: non-static variable K 
+cannot be referenced from a static context
+   public static int o() { return K; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:588: error: non-static variable N 
+cannot be referenced from a static context
+   public static int p() { return N; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:589: error: non-static variable O 
+cannot be referenced from a static context
+   public static int q() { return O; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:590: error: non-static variable R 
+cannot be referenced from a static context
+   public static int r() { return R; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:591: error: non-static variable S 
+cannot be referenced from a static context
+   public static int s() { return S; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:592: error: non-static variable T 
+cannot be referenced from a static context
+   public static int t() { return T; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:593: error: non-static variable U 
+cannot be referenced from a static context
+   public static int u() { return U; }
+                                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:594: error: non-static variable Y 
+cannot be referenced from a static context
+   public static String v() { return Y; }
+                                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:596: error: non-static variable Z 
+cannot be referenced from a static context
+   public static void b(boolean value) { Z = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:597: error: non-static variable aa 
+cannot be referenced from a static context
+   public static void c(boolean value) { aa = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:598: error: non-static variable ab 
+cannot be referenced from a static context
+   public static void d(boolean value) { ab = value; }
+                                         ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                     if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && !rs.p_d.C_k.a(null, 
+var19 - 512)) {
+                                                                                                             ^
+  both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: 
+Object cannot be converted to String
+                  var2.add(var4);
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in 
+class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.java:
+289: error: incompatible types: Object cannot be converted to int
+            for (int var9 : var6) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in 
+class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+         this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                        ^
+  required: no arguments
+  found:    no arguments
+  reason: a() has private access in C_OsrsMapDependencyScanner_mc
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: Object 
+cannot be converted to int
+                  for (int var24 : var22.keySet()) {
+                                               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in C_O_uc; 
+cannot be accessed from outside package
+         C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] 
+cannot be converted to a_type
+         C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                      ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: 
+warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+         } catch (ThreadDeath var8) {
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet 
+in java.applet has been deprecated and marked for removal
+public class C_Launcher_mc extends Applet implements ActionListener {
+                                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in 
+java.applet has been deprecated and marked for removal
+   public C_a(@Nullable Applet var1) {
+                        ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object 
+cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object 
+cannot be converted to String
+         for (String var9 : var4) {
+                            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+      this.a = var1;
+          ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+      if (C_e.a(this.a) != C_e.a.a) {
+                    ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+         C_e.b(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) 
+cannot be referenced from a static context
+         C_e.b(this.a);
+            ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+         C_e.c(this.a);
+                   ^
+  symbol: variable a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+         a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+         ^
+  symbol:   variable a
+  location: class C_g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_m.java:41: error: incomparable types: a 
+and C_f
+      if (C_Client_mc.cH == -1 && var2 == rs.p_l.p_e.C_f.a.b) {
+                                       ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_a.java:29: error: incomparable types: a 
+and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_v.java:29: error: incomparable types: a 
+and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_k.java:22: error: incomparable types: a 
+and C_f
+      if (var2 == rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_u.java:18: error: incomparable types: a 
+and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.a) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_c.java:54: error: incomparable types: a 
+and C_f
+      if (var2 != rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_e.java:12: error: incomparable types: a 
+and C_f
+      if (var2 == rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_f.java:23: error: incomparable types: a 
+and C_f
+      if (var2 == rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_h.java:44: error: incomparable types: a 
+and C_f
+      if (var2 == rs.p_l.p_e.C_f.a.b) {
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in 
+java.applet has been deprecated and marked for removal
+   public static final Applet h = null;
+                       ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+9 warnings
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_a.java:16: error: method a in 
+class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.a.a().resolve("configs/anims.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_b.java:27: error: method a in 
+class C_OsrsMapDependencyScanner_mc cannot be applied to given types;
+           this.i = C_OsrsMapDependencyScanner_mc.b(this.e.a().resolve("configs/objects.yaml"));
+                                                          ^
+    required: no arguments
+    found:    no arguments
+    reason: a() has private access in C_OsrsMapDependencyScanner_mc
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:15702: error: no suitable method 
+found for a(C_Client_mc,int,int,C_e,int)
+        rs.p_l.p_b.p_a.C_d.a(this, var1, var2, var3, var4);
+                          ^
+      method C_d.a() is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String,String[]) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(String) is not applicable
+        (actual and formal argument lists differ in length)
+      method C_d.a(int,int) is not applicable
+        (actual and formal argument lists differ in length)
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:7: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.b.ordinal()] = 1;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:12: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.a.ordinal()] = 2;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_g.java:17: error: cannot find symbol
+           a[rs.p_k.p_a.C_c.c.ordinal()] = 3;
+           ^
+    symbol:   variable a
+    location: class C_g
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:337: error: a is not public in 
+C_O_uc; cannot be accessed from outside package
+           C_n.a.a(var3.i, new C_n(C_n.a.a, var3.at, var3.au, var3.av));
+                                        ^
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Some input files use or override a deprecated API.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_C_uc.java:42: warning: [removal] Applet in 
+java.applet has been deprecated and marked for removal
+     extends Applet
+             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:3073: warning: [removal] Integer(int) 
+in Integer has been deprecated and marked for removal
+           if (Arrays.asList(this.d).contains(new Integer(var1))) {
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:7232: warning: [removal] 
+AppletContext in java.applet has been deprecated and marked for removal
+     public AppletContext getAppletContext() {
+            ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19644: warning: [removal] 
+Integer(int) in Integer has been deprecated and marked for removal
+                    if (Arrays.asList(this.e).contains(new Integer(var15))) {
+                                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\C_Client_mc.java:19653: warning: [removal] 
+Integer(int) in Integer has been deprecated and marked for removal
+                    } else if (Arrays.asList(this.d).contains(new Integer(var15))) {
+                                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_runelite\p_events\C_ClientShutdown_mc.java:32: 
+warning: [removal] ThreadDeath in java.lang has been deprecated and marked for removal
+           } catch (ThreadDeath var8) {
+                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_gui\C_Launcher_mc.java:43: warning: [removal] Applet 
+in java.applet has been deprecated and marked for removal
+  public class C_Launcher_mc extends Applet implements ActionListener {
+                                     ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_ui\C_a.java:15: warning: [removal] Applet in 
+java.applet has been deprecated and marked for removal
+     public C_a(@Nullable Applet var1) {
+                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_v\C_a.java:40: warning: [removal] Applet in 
+java.applet has been deprecated and marked for removal
+     public static final Applet h = null;
+                         ^
+  Note: Some input files use unchecked or unsafe operations.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_a\C_k.java:811: error: reference to a is ambiguous
+                       if ((var18 == 0 || var18 == 4 || var18 == 7 || var18 == 9 || var18 == 10) && 
+!rs.p_d.C_k.a(null, var19 - 512)) {
+                                                                                                               ^
+    both method a(C_k,int) in C_k and method a(C_h,int) in C_k match
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_m.java:41: error: incomparable types: a 
+and C_f
+        if (C_Client_mc.cH == -1 && var2 == rs.p_l.p_e.C_f.a.b) {
+                                         ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_a.java:29: error: incomparable types: a 
+and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_v.java:29: error: incomparable types: a 
+and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_k.java:22: error: incomparable types: a 
+and C_f
+        if (var2 == rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_u.java:18: error: incomparable types: a 
+and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.a) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_c.java:54: error: incomparable types: a 
+and C_f
+        if (var2 != rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_e.java:12: error: incomparable types: a 
+and C_f
+        if (var2 == rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_f.java:23: error: incomparable types: a 
+and C_f
+        if (var2 == rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\p_a\C_h.java:44: error: incomparable types: a 
+and C_f
+        if (var2 == rs.p_l.p_e.C_f.a.b) {
+                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:554: error: incompatible types: 
+String cannot be converted to C_b
+     public static void a(String value) { z = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:555: error: incompatible types: 
+String cannot be converted to int
+     public static void b(String value) { A = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: incompatible types: int 
+cannot be converted to boolean
+     public static void a(int value) { B = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:557: error: incompatible types: int 
+cannot be converted to String
+     public static void b(int value) { C = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:558: error: incompatible types: int 
+cannot be converted to C_F_uc
+     public static void c(int value) { D = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:559: error: incompatible types: int 
+cannot be converted to C_F_uc
+     public static void d(int value) { E = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:560: error: incompatible types: int 
+cannot be converted to C_F_uc
+     public static void e(int value) { H = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:561: error: incompatible types: int 
+cannot be converted to C_F_uc
+     public static void f(int value) { I = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:562: error: incompatible types: int 
+cannot be converted to C_b
+     public static void g(int value) { J = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:563: error: incompatible types: int 
+cannot be converted to C_g
+     public static void h(int value) { K = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:564: error: incompatible types: int 
+cannot be converted to C_g
+     public static void i(int value) { N = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:565: error: incompatible types: int 
+cannot be converted to C_g
+     public static void j(int value) { O = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:566: error: incompatible types: int 
+cannot be converted to C_g
+     public static void k(int value) { R = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:567: error: incompatible types: int 
+cannot be converted to C_g
+     public static void l(int value) { S = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:568: error: incompatible types: int 
+cannot be converted to String
+     public static void m(int value) { T = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:569: error: incompatible types: int 
+cannot be converted to String
+     public static void n(int value) { U = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:570: error: incompatible types: 
+String cannot be converted to C_F_uc
+     public static void c(String value) { F = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:571: error: incompatible types: 
+String cannot be converted to C_F_uc
+     public static void d(String value) { G = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:572: error: incompatible types: 
+String cannot be converted to C_g
+     public static void e(String value) { L = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:573: error: incompatible types: 
+String cannot be converted to C_g
+     public static void f(String value) { M = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:574: error: incompatible types: 
+String cannot be converted to C_g
+     public static void g(String value) { P = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:575: error: incompatible types: 
+String cannot be converted to C_g
+     public static void h(String value) { Q = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:576: error: incompatible types: 
+String cannot be converted to int
+     public static void i(String value) { V = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:577: error: incompatible types: 
+String cannot be converted to int
+     public static void j(String value) { W = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:578: error: incompatible types: 
+String cannot be converted to int
+     public static void k(String value) { X = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:579: error: incompatible types: 
+String cannot be converted to int
+     public static void l(String value) { Y = value; }
+                                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_b\C_e.java:45: error: incompatible types: 
+Object cannot be converted to String
+                    var2.add(var4);
+                             ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_cache\p_osrs\p_util\C_OsrsMapDependencyScanner_mc.jav
+a:289: error: incompatible types: Object cannot be converted to int
+              for (int var9 : var6) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:280: error: incompatible types: 
+Object cannot be converted to int
+                    for (int var24 : var22.keySet()) {
+                                                 ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_t\p_a\C_d.java:339: error: incompatible types: int[] 
+cannot be converted to a_type
+           C_n.a.a(var3.i, new C_n(C_n.a.b, var3.as, var3.au, var3.av));
+                                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_a.java:47: error: incompatible types: Object 
+cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_h\C_c.java:47: error: incompatible types: Object 
+cannot be converted to String
+           for (String var9 : var4) {
+                              ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:554: error: non-static variable z 
+cannot be referenced from a static context
+     public static void a(String value) { z = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:555: error: non-static variable A 
+cannot be referenced from a static context
+     public static void b(String value) { A = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: non-static variable B 
+cannot be referenced from a static context
+     public static void a(int value) { B = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:557: error: non-static variable C 
+cannot be referenced from a static context
+     public static void b(int value) { C = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:558: error: non-static variable D 
+cannot be referenced from a static context
+     public static void c(int value) { D = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:559: error: non-static variable E 
+cannot be referenced from a static context
+     public static void d(int value) { E = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:560: error: non-static variable H 
+cannot be referenced from a static context
+     public static void e(int value) { H = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:561: error: non-static variable I 
+cannot be referenced from a static context
+     public static void f(int value) { I = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:562: error: non-static variable J 
+cannot be referenced from a static context
+     public static void g(int value) { J = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:563: error: non-static variable K 
+cannot be referenced from a static context
+     public static void h(int value) { K = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:564: error: non-static variable N 
+cannot be referenced from a static context
+     public static void i(int value) { N = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:565: error: non-static variable O 
+cannot be referenced from a static context
+     public static void j(int value) { O = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:566: error: non-static variable R 
+cannot be referenced from a static context
+     public static void k(int value) { R = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:567: error: non-static variable S 
+cannot be referenced from a static context
+     public static void l(int value) { S = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:568: error: non-static variable T 
+cannot be referenced from a static context
+     public static void m(int value) { T = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:569: error: non-static variable U 
+cannot be referenced from a static context
+     public static void n(int value) { U = value; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:570: error: non-static variable F 
+cannot be referenced from a static context
+     public static void c(String value) { F = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:571: error: non-static variable G 
+cannot be referenced from a static context
+     public static void d(String value) { G = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:572: error: non-static variable L 
+cannot be referenced from a static context
+     public static void e(String value) { L = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:573: error: non-static variable M 
+cannot be referenced from a static context
+     public static void f(String value) { M = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:574: error: non-static variable P 
+cannot be referenced from a static context
+     public static void g(String value) { P = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:575: error: non-static variable Q 
+cannot be referenced from a static context
+     public static void h(String value) { Q = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:576: error: non-static variable V 
+cannot be referenced from a static context
+     public static void i(String value) { V = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:577: error: non-static variable W 
+cannot be referenced from a static context
+     public static void j(String value) { W = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:578: error: non-static variable X 
+cannot be referenced from a static context
+     public static void k(String value) { X = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:579: error: non-static variable Y 
+cannot be referenced from a static context
+     public static void l(String value) { Y = value; }
+                                          ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:580: error: non-static variable B 
+cannot be referenced from a static context
+     public static int h() { return B; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:581: error: non-static variable C 
+cannot be referenced from a static context
+     public static int i() { return C; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:582: error: non-static variable D 
+cannot be referenced from a static context
+     public static int j() { return D; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:583: error: non-static variable E 
+cannot be referenced from a static context
+     public static int k() { return E; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:584: error: non-static variable H 
+cannot be referenced from a static context
+     public static int l() { return H; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:585: error: non-static variable I 
+cannot be referenced from a static context
+     public static int m() { return I; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:586: error: non-static variable J 
+cannot be referenced from a static context
+1 actionable task: 1 executed
+     public static int n() { return J; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:587: error: non-static variable K 
+cannot be referenced from a static context
+     public static int o() { return K; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:588: error: non-static variable N 
+cannot be referenced from a static context
+     public static int p() { return N; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:589: error: non-static variable O 
+cannot be referenced from a static context
+     public static int q() { return O; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:590: error: non-static variable R 
+cannot be referenced from a static context
+     public static int r() { return R; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:591: error: non-static variable S 
+cannot be referenced from a static context
+     public static int s() { return S; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:592: error: non-static variable T 
+cannot be referenced from a static context
+     public static int t() { return T; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:593: error: non-static variable U 
+cannot be referenced from a static context
+     public static int u() { return U; }
+                                    ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:594: error: non-static variable Y 
+cannot be referenced from a static context
+     public static String v() { return Y; }
+                                       ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:596: error: non-static variable Z 
+cannot be referenced from a static context
+     public static void b(boolean value) { Z = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:597: error: non-static variable aa 
+cannot be referenced from a static context
+     public static void c(boolean value) { aa = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:598: error: non-static variable ab 
+cannot be referenced from a static context
+     public static void d(boolean value) { ab = value; }
+                                           ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: non-static method b(boolean) 
+cannot be referenced from a static context
+           C_e.b(this.a);
+              ^
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:7: error: cannot find symbol
+        this.a = var1;
+            ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:13: error: cannot find symbol
+        if (C_e.a(this.a) != C_e.a.a) {
+                      ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:14: error: cannot find symbol
+           C_e.b(this.a);
+                     ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_k\C_f.java:15: error: cannot find symbol
+           C_e.c(this.a);
+                     ^
+    symbol: variable a
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:556: error: method a(int) is already 
+defined in class C_c
+     public static void a(int value) { B = value; }
+                        ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:580: error: method h() is already 
+defined in class C_c
+     public static int h() { return B; }
+                       ^
+  100 errors
+  9 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 8s

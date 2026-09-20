@@ -1,0 +1,41 @@
+
+> Task :compileJava FAILED
+./gradlew : C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:276: error: invalid method 
+declaration; return type required
+At line:1 char:1
++ ./gradlew compileJava > compile4.txt 2>&1; python -c "from pathlib im ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\naxos\...n type required:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+      private a(String var3, String var4, int var5, int var6) {
+              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:283: error: invalid method declaration; 
+return type required
+      private a(String var3, int var4) {
+              ^
+2 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:276: error: invalid method 
+declaration; return type required
+        private a(String var3, String var4, int var5, int var6) {
+                ^
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:283: error: invalid method 
+declaration; return type required
+        private a(String var3, int var4) {
+                ^
+  2 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 5s
+1 actionable task: 1 executed

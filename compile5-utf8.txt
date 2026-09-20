@@ -1,0 +1,128 @@
+
+> Task :compileJava
+./gradlew : C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:32: error: cannot find 
+symbol
+At line:1 char:1
++ ./gradlew compileJava > compile5.txt 2>&1; python -c "from pathlib im ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\naxos\...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   private C_c.a u;
+              ^
+  symbol:   class a
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:550: error: cannot find symbol
+   public void a(C_c.a var1) {
+                    ^
+  symbol:   class a
+  location: class C_c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:25: error: cannot find symbol
+   private final C_q.a n;
+                    ^
+  symbol:   class a
+  location: class C_q
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:35: error: cannot find symbol
+   public C_q(C_Client_mc var1, C_q.a var2, int var3) {
+                                   ^
+  symbol:   class a
+  location: class C_q
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:196: error: cannot find symbol
+   public C_q.a a() {
+             ^
+  symbol:   class a
+  location: class C_q
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:5: error: cannot find symbol
+   private C_x.a b;
+              ^
+  symbol:   class a
+  location: class C_x
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:38: error: cannot find symbol
+   public C_x.a a() {
+             ^
+  symbol:   class a
+  location: class C_x
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:42: error: cannot find symbol
+   public void a(C_x.a var1) {
+                    ^
+  symbol:   class a
+  location: class C_x
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_X_uc.java:16: error: cannot find symbol
+   public void b(C_Client_mc var1, rs.p_l.p_e.C_f.a var2) {
+                                                 ^
+  symbol:   class a
+  location: class C_f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_q\p_a\p_a\p_a\C_p.java:7: error: cannot find symbol
+   private C_q.a a(String var1) {
+              ^
+  symbol:   class a
+  location: class C_q
+10 errors
+
+> Task :compileJava FAILED
+
+
+[Incubating] Problems report is available at: file:///C:/Users/naxos/Documents/SpawnPK-Open-Client/build/reports/problems/problems-report.html
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:32: error: cannot find symbol
+     private C_c.a u;
+                ^
+    symbol:   class a
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_d\C_c.java:550: error: cannot find symbol
+     public void a(C_c.a var1) {
+                      ^
+    symbol:   class a
+    location: class C_c
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:25: error: cannot find symbol
+     private final C_q.a n;
+                      ^
+    symbol:   class a
+    location: class C_q
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:35: error: cannot find symbol
+     public C_q(C_Client_mc var1, C_q.a var2, int var3) {
+                                     ^
+    symbol:   class a
+    location: class C_q
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\p_e\C_q.java:196: error: cannot find symbol
+     public C_q.a a() {
+               ^
+    symbol:   class a
+    location: class C_q
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:5: error: cannot find symbol
+     private C_x.a b;
+                ^
+    symbol:   class a
+    location: class C_x
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:38: error: cannot find symbol
+     public C_x.a a() {
+               ^
+    symbol:   class a
+    location: class C_x
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_l\C_x.java:42: error: cannot find symbol
+     public void a(C_x.a var1) {
+                      ^
+    symbol:   class a
+    location: class C_x
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_n\p_c\C_X_uc.java:16: error: cannot find symbol
+     public void b(C_Client_mc var1, rs.p_l.p_e.C_f.a var2) {
+                                                   ^
+    symbol:   class a
+    location: class C_f
+  C:\Users\naxos\Documents\SpawnPK-Open-Client\src\main\java\rs\p_q\p_a\p_a\p_a\C_p.java:7: error: cannot find symbol
+     private C_q.a a(String var1) {
+                ^
+    symbol:   class a
+    location: class C_q
+  10 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 13s
+1 actionable task: 1 executed

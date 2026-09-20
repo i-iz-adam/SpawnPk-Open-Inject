@@ -1,0 +1,184 @@
+package rs.p_n.p_c;
+
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class C_ag extends rs.p_n.C_c {
+   public static rs.p_l.C_F_uc c;
+   public static final Set<Integer> d = ConcurrentHashMap.newKeySet();
+   public static rs.p_q.p_a.p_a.C_a e = new C_ah();
+
+   public C_ag(rs.p_l.C_K_uc[] var1) {
+      super(var1);
+   }
+
+   @Override
+   public void a() {
+      b(this.a);
+      c(this.a);
+   }
+
+   public static void b(rs.p_l.C_K_uc[] var0) {
+      c = new rs.p_l.C_F_uc("icons/death");
+      rs.p_n.C_e var1 = d(17115);
+      a(17109, "", var0, 0, 16750623);
+      a(17110, "At the moment nearly all", var0, 0, 16750623);
+      a(17111, "items are tradeable", var0, 0, 16750623);
+      a(17112, "and can be lost on death.", var0, 0, 16750623);
+      a(17113, "", var0, 0, 16750623);
+      a(17114, "If you are red-skulled,", var0, 0, 16750623);
+      a(17117, "you will lose all your", var0, 0, 16750623);
+      a(17118, "items regardless of", var0, 0, 16750623);
+      a(17119, "what you are praying.", var0, 0, 16750623);
+      a(17120, "", var0, 0, 16750623);
+      a(17121, "", var0, 0, 16750623);
+      a(17122, "", var0, 0, 16750623);
+      a(17123, "", var0, 0, 16750623);
+      a(17124, "", var0, 0, 16750623);
+      a(17125, "", var0, 0, 16750623);
+      a(17126, "", var0, 0, 16750623);
+      a(17127, "", var0, 0, 16750623);
+      a(17128, "", var0, 0, 16750623);
+      a(17129, "", var0, 0, 16750623);
+      var1.ah = 17115;
+      var1.aw = 17115;
+      var1.aI = 0;
+      var1.M = 0;
+      var1.J = 0;
+      var1.P = 130;
+      var1.aR = 197;
+      var1.aC = 0;
+      var1.ab = -1;
+      var1.aH = 280;
+      var1.al = new int[19];
+      var1.am = new int[19];
+      var1.bc = new int[19];
+      var1.al[0] = 17109;
+      var1.am[0] = 0;
+      var1.bc[0] = 0;
+      var1.al[1] = 17110;
+      var1.am[1] = 0;
+      var1.bc[1] = 12;
+      var1.al[2] = 17111;
+      var1.am[2] = 0;
+      var1.bc[2] = 24;
+      var1.al[3] = 17112;
+      var1.am[3] = 0;
+      var1.bc[3] = 36;
+      var1.al[4] = 17113;
+      var1.am[4] = 0;
+      var1.bc[4] = 48;
+      var1.al[5] = 17114;
+      var1.am[5] = 0;
+      var1.bc[5] = 60;
+      var1.al[6] = 17117;
+      var1.am[6] = 0;
+      var1.bc[6] = 72;
+      var1.al[7] = 17118;
+      var1.am[7] = 0;
+      var1.bc[7] = 84;
+      var1.al[8] = 17119;
+      var1.am[8] = 0;
+      var1.bc[8] = 96;
+      var1.al[9] = 17120;
+      var1.am[9] = 0;
+      var1.bc[9] = 108;
+      var1.al[10] = 17121;
+      var1.am[10] = 0;
+      var1.bc[10] = 120;
+      var1.al[11] = 17122;
+      var1.am[11] = 0;
+      var1.bc[11] = 132;
+      var1.al[12] = 17123;
+      var1.am[12] = 0;
+      var1.bc[12] = 144;
+      var1.al[13] = 17124;
+      var1.am[13] = 0;
+      var1.bc[13] = 156;
+      var1.al[14] = 17125;
+      var1.am[14] = 0;
+      var1.bc[14] = 168;
+      var1.al[15] = 17126;
+      var1.am[15] = 0;
+      var1.bc[15] = 180;
+      var1.al[16] = 17127;
+      var1.am[16] = 0;
+      var1.bc[16] = 192;
+      var1.al[17] = 17128;
+      var1.am[17] = 0;
+      var1.bc[17] = 204;
+      var1.al[18] = 17129;
+      var1.am[18] = 0;
+      var1.bc[18] = 216;
+   }
+
+   public static void c(rs.p_l.C_K_uc[] var0) {
+      rs.p_n.C_e var1 = d(17100);
+      d(17101, 2, 2);
+      a(17102, 3, 0, 10601, 1, "equipment/SPRITE", 17, 17, "Close Window");
+      a(10601, 3, "equipment/SPRITE", 17, 17, 10602);
+      a(17103, "Items kept on death", var0, 2, 16750623);
+      a(17104, "Items I will keep...", var0, 1, 16750623);
+      a(17105, "Items I will lose...", var0, 1, 16750623);
+      a(17106, "Info", var0, 1, 16750623);
+      a(17107, "Items I will auto-keep...", var0, 1, 16750623);
+      a(17108, Boolean.valueOf(true));
+      int var2 = rs.p_n.C_e.H[10600].az.length;
+      rs.p_n.C_e.H[17108].az = new int[var2];
+      rs.p_n.C_e.H[17108].ax = new int[var2];
+      rs.p_n.C_e.H[17108].K = new int[var2];
+      rs.p_n.C_e.H[17108].as = new int[var2];
+      rs.p_n.C_e.H[17108].ac = rs.p_n.C_e.H[10600].ac + 3;
+      rs.p_n.C_e.H[17108].ap = rs.p_n.C_e.H[10600].ap;
+      rs.p_n.C_e.H[17108].P = rs.p_n.C_e.H[10600].P;
+      rs.p_n.C_e.H[17108].aR = rs.p_n.C_e.H[10600].aR;
+      rs.p_n.C_e var3 = d(17130);
+      var3.aH = 75;
+      var3.P = 290;
+      var3.aR = 50;
+      var3.bj = 87;
+      var3.k(1);
+      var3.b(0, 17108, 0, 9);
+      var1.aH = 0;
+      var1.aQ = false;
+      var1.al = new int[12];
+      var1.am = new int[12];
+      var1.bc = new int[12];
+      var1.al[0] = 17101;
+      var1.am[0] = 7;
+      var1.bc[0] = 8;
+      var1.al[1] = 17102;
+      var1.am[1] = 480;
+      var1.bc[1] = 17;
+      var1.al[2] = 17103;
+      var1.am[2] = 185;
+      var1.bc[2] = 18;
+      var1.al[3] = 17104;
+      var1.am[3] = 22;
+      var1.bc[3] = 50;
+      var1.al[4] = 17105;
+      var1.am[4] = 22;
+      var1.bc[4] = 170;
+      var1.al[5] = 17106;
+      var1.am[5] = 347;
+      var1.bc[5] = 47;
+      var1.al[6] = 17107;
+      var1.am[6] = 22;
+      var1.bc[6] = 110;
+      var1.al[7] = 17130;
+      var1.am[7] = 24;
+      var1.bc[7] = 124;
+      var1.al[8] = 17115;
+      var1.am[8] = 348;
+      var1.bc[8] = 64;
+      var1.al[9] = 10494;
+      var1.am[9] = 26;
+      var1.bc[9] = 74;
+      var1.al[10] = 10600;
+      var1.am[10] = 26;
+      var1.bc[10] = 193;
+      var1.al[11] = 10601;
+      var1.am[11] = 480;
+      var1.bc[11] = 17;
+   }
+}
