@@ -1,0 +1,28 @@
+public interface gnu.trove.f {
+  public static final long a;
+  public abstract float F_();
+  public abstract int size();
+  public abstract boolean isEmpty();
+  public abstract boolean y_(float);
+  public abstract gnu.trove.d.H b();
+  public abstract float[] c();
+  public abstract float[] a(float[]);
+  public abstract boolean b(float);
+  public abstract boolean c(float);
+  public abstract boolean a(java.util.Collection<?>);
+  public abstract boolean a(gnu.trove.f);
+  public abstract boolean b(float[]);
+  public abstract boolean b(java.util.Collection<? extends java.lang.Float>);
+  public abstract boolean b(gnu.trove.f);
+  public abstract boolean c(float[]);
+  public abstract boolean c(java.util.Collection<?>);
+  public abstract boolean c(gnu.trove.f);
+  public abstract boolean d(float[]);
+  public abstract boolean d(java.util.Collection<?>);
+  public abstract boolean d(gnu.trove.f);
+  public abstract boolean e(float[]);
+  public abstract void clear();
+  public abstract boolean g_(gnu.trove.g.I);
+  public abstract boolean equals(java.lang.Object);
+  public abstract int hashCode();
+}

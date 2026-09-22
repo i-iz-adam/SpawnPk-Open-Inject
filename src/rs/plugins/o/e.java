@@ -61,7 +61,7 @@ public class e extends rs.plugins.a {
     private class_139 q;
 
     @Inject
-    private rs.ui.components.a.d r;
+    private rs.ui.components.apkg.d r;
 
     @Inject
     private class_188 s;

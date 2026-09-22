@@ -1,6 +1,5 @@
 package rs;
 
-import com.fasterxml.jackson.core.b.a;
 import com.sun.jna.platform.win32.COM.tlb.a.e;
 import com.sun.jna.platform.win32.aU;
 import java.awt.Color;
@@ -87,7 +86,7 @@ public class class_488 extends class_360 {
                 if (bI == 5) {
                     iB = Integer.parseInt(g.get(Integer.valueOf(i)), 16);
                 }
-                bG.put(Integer.valueOf(a.SURR2_LAST), 57443);
+                bG.put(Integer.valueOf(57343), 57443);
                 bH[bI] = iB;
                 if (i3 != iB) {
                     class_419.m();

@@ -1,0 +1,34 @@
+public class gnu.trove.i.a.i extends gnu.trove.c.a.O implements gnu.trove.i.e,java.io.Externalizable {
+  static final long e;
+  public gnu.trove.i.a.i();
+  public gnu.trove.i.a.i(int);
+  public gnu.trove.i.a.i(int, float);
+  public gnu.trove.i.a.i(int, float, int);
+  public gnu.trove.i.a.i(java.util.Collection<? extends java.lang.Integer>);
+  public gnu.trove.i.a.i(gnu.trove.g);
+  public gnu.trove.i.a.i(int[]);
+  public gnu.trove.d.Q b();
+  public int[] c();
+  public int[] a(int[]);
+  public boolean b(int);
+  public boolean c(int);
+  public boolean a(java.util.Collection<?>);
+  public boolean a(gnu.trove.g);
+  public boolean b(int[]);
+  public boolean b(java.util.Collection<? extends java.lang.Integer>);
+  public boolean b(gnu.trove.g);
+  public boolean c(int[]);
+  public boolean c(java.util.Collection<?>);
+  public boolean c(gnu.trove.g);
+  public boolean d(int[]);
+  public boolean d(java.util.Collection<?>);
+  public boolean d(gnu.trove.g);
+  public boolean e(int[]);
+  public void clear();
+  protected void e(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public void writeExternal(java.io.ObjectOutput);
+  public void readExternal(java.io.ObjectInput);
+}

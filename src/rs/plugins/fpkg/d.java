@@ -61,7 +61,7 @@ public class d extends rs.plugins.a {
     private l l;
 
     @Inject
-    private rs.ui.components.a.d m;
+    private rs.ui.components.apkg.d m;
 
     @Override // rs.s.a
     public void a() {

@@ -18,7 +18,7 @@ import rs.ui.m;
 /* JADX INFO: loaded from: client-final.jar:rs/s/q/b.class */
 public class b extends m {
     private final JPanel a;
-    private final rs.plugins.q.b.a b;
+    private final rs.plugins.q.bpkg.a b;
     private final a c;
     private final d d;
 
@@ -120,7 +120,7 @@ public class b extends m {
         SwingUtilities.invokeLater(this::updateUI);
     }
 
-    public rs.plugins.q.b.a c() {
+    public rs.plugins.q.bpkg.a c() {
         return this.b;
     }
 }

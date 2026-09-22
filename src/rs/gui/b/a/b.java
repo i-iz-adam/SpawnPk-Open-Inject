@@ -17,7 +17,7 @@ class b implements ActionListener {
 
    @Override
    public void actionPerformed(ActionEvent var1) {
-      rs.gui.b.a var2 = this.a.f().c();
+      rs.gui.b.Loadout var2 = this.a.f().c();
       if (var2 == null) {
          JOptionPane.showMessageDialog(null, "You don't have a loadout selected!");
       } else {

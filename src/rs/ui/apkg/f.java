@@ -49,7 +49,7 @@ public class f {
     private final class_313 q;
     private final rs.plugins.h r;
     private final class_188 s;
-    private final rs.plugins.h.b t;
+    private final rs.plugins.hpkg.b t;
     private c u;
     private static final Logger c = LoggerFactory.getLogger((Class<?>) f.class);
     private static final String g = "Detach InfoBox";
@@ -66,7 +66,7 @@ public class f {
         this.p = class_139Var;
         this.q = class_313Var;
         this.r = hVar;
-        this.t = (rs.plugins.h.b) class_139Var.a(rs.plugins.h.b.class);
+        this.t = (rs.plugins.hpkg.b) class_139Var.a(rs.plugins.hpkg.b.class);
         this.s = class_188Var;
         eventBus.register(this);
     }

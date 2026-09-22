@@ -35,7 +35,7 @@ public class m {
         return this;
     }
 
-    public int a(rs.lpkg.d.a aVar) {
+    public int a(rs.lpkg.dpkg.a aVar) {
         int iGlCreateProgram = GL43C.glCreateProgram();
         int[] iArr = new int[this.a.size()];
         int i = 0;

@@ -19,8 +19,8 @@ public class g extends m {
     private final rs.ui.components.bpkg.e c;
     private final CardLayout d;
     private final JPanel e;
-    private final rs.ui.components.b.a f;
-    private final rs.ui.components.b.a g;
+    private final rs.ui.components.bpkg.a f;
+    private final rs.ui.components.bpkg.a g;
     private m k;
     private boolean l;
     private boolean m;
@@ -47,8 +47,8 @@ public class g extends m {
         this.c.b(this.f);
     }
 
-    private rs.ui.components.b.a a(m mVar, String str, String str2) {
-        rs.ui.components.b.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) g.class, str)), this.c, (JComponent) null);
+    private rs.ui.components.bpkg.a a(m mVar, String str, String str2) {
+        rs.ui.components.bpkg.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) g.class, str)), this.c, (JComponent) null);
         aVar.setToolTipText(str2);
         this.c.a(aVar);
         this.e.add(str, mVar.l());

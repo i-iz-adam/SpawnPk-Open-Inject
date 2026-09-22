@@ -106,8 +106,8 @@ public final class n {
         if (!Arrays.deepEquals(f(), nVar.f())) {
             return false;
         }
-        rs.s.a aVarJ = j();
-        rs.s.a aVarJ2 = nVar.j();
+        rs.plugins.a aVarJ = j();
+        rs.plugins.a aVarJ2 = nVar.j();
         if (aVarJ == null) {
             if (aVarJ2 != null) {
                 return false;
@@ -146,7 +146,7 @@ public final class n {
         int iHashCode = (1 * 59) + (strD == null ? 43 : strD.hashCode());
         String strE = e();
         int iHashCode2 = (((iHashCode * 59) + (strE == null ? 43 : strE.hashCode())) * 59) + Arrays.deepHashCode(f());
-        rs.s.a aVarJ = j();
+        rs.plugins.a aVarJ = j();
         int iHashCode3 = (iHashCode2 * 59) + (aVarJ == null ? 43 : aVarJ.hashCode());
         class_132 class_132VarG = g();
         int iHashCode4 = (iHashCode3 * 59) + (class_132VarG == null ? 43 : class_132VarG.hashCode());
@@ -160,7 +160,7 @@ public final class n {
         return "PluginConfigurationDescriptor(name=" + d() + ", description=" + e() + ", tags=" + Arrays.deepToString(f()) + ", plugin=" + String.valueOf(j()) + ", config=" + String.valueOf(g()) + ", configDescriptor=" + String.valueOf(h()) + ", conflicts=" + String.valueOf(i()) + ")";
     }
 
-    public n(String str, String str2, String[] strArr, @Nullable rs.s.a aVar, @Nullable class_132 class_132Var, @Nullable class_134 class_134Var, @Nullable List<String> list) {
+    public n(String str, String str2, String[] strArr, @Nullable rs.plugins.a aVar, @Nullable class_132 class_132Var, @Nullable class_134 class_134Var, @Nullable List<String> list) {
         this.a = str;
         this.b = str2;
         this.c = strArr;

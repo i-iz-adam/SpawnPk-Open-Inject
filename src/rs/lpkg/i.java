@@ -127,7 +127,7 @@ public class i {
         return i;
     }
 
-    public int a(ColorUtility colorUtility, d dVar, rs.lpkg.c.a aVar, boolean z) {
+    public int a(ColorUtility colorUtility, d dVar, rs.lpkg.cpkg.a aVar, boolean z) {
         int i = (colorUtility.ap[aVar.n()] & 255) << 16;
         int iG = ((255 - ((int) (255.0f * aVar.g()))) & 255) << 24;
         int iA = class_267.a(aVar.e());

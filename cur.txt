@@ -1,0 +1,936 @@
+Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_100.java:3: error: package android does not exist
+import android.R;
+              ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_629.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\Client.java:12: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\d.java:3: error: cannot find symbol
+import gnu.trove.e.a.k;
+                  ^
+  symbol:   class a
+  location: interface e
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\d.java:8: error: cannot find symbol
+    private final k b = new k(1000);
+                  ^
+  symbol:   class k
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\d.java:9: error: cannot find symbol
+    private final k c = new k(1000);
+                  ^
+  symbol:   class k
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_259.java:4: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\Client.java:693: error: cannot find symbol
+    public static cc<Boolean> bn = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class Client
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_259.java:9: error: cannot find symbol
+    public static cc<Boolean> b = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class class_259
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_259.java:10: error: cannot find symbol
+    public cc<class_258> c = new cc<>();
+           ^
+  symbol:   class cc
+  location: class class_259
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_259.java:11: error: cannot find symbol
+    public cc<class_258> d = new cc<>();
+           ^
+  symbol:   class cc
+  location: class class_259
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_259.java:12: error: cannot find symbol
+    public cc<class_258> e = new cc<>();
+           ^
+  symbol:   class cc
+  location: class class_259
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:3: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:4: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:5: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:18: error: cannot find symbol
+    private final cc<String> h;
+                  ^
+  symbol:   class cc
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:19: error: cannot find symbol
+    private final bU i;
+                  ^
+  symbol:   class bU
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:20: error: cannot find symbol
+    private final i j;
+                  ^
+  symbol:   class i
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:21: error: cannot find symbol
+    private final i k;
+                  ^
+  symbol:   class i
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:22: error: cannot find symbol
+    private final bU l;
+                  ^
+  symbol:   class bU
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:138: error: cannot find symbol
+    public cc<String> d() {
+           ^
+  symbol:   class cc
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:142: error: cannot find symbol
+    public bU e() {
+           ^
+  symbol:   class bU
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:146: error: cannot find symbol
+    public i f() {
+           ^
+  symbol:   class i
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:150: error: cannot find symbol
+    public i g() {
+           ^
+  symbol:   class i
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_623.java:154: error: cannot find symbol
+    public bU h() {
+           ^
+  symbol:   class bU
+  location: class class_623
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:416: error: cannot find symbol
+    private void a(rs.l.a aVar) {
+                       ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:432: error: cannot find symbol
+    private void b(rs.l.a aVar) {
+                       ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:979: error: cannot find symbol
+    public void a(rs.lpkg.c.a aVar, int i2, int i3, int i4, int i5, boolean z) {
+                           ^
+  symbol:   class a
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:1038: error: cannot find symbol
+    private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull IntBuffer intBuffer, int i3, long j2) {
+                                ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:1043: error: cannot find symbol
+    private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull FloatBuffer floatBuffer, int i3, long j2) {
+                                ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:1048: error: cannot find symbol
+    private void a(@Nonnull rs.l.a aVar, int i2, int i3, int i4, long j2) {
+                                ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\e.java:1071: error: cannot find symbol
+    private void a(rs.l.a aVar, long j2) {
+                       ^
+  symbol:   class a
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\i.java:130: error: cannot find symbol
+    public int a(ColorUtility colorUtility, d dVar, rs.lpkg.c.a aVar, boolean z) {
+                                                             ^
+  symbol:   class a
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\m.java:38: error: cannot find symbol
+    public int a(rs.lpkg.d.a aVar) {
+                          ^
+  symbol:   class a
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:3: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:4: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_56.java:3: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_56.java:10: error: cannot find symbol
+    private i b;
+            ^
+  symbol:   class i
+  location: class class_56
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_57.java:3: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_56.java:12: error: cannot find symbol
+    private i a = new i();
+            ^
+  symbol:   class i
+  location: class class_56
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_56.java:52: error: cannot find symbol
+    public i a() {
+           ^
+  symbol:   class i
+  location: class class_56
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_56.java:56: error: cannot find symbol
+    public i b() {
+           ^
+  symbol:   class i
+  location: class class_56
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_57.java:8: error: cannot find symbol
+    private i c;
+            ^
+  symbol:   class i
+  location: class class_57
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:15: error: cannot find symbol
+    private final i b = new i();
+                  ^
+  symbol:   class i
+  location: class class_61
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:16: error: cannot find symbol
+    private final List<bU> c = new ArrayList();
+                       ^
+  symbol:   class bU
+  location: class class_61
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:95: error: cannot find symbol
+    public i b() {
+           ^
+  symbol:   class i
+  location: class class_61
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_61.java:99: error: cannot find symbol
+    public List<bU> c() {
+                ^
+  symbol:   class bU
+  location: class class_61
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_629.java:12: error: cannot find symbol
+    protected final cc<T> c;
+                    ^
+  symbol:   class cc
+  location: class class_629<T>
+  where T is a type-variable:
+    T extends Object declared in class class_629
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_629.java:110: error: cannot find symbol
+    public cc<T> f() {
+           ^
+  symbol:   class cc
+  location: class class_629<T>
+  where T is a type-variable:
+    T extends Object declared in class class_629
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_106.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_106.java:33: error: cannot find symbol
+    public static cc<ItemComposition> b() {
+                  ^
+  symbol:   class cc
+  location: class class_106
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ItemComposition.java:6: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ItemComposition.java:110: error: cannot find symbol
+    public static cc<ItemComposition> c = new cc<>(a + 1, 1.0f);
+                  ^
+  symbol:   class cc
+  location: class ItemComposition
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_112.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_112.java:11: error: cannot find symbol
+    public static final cc<String> a = new cc<>();
+                        ^
+  symbol:   class cc
+  location: class class_112
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_113.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_113.java:7: error: cannot find symbol
+    public static cc<class_113> a = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class class_113
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_116.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_116.java:11: error: cannot find symbol
+    public static final cc<class_117> a = new cc<>();
+                        ^
+  symbol:   class cc
+  location: class class_116
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_125.java:3: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_125.java:14: error: cannot find symbol
+    private final bU b = new bU();
+                  ^
+  symbol:   class bU
+  location: class class_125
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_125.java:48: error: cannot find symbol
+    public bU c() {
+           ^
+  symbol:   class bU
+  location: class class_125
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:3: error: package com.apple.eawt does not exist
+import com.apple.eawt.FullScreenAdapter;
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:4: error: package com.apple.eawt does not exist
+import com.apple.eawt.FullScreenUtilities;
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:5: error: package com.apple.eawt.event does not exist
+import com.apple.eawt.event.FullScreenEvent;
+                           ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:11: error: cannot find symbol
+class class_16 extends FullScreenAdapter {
+                       ^
+  symbol: class FullScreenAdapter
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:15: error: cannot find symbol
+    public void a(FullScreenEvent fullScreenEvent) {
+                  ^
+  symbol:   class FullScreenEvent
+  location: class class_16
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_16.java:20: error: cannot find symbol
+    public void b(FullScreenEvent fullScreenEvent) {
+                  ^
+  symbol:   class FullScreenEvent
+  location: class class_16
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_17.java:3: error: package com.apple.eawt does not exist
+import com.apple.eawt.Application;
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_17.java:4: error: package com.apple.eawt does not exist
+import com.apple.eawt.FullScreenUtilities;
+                     ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_176.java:4: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_176.java:5: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_176.java:22: error: cannot find symbol
+    public static final cc<Boolean> a = new cc<>();
+                        ^
+  symbol:   class cc
+  location: class class_176
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_176.java:23: error: cannot find symbol
+    public static final bU b = new bU();
+                        ^
+  symbol:   class bU
+  location: class class_176
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_253.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_253.java:24: error: cannot find symbol
+    private cc<class_257> p = new cc<>();
+            ^
+  symbol:   class cc
+  location: class class_253
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_253.java:101: error: cannot find symbol
+    public cc<class_257> d() {
+           ^
+  symbol:   class cc
+  location: class class_253
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_282.java:3: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_282.java:4: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_282.java:17: error: cannot find symbol
+    protected i i = new i();
+              ^
+  symbol:   class i
+  location: class class_282
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_282.java:18: error: cannot find symbol
+    protected i k = new i();
+              ^
+  symbol:   class i
+  location: class class_282
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_282.java:19: error: cannot find symbol
+    protected i j = new i();
+              ^
+  symbol:   class i
+  location: class class_282
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_283.java:3: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ObjectComposition.java:5: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ObjectComposition.java:105: error: cannot find symbol
+    public static cc<ObjectComposition> B = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class ObjectComposition
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_285.java:3: error: cannot find symbol
+import gnu.trove.f.M;
+                  ^
+  symbol:   class M
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_285.java:4: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_285.java:8: error: cannot find symbol
+    private final M<class_286> i;
+                  ^
+  symbol:   class M
+  location: class class_285
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_313.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_313.java:31: error: cannot find symbol
+    private final cc<List<class_310>> d = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class class_313
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_326.java:6: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_326.java:7: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_326.java:17: error: cannot find symbol
+    public static final cc<class_191> b = new cc<>();
+                        ^
+  symbol:   class cc
+  location: class class_326
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_326.java:19: error: cannot find symbol
+    public static final i d;
+                        ^
+  symbol:   class i
+  location: class class_326
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_332.java:4: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_332.java:15: error: cannot find symbol
+    private static final i C;
+                         ^
+  symbol:   class i
+  location: class class_332
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_495.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_495.java:14: error: cannot find symbol
+    private cc<class_494> c = new cc<>();
+            ^
+  symbol:   class cc
+  location: class class_495
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_495.java:111: error: cannot find symbol
+    public cc<class_494> e() {
+           ^
+  symbol:   class cc
+  location: class class_495
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_359.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_359.java:11: error: cannot find symbol
+    private final cc<List<T>> a = new cc<>();
+                  ^
+  symbol:   class cc
+  location: class class_359<T>
+  where T is a type-variable:
+    T extends class_354 declared in class class_359
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_359.java:33: error: cannot find symbol
+    public cc<List<T>> b() {
+           ^
+  symbol:   class cc
+  location: class class_359<T>
+  where T is a type-variable:
+    T extends class_354 declared in class class_359
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_36.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_36.java:16: error: cannot find symbol
+    public static cc a = new cc();
+                  ^
+  symbol:   class cc
+  location: class class_36
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_399.java:5: error: BZip2Constants is not public in org.apache.commons.compress.compressors.bzip2; cannot be accessed from outside package
+import org.apache.commons.compress.compressors.bzip2.BZip2Constants;
+                                                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_446.java:4: error: cannot find symbol
+import gnu.trove.f.b.dg;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_446.java:14: error: cannot find symbol
+    public static final dg<String> c = new dg<>();
+                        ^
+  symbol:   class dg
+  location: class class_446
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_488.java:3: error: cannot find symbol
+import com.fasterxml.jackson.core.b.a;
+                                   ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ui\apkg\f.java:52: error: cannot find symbol
+    private final rs.plugins.h.b t;
+                              ^
+  symbol:   class b
+  location: interface h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ui\apkg\g.java:30: error: cannot find symbol
+    private final rs.plugins.h.b v;
+                              ^
+  symbol:   class b
+  location: interface h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\ui\apkg\g.java:34: error: cannot find symbol
+    g(f fVar, Client client, EventBus eventBus, String str, rs.plugins.h.b bVar, @NonNull rs.ui.components.e eVar) {
+                                                                        ^
+  symbol:   class b
+  location: interface h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_560.java:3: error: cannot find symbol
+import gnu.trove.f.b.bU;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_560.java:7: error: cannot find symbol
+    public static bU d = new bU();
+                  ^
+  symbol:   class bU
+  location: class class_560
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_572.java:16: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_589.java:3: error: cannot find symbol
+import gnu.trove.e.a.k;
+                  ^
+  symbol:   class a
+  location: interface e
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_589.java:4: error: cannot find symbol
+import gnu.trove.f.b.cI;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_589.java:9: error: cannot find symbol
+    private static final cI<class_591> b = new cI<>(100010, 1.0f);
+                         ^
+  symbol:   class cI
+  location: class class_589
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_589.java:10: error: cannot find symbol
+    private static final k c = new k();
+                         ^
+  symbol:   class k
+  location: class class_589
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_592.java:4: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_592.java:9: error: cannot find symbol
+    private static final cc<int[][]> a = new cc<>();
+                         ^
+  symbol:   class cc
+  location: class class_592
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_625.java:3: error: cannot find symbol
+import gnu.trove.i.a.i;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_625.java:18: error: cannot find symbol
+    public static i c = new i();
+                  ^
+  symbol:   class i
+  location: class class_625
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_660.java:3: error: BZip2Constants is not public in org.apache.commons.compress.compressors.bzip2; cannot be accessed from outside package
+import org.apache.commons.compress.compressors.bzip2.BZip2Constants;
+                                                    ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:11: error: cannot find symbol
+import rs.gui.b.h;
+               ^
+  symbol:   class h
+  location: package rs.gui.b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:12: error: package rs.gui.c does not exist
+import rs.gui.c.a;
+               ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\h.java:27: error: cannot find symbol
+import rs.gui.bpkg.a.A;
+                    ^
+  symbol:   class A
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\h.java:28: error: cannot find symbol
+import rs.gui.bpkg.a.B;
+                    ^
+  symbol:   class B
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\h.java:41: error: cannot find symbol
+    private A m;
+            ^
+  symbol:   class A
+  location: class h
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:18: error: cannot find symbol
+   private a d;
+           ^
+  symbol:   class a
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:19: error: package rs.gui.a does not exist
+   private rs.gui.a.a e;
+                   ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:21: error: cannot find symbol
+   private h g;
+           ^
+  symbol:   class h
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:22: error: cannot find symbol
+   private e h;
+           ^
+  symbol:   class e
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:23: error: cannot find symbol
+   private rs.s.c.d i;
+               ^
+  symbol:   class c
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:85: error: cannot find symbol
+   public h a() {
+          ^
+  symbol:   class h
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:89: error: cannot find symbol
+   public a b() {
+          ^
+  symbol:   class a
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:97: error: package rs.gui.a does not exist
+   public rs.gui.a.a d() {
+                  ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:101: error: cannot find symbol
+   public rs.s.c.d e() {
+              ^
+  symbol:   class c
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\M.java:31: error: cannot find symbol
+import rs.l.j;
+           ^
+  symbol:   class j
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\N.java:7: error: cannot find symbol
+import rs.l.j;
+           ^
+  symbol:   class j
+  location: class l
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\r.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class r
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\r.java:11: error: cannot find symbol
+    r(e eVar) {
+      ^
+  symbol:   class e
+  location: class r
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\s.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\s.java:11: error: cannot find symbol
+    s(e eVar) {
+      ^
+  symbol:   class e
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\t.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class t
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\t.java:11: error: cannot find symbol
+    t(e eVar) {
+      ^
+  symbol:   class e
+  location: class t
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\a.java:10: error: cannot find symbol
+import rs.gui.b.h;
+               ^
+  symbol:   class h
+  location: package rs.gui.b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\a.java:13: error: cannot find symbol
+   public static JButton a(h var0) {
+                           ^
+  symbol:   class h
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\b.java:11: error: cannot find symbol
+import rs.gui.b.h;
+               ^
+  symbol:   class h
+  location: package rs.gui.b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\b.java:14: error: cannot find symbol
+   b(h var1) {
+     ^
+  symbol:   class h
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\C.java:9: error: cannot find symbol
+import rs.gui.b.f;
+               ^
+  symbol:   class f
+  location: package rs.gui.b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\C.java:10: error: cannot find symbol
+import rs.gui.b.h;
+               ^
+  symbol:   class h
+  location: package rs.gui.b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\C.java:11: error: package rs.gui.b.c does not exist
+import rs.gui.b.c.c;
+                 ^
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\b\a\C.java:14: error: cannot find symbol
+   C(h var1) {
+     ^
+  symbol:   class h
+  location: class C
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\p.java:5: error: cannot find symbol
+import rs.gui.bpkg.a.A;
+                    ^
+  symbol:   class A
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\c.java:17: error: cannot find symbol
+    final /* synthetic */ b c;
+                          ^
+  symbol:   class b
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\c.java:19: error: cannot find symbol
+    c(b bVar, rs.gui.bpkg.a aVar, JFrame jFrame) {
+      ^
+  symbol:   class b
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\d.java:10: error: cannot find symbol
+    final /* synthetic */ b b;
+                          ^
+  symbol:   class b
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\d.java:12: error: cannot find symbol
+    d(b bVar, JFrame jFrame) {
+      ^
+  symbol:   class b
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\bpkg\g.java:3: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\bpkg\g.java:9: error: cannot find symbol
+    private static final cc<g> c = new cc<>(b);
+                         ^
+  symbol:   class cc
+  location: class g
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:3: error: cannot find symbol
+import gnu.trove.f.b.cI;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:4: error: cannot find symbol
+import gnu.trove.f.b.cc;
+                  ^
+  symbol:   class b
+  location: interface f
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:5: error: cannot find symbol
+import gnu.trove.i.a.m;
+                  ^
+  symbol:   class a
+  location: interface i
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:16: error: cannot find symbol
+    private static final cc<d> d = new cc<>(100);
+                         ^
+  symbol:   class cc
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:18: error: cannot find symbol
+    private static final cI<a> f = new cI<>(100000);
+                         ^
+  symbol:   class cI
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\lpkg\cpkg\c.java:19: error: cannot find symbol
+    private static final m g = new m(100000);
+                         ^
+  symbol:   class m
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\a.java:78: error: cannot find symbol
+    private final rs.ui.components.a.d q;
+                                    ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\a.java:88: error: cannot find symbol
+    private a(q qVar, class_139 class_139Var, rs.plugins.g gVar, rs.ui.components.a.d dVar) {
+                                                                                   ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\n.java:163: error: cannot find symbol
+    public n(String str, String str2, String[] strArr, @Nullable rs.s.a aVar, @Nullable class_132 class_132Var, @Nullable class_134 class_134Var, @Nullable List<String> list) {
+                                                                     ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\q.java:163: error: cannot find symbol
+    public void a(rs.s.a aVar) {
+                      ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\q.java:172: error: cannot find symbol
+    public a b(rs.s.a aVar) {
+                   ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\q.java:190: error: cannot find symbol
+    void c(rs.s.a aVar) {
+               ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\q.java:199: error: cannot find symbol
+    void d(rs.s.a aVar) {
+               ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\w.java:24: error: cannot find symbol
+    private final rs.ui.components.b.a f;
+                                    ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\w.java:47: error: cannot find symbol
+    private rs.ui.components.b.a a(rs.ui.m mVar, String str, String str2) {
+                              ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\w.java:60: error: cannot find symbol
+    private rs.ui.components.b.a a(Provider<? extends rs.ui.m> provider, String str, String str2) {
+                              ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\bpkg\w.java:108: error: cannot find symbol
+    public void a(rs.s.a aVar) {
+                      ^
+  symbol:   class a
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\cpkg\g.java:22: error: cannot find symbol
+    private final rs.ui.components.b.a f;
+                                    ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\cpkg\g.java:23: error: cannot find symbol
+    private final rs.ui.components.b.a g;
+                                    ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\cpkg\g.java:50: error: cannot find symbol
+    private rs.ui.components.b.a a(m mVar, String str, String str2) {
+                              ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\fpkg\d.java:64: error: cannot find symbol
+    private rs.ui.components.a.d m;
+                              ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\fpkg\e.java:6: error: cannot find symbol
+class e extends com.google.c.c.a<List<f>> {
+                              ^
+  symbol:   class a
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\gpkg\a.java:18: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\o\e.java:64: error: cannot find symbol
+    private rs.ui.components.a.d r;
+                              ^
+  symbol:   class d
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\b.java:21: error: cannot find symbol
+    private final rs.plugins.q.b.a b;
+                                ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\b.java:123: error: cannot find symbol
+    public rs.plugins.q.b.a c() {
+                         ^
+  symbol:   class a
+  location: class b
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\bpkg\a.java:15: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\bpkg\b.java:13: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\t\h.java:13: error: cannot find symbol
+    private final rs.ui.components.b.a c;
+                                    ^
+  symbol:   class a
+  location: class b
+189 errors

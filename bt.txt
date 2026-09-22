@@ -1,0 +1,30 @@
+public interface gnu.trove.f.b {
+  public abstract byte a();
+  public abstract char b();
+  public abstract char a(byte, char);
+  public abstract char b(byte, char);
+  public abstract void a(java.util.Map<? extends java.lang.Byte, ? extends java.lang.Character>);
+  public abstract void a(gnu.trove.f.b);
+  public abstract char b(byte);
+  public abstract void clear();
+  public abstract boolean isEmpty();
+  public abstract char c(byte);
+  public abstract int size();
+  public abstract gnu.trove.i.a c();
+  public abstract byte[] d();
+  public abstract byte[] a(byte[]);
+  public abstract gnu.trove.b e();
+  public abstract char[] f();
+  public abstract char[] a(char[]);
+  public abstract boolean a(char);
+  public abstract boolean a(byte);
+  public abstract gnu.trove.d.c g();
+  public abstract boolean a(gnu.trove.g.h);
+  public abstract boolean a(gnu.trove.g.q);
+  public abstract boolean a(gnu.trove.g.b);
+  public abstract void a(gnu.trove.b.b);
+  public abstract boolean b(gnu.trove.g.b);
+  public abstract boolean d(byte);
+  public abstract boolean c(byte, char);
+  public abstract char a(byte, char, char);
+}

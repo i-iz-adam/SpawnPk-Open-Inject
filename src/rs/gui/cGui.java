@@ -1,13 +1,14 @@
 package rs.gui;
 
 import javax.swing.AbstractButton;
+import org.pushingpixels.substance.api.SubstanceSkin;
 import org.pushingpixels.substance.api.shaper.ClassicButtonShaper;
 
 /* JADX INFO: loaded from: client-final.jar:rs/gui/c.class */
-class c extends ClassicButtonShaper {
-    final /* synthetic */ b a;
+class cGui extends ClassicButtonShaper {
+    final /* synthetic */ SubstanceSkin a;
 
-    c(b bVar) {
+    cGui(SubstanceSkin bVar) {
         this.a = bVar;
     }
 

@@ -10,7 +10,7 @@ import javax.swing.border.EmptyBorder;
 public class h extends rs.ui.m {
     private final JPanel a;
     private final rs.ui.components.bpkg.e b;
-    private final rs.ui.components.b.a c;
+    private final rs.ui.components.bpkg.a c;
     private final l d;
     private final g e;
 
@@ -23,7 +23,7 @@ public class h extends rs.ui.m {
         this.e = gVar;
         setLayout(new BorderLayout());
         setBackground(rs.gui.d.d);
-        rs.ui.components.b.a aVar = new rs.ui.components.bpkg.a("Your Listings", this.b, (JComponent) gVar);
+        rs.ui.components.bpkg.a aVar = new rs.ui.components.bpkg.a("Your Listings", this.b, (JComponent) gVar);
         this.c = new rs.ui.components.bpkg.a("Search", this.b, (JComponent) lVar);
         this.b.setBorder(new EmptyBorder(5, 0, 0, 0));
         this.b.a(aVar);

@@ -4,7 +4,7 @@ import java.awt.Frame;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import rs.class_17;
-import rs.l.j;
+import rs.lpkg.j;
 
 class N extends MouseAdapter {
    N(Frame var1) {

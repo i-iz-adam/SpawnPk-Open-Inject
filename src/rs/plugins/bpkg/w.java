@@ -21,7 +21,7 @@ class w extends rs.ui.m {
     private final JPanel c;
     private final EventBus d;
     private final q e;
-    private final rs.ui.components.b.a f;
+    private final rs.ui.components.bpkg.a f;
     private boolean g;
     private rs.ui.m k;
     private boolean l;
@@ -44,8 +44,8 @@ class w extends rs.ui.m {
         this.f = a(qVar.e(), "config_icon_lg.png", "Configuration");
     }
 
-    private rs.ui.components.b.a a(rs.ui.m mVar, String str, String str2) {
-        rs.ui.components.b.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) w.class, str)), this.a, (JComponent) null);
+    private rs.ui.components.bpkg.a a(rs.ui.m mVar, String str, String str2) {
+        rs.ui.components.bpkg.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) w.class, str)), this.a, (JComponent) null);
         aVar.setToolTipText(str2);
         this.a.a(aVar);
         this.c.add(str, mVar.l());
@@ -57,8 +57,8 @@ class w extends rs.ui.m {
         return aVar;
     }
 
-    private rs.ui.components.b.a a(Provider<? extends rs.ui.m> provider, String str, String str2) {
-        rs.ui.components.b.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) w.class, str)), this.a, (JComponent) null);
+    private rs.ui.components.bpkg.a a(Provider<? extends rs.ui.m> provider, String str, String str2) {
+        rs.ui.components.bpkg.a aVar = new rs.ui.components.bpkg.a(new ImageIcon(class_12.b((Class<?>) w.class, str)), this.a, (JComponent) null);
         aVar.setToolTipText(str2);
         this.a.a(aVar);
         aVar.a(() -> {
@@ -105,7 +105,7 @@ class w extends rs.ui.m {
         this.e.b(str);
     }
 
-    public void a(rs.s.a aVar) {
+    public void a(rs.plugins.a aVar) {
         this.a.b(this.f);
         this.e.a(aVar);
     }

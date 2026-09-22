@@ -75,7 +75,7 @@ public class a extends rs.ui.m {
     private final q n;
     private final class_139 o;
     private final rs.plugins.g p;
-    private final rs.ui.components.a.d q;
+    private final rs.ui.components.apkg.d q;
     private final ListCellRenderer<Enum<?>> r;
     private final h s;
     private final JLabel t;
@@ -85,7 +85,7 @@ public class a extends rs.ui.m {
     static final /* synthetic */ boolean g;
 
     @Inject
-    private a(q qVar, class_139 class_139Var, rs.plugins.g gVar, rs.ui.components.a.d dVar) {
+    private a(q qVar, class_139 class_139Var, rs.plugins.g gVar, rs.ui.components.apkg.d dVar) {
         super(false);
         this.r = new rs.ui.components.c();
         this.w = null;

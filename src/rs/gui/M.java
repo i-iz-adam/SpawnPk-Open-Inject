@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import rs.class_12;
 import rs.class_15;
-import rs.l.j;
+import rs.lpkg.j;
 import rs.ui.l;
 
 public class M {

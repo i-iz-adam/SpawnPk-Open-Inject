@@ -113,7 +113,7 @@ public class q extends rs.ui.m {
 
     void b() {
         this.p.forEach(oVar -> {
-            rs.s.a aVarJ = oVar.c().j();
+            rs.plugins.a aVarJ = oVar.c().j();
             if (aVarJ != null) {
                 oVar.b(this.f.d(aVarJ));
             }
@@ -160,7 +160,7 @@ public class q extends rs.ui.m {
         }
     }
 
-    public void a(rs.s.a aVar) {
+    public void a(rs.plugins.a aVar) {
         for (o oVar : this.p) {
             if (oVar.c().j() == aVar) {
                 a(oVar.c());
@@ -169,7 +169,7 @@ public class q extends rs.ui.m {
         }
     }
 
-    public a b(rs.s.a aVar) {
+    public a b(rs.plugins.a aVar) {
         for (o oVar : this.p) {
             if (oVar.c().j() == aVar) {
                 a aVar2 = this.g.get();
@@ -187,7 +187,7 @@ public class q extends rs.ui.m {
         this.l.c(aVar);
     }
 
-    void c(rs.s.a aVar) {
+    void c(rs.plugins.a aVar) {
         this.f.a(aVar, true);
         try {
             this.f.b(aVar);
@@ -196,7 +196,7 @@ public class q extends rs.ui.m {
         }
     }
 
-    void d(rs.s.a aVar) {
+    void d(rs.plugins.a aVar) {
         this.f.a(aVar, false);
         try {
             this.f.c(aVar);

@@ -84,7 +84,7 @@ public class b extends SubstanceSkin {
       this.addOverlayPainter(var18, new DecorationAreaType[]{DecorationAreaType.FOOTER});
       this.setTabFadeStart(0.18);
       this.setTabFadeEnd(0.18);
-      this.buttonShaper = new c(this);
+      this.buttonShaper = new cGui(this);
       this.watermark = null;
       this.fillPainter = new FractionBasedFillPainter(
          "RuneLite",

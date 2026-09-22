@@ -1,0 +1,61 @@
+rs\lpkg\e.java:416 [cannot find symbol] private void a(rs.l.a aVar) { | symbol:   class a | 
+rs\lpkg\e.java:432 [cannot find symbol] private void b(rs.l.a aVar) { | symbol:   class a | 
+rs\lpkg\e.java:979 [cannot find symbol] public void a(rs.lpkg.c.a aVar, int i2, int i3, int i4, int i5, boolean z) { | symbol:   class a | 
+rs\lpkg\e.java:1038 [cannot find symbol] private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull IntBuffer intBuffer, int i3, long j2) { | symbol:   class a | 
+rs\lpkg\e.java:1043 [cannot find symbol] private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull FloatBuffer floatBuffer, int i3, long j2) { | symbol:   class a | 
+rs\lpkg\e.java:1048 [cannot find symbol] private void a(@Nonnull rs.l.a aVar, int i2, int i3, int i4, long j2) { | symbol:   class a | 
+rs\lpkg\e.java:1071 [cannot find symbol] private void a(rs.l.a aVar, long j2) { | symbol:   class a | 
+rs\lpkg\i.java:130 [cannot find symbol] public int a(ColorUtility colorUtility, d dVar, rs.lpkg.c.a aVar, boolean z) { | symbol:   class a | 
+rs\lpkg\m.java:38 [cannot find symbol] public int a(rs.lpkg.d.a aVar) { | symbol:   class a | 
+rs\class_488.java:3 [cannot find symbol] import com.fasterxml.jackson.core.b.a; | symbol:   class a | 
+rs\ui\apkg\f.java:52 [cannot find symbol] private final rs.plugins.h.b t; | symbol:   class b | 
+rs\ui\apkg\g.java:30 [cannot find symbol] private final rs.plugins.h.b v; | symbol:   class b | 
+rs\ui\apkg\g.java:34 [cannot find symbol] g(f fVar, Client client, EventBus eventBus, String str, rs.plugins.h.b bVar, @NonNull rs.ui.components.e eVar) | symbol:   class b | 
+rs\class_572.java:16 [cannot find symbol] import rs.gui.d; | symbol:   class d | 
+rs\gui\J.java:12 [package rs.gui.c does not exist] import rs.gui.c.a; |  | 
+rs\gui\bpkg\h.java:27 [cannot find symbol] import rs.gui.bpkg.a.A; | symbol:   class A | 
+rs\gui\bpkg\h.java:28 [cannot find symbol] import rs.gui.bpkg.a.B; | symbol:   class B | 
+rs\gui\bpkg\h.java:41 [cannot find symbol] private A m; | symbol:   class A | 
+rs\gui\J.java:18 [cannot find symbol] private a d; | symbol:   class a | 
+rs\gui\J.java:19 [package rs.gui.a does not exist] private rs.gui.a.a e; |  | 
+rs\gui\J.java:22 [cannot find symbol] private e h; | symbol:   class e | 
+rs\gui\J.java:23 [cannot find symbol] private rs.s.c.d i; | symbol:   class c | 
+rs\gui\J.java:89 [cannot find symbol] public a b() { | symbol:   class a | 
+rs\gui\J.java:97 [package rs.gui.a does not exist] public rs.gui.a.a d() { |  | 
+rs\gui\J.java:101 [cannot find symbol] public rs.s.c.d e() { | symbol:   class c | 
+rs\gui\M.java:31 [cannot find symbol] import rs.l.j; | symbol:   class j | 
+rs\gui\N.java:7 [cannot find symbol] import rs.l.j; | symbol:   class j | 
+rs\gui\r.java:9 [cannot find symbol] final /* synthetic */ e a; | symbol:   class e | 
+rs\gui\r.java:11 [cannot find symbol] r(e eVar) { | symbol:   class e | 
+rs\gui\s.java:9 [cannot find symbol] final /* synthetic */ e a; | symbol:   class e | 
+rs\gui\s.java:11 [cannot find symbol] s(e eVar) { | symbol:   class e | 
+rs\gui\t.java:9 [cannot find symbol] final /* synthetic */ e a; | symbol:   class e | 
+rs\gui\t.java:11 [cannot find symbol] t(e eVar) { | symbol:   class e | 
+rs\gui\bpkg\p.java:5 [cannot find symbol] import rs.gui.bpkg.a.A; | symbol:   class A | 
+rs\gui\bpkg\apkg\c.java:17 [cannot find symbol] final /* synthetic */ b c; | symbol:   class b | 
+rs\gui\bpkg\apkg\c.java:19 [cannot find symbol] c(b bVar, rs.gui.bpkg.a aVar, JFrame jFrame) { | symbol:   class b | 
+rs\gui\bpkg\apkg\d.java:10 [cannot find symbol] final /* synthetic */ b b; | symbol:   class b | 
+rs\gui\bpkg\apkg\d.java:12 [cannot find symbol] d(b bVar, JFrame jFrame) { | symbol:   class b | 
+rs\plugins\bpkg\a.java:78 [cannot find symbol] private final rs.ui.components.a.d q; | symbol:   class d | 
+rs\plugins\bpkg\a.java:88 [cannot find symbol] private a(q qVar, class_139 class_139Var, rs.plugins.g gVar, rs.ui.components.a.d dVar) { | symbol:   class d | 
+rs\plugins\bpkg\n.java:163 [cannot find symbol] public n(String str, String str2, String[] strArr, @Nullable rs.s.a aVar, @Nullable class_132 class_132Var, @N | symbol:   class a | 
+rs\plugins\bpkg\q.java:163 [cannot find symbol] public void a(rs.s.a aVar) { | symbol:   class a | 
+rs\plugins\bpkg\q.java:172 [cannot find symbol] public a b(rs.s.a aVar) { | symbol:   class a | 
+rs\plugins\bpkg\q.java:190 [cannot find symbol] void c(rs.s.a aVar) { | symbol:   class a | 
+rs\plugins\bpkg\q.java:199 [cannot find symbol] void d(rs.s.a aVar) { | symbol:   class a | 
+rs\plugins\bpkg\w.java:24 [cannot find symbol] private final rs.ui.components.b.a f; | symbol:   class a | 
+rs\plugins\bpkg\w.java:47 [cannot find symbol] private rs.ui.components.b.a a(rs.ui.m mVar, String str, String str2) { | symbol:   class a | 
+rs\plugins\bpkg\w.java:60 [cannot find symbol] private rs.ui.components.b.a a(Provider<? extends rs.ui.m> provider, String str, String str2) { | symbol:   class a | 
+rs\plugins\bpkg\w.java:108 [cannot find symbol] public void a(rs.s.a aVar) { | symbol:   class a | 
+rs\plugins\cpkg\g.java:22 [cannot find symbol] private final rs.ui.components.b.a f; | symbol:   class a | 
+rs\plugins\cpkg\g.java:23 [cannot find symbol] private final rs.ui.components.b.a g; | symbol:   class a | 
+rs\plugins\cpkg\g.java:50 [cannot find symbol] private rs.ui.components.b.a a(m mVar, String str, String str2) { | symbol:   class a | 
+rs\plugins\fpkg\d.java:64 [cannot find symbol] private rs.ui.components.a.d m; | symbol:   class d | 
+rs\plugins\fpkg\e.java:6 [cannot find symbol] class e extends com.google.c.c.a<List<f>> { | symbol:   class a | 
+rs\plugins\gpkg\a.java:18 [cannot find symbol] import rs.gui.d; | symbol:   class d | 
+rs\plugins\o\e.java:64 [cannot find symbol] private rs.ui.components.a.d r; | symbol:   class d | 
+rs\plugins\q\b.java:21 [cannot find symbol] private final rs.plugins.q.b.a b; | symbol:   class a | 
+rs\plugins\q\b.java:123 [cannot find symbol] public rs.plugins.q.b.a c() { | symbol:   class a | 
+rs\plugins\q\bpkg\a.java:15 [cannot find symbol] import rs.gui.d; | symbol:   class d | 
+rs\plugins\q\bpkg\b.java:13 [cannot find symbol] import rs.gui.d; | symbol:   class d | 
+rs\plugins\t\h.java:13 [cannot find symbol] private final rs.ui.components.b.a c; | symbol:   class a | 

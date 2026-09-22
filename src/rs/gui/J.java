@@ -20,7 +20,7 @@ public class J extends JPanel {
    private G f;
    private h g;
    private e h;
-   private rs.s.c.d i;
+    private rs.plugins.cpkg.d i;
 
    public J() {
       this.addMouseListener(new K(this));
@@ -98,7 +98,7 @@ public class J extends JPanel {
       return this.e;
    }
 
-   public rs.s.c.d e() {
+    public rs.plugins.cpkg.d e() {
       return this.i;
    }
 }

@@ -27,11 +27,11 @@ public class g extends class_315 {
     private static final int s = 6;
     private final f t;
     private final EventBus u;
-    private final rs.plugins.h.b v;
+    private final rs.plugins.hpkg.b v;
     private rs.ui.components.e w;
     private final List<c> x = new CopyOnWriteArrayList();
 
-    g(f fVar, Client client, EventBus eventBus, String str, rs.plugins.h.b bVar, @NonNull rs.ui.components.e eVar) {
+    g(f fVar, Client client, EventBus eventBus, String str, rs.plugins.hpkg.b bVar, @NonNull rs.ui.components.e eVar) {
         if (eVar == null) {
             throw new NullPointerException("orientation is marked non-null but is null");
         }

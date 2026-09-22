@@ -1,0 +1,28 @@
+public interface gnu.trove.i {
+  public static final long a;
+  public abstract short I_();
+  public abstract int size();
+  public abstract boolean isEmpty();
+  public abstract boolean y_(short);
+  public abstract gnu.trove.d.ar b();
+  public abstract short[] c();
+  public abstract short[] a(short[]);
+  public abstract boolean b(short);
+  public abstract boolean c(short);
+  public abstract boolean a(java.util.Collection<?>);
+  public abstract boolean a(gnu.trove.i);
+  public abstract boolean b(short[]);
+  public abstract boolean b(java.util.Collection<? extends java.lang.Short>);
+  public abstract boolean b(gnu.trove.i);
+  public abstract boolean c(short[]);
+  public abstract boolean c(java.util.Collection<?>);
+  public abstract boolean c(gnu.trove.i);
+  public abstract boolean d(short[]);
+  public abstract boolean d(java.util.Collection<?>);
+  public abstract boolean d(gnu.trove.i);
+  public abstract boolean e(short[]);
+  public abstract void clear();
+  public abstract boolean g_(gnu.trove.g.as);
+  public abstract boolean equals(java.lang.Object);
+  public abstract int hashCode();
+}

@@ -1,0 +1,88 @@
+Note: Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\class_572.java:16: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\J.java:22: error: cannot find symbol
+   private e h;
+           ^
+  symbol:   class e
+  location: class J
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\r.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class r
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\r.java:11: error: cannot find symbol
+    r(e eVar) {
+      ^
+  symbol:   class e
+  location: class r
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\s.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\s.java:11: error: cannot find symbol
+    s(e eVar) {
+      ^
+  symbol:   class e
+  location: class s
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\t.java:9: error: cannot find symbol
+    final /* synthetic */ e a;
+                          ^
+  symbol:   class e
+  location: class t
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\t.java:11: error: cannot find symbol
+    t(e eVar) {
+      ^
+  symbol:   class e
+  location: class t
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\p.java:5: error: cannot find symbol
+import rs.gui.bpkg.a.A;
+                    ^
+  symbol:   class A
+  location: class a
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\c.java:17: error: cannot find symbol
+    final /* synthetic */ b c;
+                          ^
+  symbol:   class b
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\c.java:19: error: cannot find symbol
+    c(b bVar, rs.gui.bpkg.a aVar, JFrame jFrame) {
+      ^
+  symbol:   class b
+  location: class c
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\d.java:10: error: cannot find symbol
+    final /* synthetic */ b b;
+                          ^
+  symbol:   class b
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\gui\bpkg\apkg\d.java:12: error: cannot find symbol
+    d(b bVar, JFrame jFrame) {
+      ^
+  symbol:   class b
+  location: class d
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\gpkg\a.java:18: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\bpkg\a.java:15: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+C:\Users\naxos\Documents\SpawnPK-Open-Client\src\rs\plugins\q\bpkg\b.java:13: error: cannot find symbol
+import rs.gui.d;
+             ^
+  symbol:   class d
+  location: package rs.gui
+16 errors

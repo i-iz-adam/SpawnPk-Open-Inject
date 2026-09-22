@@ -413,7 +413,7 @@ public class e {
         a(this.ab);
     }
 
-    private void a(rs.l.a aVar) {
+    private void a(rs.lpkg.apkg.a aVar) {
         aVar.b = GL43C.glGenBuffers();
     }
 
@@ -429,7 +429,7 @@ public class e {
         b(this.ab);
     }
 
-    private void b(rs.l.a aVar) {
+    private void b(rs.lpkg.apkg.a aVar) {
         if (aVar.b != -1) {
             GL43C.glDeleteBuffers(aVar.b);
             aVar.b = -1;
@@ -976,7 +976,7 @@ public class e {
         return ((i18 + (((i3 * i9) >> 16) + i19)) * iAK) / i16 > i13 && ((i18 - (((i3 * i10) >> 16) + i19)) * iAK) / i16 < i14;
     }
 
-    public void a(rs.lpkg.c.a aVar, int i2, int i3, int i4, int i5, boolean z) {
+    public void a(rs.lpkg.cpkg.a aVar, int i2, int i3, int i4, int i5, boolean z) {
         if (this.v == a.a) {
             return;
         }
@@ -1035,17 +1035,17 @@ public class e {
         }
     }
 
-    private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull IntBuffer intBuffer, int i3, long j2) {
+    private void a(@Nonnull rs.lpkg.apkg.a aVar, int i2, @Nonnull IntBuffer intBuffer, int i3, long j2) {
         a(aVar, i2, intBuffer.remaining() << 2, i3, j2);
         GL43C.glBufferSubData(i2, 0L, intBuffer);
     }
 
-    private void a(@Nonnull rs.l.a aVar, int i2, @Nonnull FloatBuffer floatBuffer, int i3, long j2) {
+    private void a(@Nonnull rs.lpkg.apkg.a aVar, int i2, @Nonnull FloatBuffer floatBuffer, int i3, long j2) {
         a(aVar, i2, floatBuffer.remaining() << 2, i3, j2);
         GL43C.glBufferSubData(i2, 0L, floatBuffer);
     }
 
-    private void a(@Nonnull rs.l.a aVar, int i2, int i3, int i4, long j2) {
+    private void a(@Nonnull rs.lpkg.apkg.a aVar, int i2, int i3, int i4, long j2) {
         GL43C.glBindBuffer(i2, aVar.b);
         if (this.af.glInvalidateBufferData != 0) {
             GL43C.glInvalidateBufferData(aVar.b);
@@ -1068,7 +1068,7 @@ public class e {
         return (i7 | (i7 >> 16)) + 1;
     }
 
-    private void a(rs.l.a aVar, long j2) {
+    private void a(rs.lpkg.apkg.a aVar, long j2) {
         if (this.v == a.c) {
             if (aVar.d != -1) {
                 CL10.clReleaseMemObject(aVar.d);

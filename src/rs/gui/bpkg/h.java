@@ -24,8 +24,8 @@ import rs.Client;
 import rs.Configuration;
 import rs.gui.F;
 import rs.gui.Launcher;
-import rs.gui.bpkg.a.A;
-import rs.gui.bpkg.a.B;
+import rs.gui.bpkg.apkg.A;
+import rs.gui.bpkg.apkg.B;
 
 /* JADX INFO: loaded from: client-final.jar:rs/gui/b/h.class */
 public class h extends rs.ui.m {

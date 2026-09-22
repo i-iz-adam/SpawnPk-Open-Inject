@@ -1,0 +1,28 @@
+public interface gnu.trove.f.M<V> {
+  public abstract int f();
+  public abstract int size();
+  public abstract boolean isEmpty();
+  public abstract boolean w_(int);
+  public abstract boolean a(java.lang.Object);
+  public abstract V b(int);
+  public abstract V a(int, V);
+  public abstract V b(int, V);
+  public abstract V c(int);
+  public abstract void a(java.util.Map<? extends java.lang.Integer, ? extends V>);
+  public abstract void a(gnu.trove.f.M<? extends V>);
+  public abstract void clear();
+  public abstract gnu.trove.i.e a();
+  public abstract int[] b();
+  public abstract int[] a(int[]);
+  public abstract java.util.Collection<V> c();
+  public abstract java.lang.Object[] d();
+  public abstract V[] a(V[]);
+  public abstract gnu.trove.d.S<V> e();
+  public abstract boolean a(gnu.trove.g.R);
+  public abstract boolean a(gnu.trove.g.aj<? super V>);
+  public abstract boolean a(gnu.trove.g.Q<? super V>);
+  public abstract void a(gnu.trove.b.g<V, V>);
+  public abstract boolean b(gnu.trove.g.Q<? super V>);
+  public abstract boolean equals(java.lang.Object);
+  public abstract int hashCode();
+}
