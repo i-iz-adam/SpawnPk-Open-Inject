@@ -1,0 +1,127 @@
+package rs;
+
+import com.sun.jna.platform.win32.aU;
+import org.lwjgl.opengl.EXTMemoryObject;
+import org.lwjgl.opengl.EXTMemoryObjectWin32;
+import org.lwjgl.opengl.EXTSemaphore;
+import org.lwjgl.opengl.EXTSemaphoreWin32;
+import org.lwjgl.opengl.NVMemoryAttachment;
+import org.lwjgl.opengl.NVMeshShader;
+import org.lwjgl.opengl.NVPrimitiveShadingRate;
+import org.lwjgl.opengl.NVShadingRateImage;
+import org.lwjgl.system.windows.User32;
+
+/* JADX INFO: loaded from: client-final.jar:rs/class_489.class */
+public class class_489 extends class_360 {
+    public class_489(class_338[] class_338VarArr) {
+        super(class_338VarArr);
+    }
+
+    @Override // rs.class_360
+    public void a() {
+        Widget widgetD = d(39982);
+        widgetD.k(52);
+        addSprite(39981, "construction/sprite 1");
+        b(39981, 0, 0, 0, widgetD);
+        e(39980);
+        b(39980, 82, 56, 1, widgetD);
+        a(EXTMemoryObject.GL_TILING_TYPES_EXT, "Name1", this.a, 0, class_492.e, false);
+        b(EXTMemoryObject.GL_TILING_TYPES_EXT, 140, 56, 2, widgetD);
+        a(EXTMemoryObject.GL_OPTIMAL_TILING_EXT, "Req1.1", this.a, 0, 13421823, false);
+        b(EXTMemoryObject.GL_OPTIMAL_TILING_EXT, 140, 67, 3, widgetD);
+        a(EXTMemoryObject.GL_LINEAR_TILING_EXT, "Req1.2", this.a, 0, 13421823, false);
+        b(EXTMemoryObject.GL_LINEAR_TILING_EXT, 140, 76, 4, widgetD);
+        a(38278, "Req1.3", this.a, 0, 13421823, false);
+        b(38278, 140, 85, 5, widgetD);
+        a(38279, "Req1.4", this.a, 0, 13421823, false);
+        b(38279, 140, 94, 6, widgetD);
+        a(38280, "lvl1", this.a, 0, class_492.e, false);
+        b(38280, 88, 89, 7, widgetD);
+        a(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D12_TILEPOOL_EXT, "Name2", this.a, 0, class_492.e, false);
+        b(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D12_TILEPOOL_EXT, 336, 56, 8, widgetD);
+        a(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D12_RESOURCE_EXT, "req2.1", this.a, 0, 13421823, false);
+        b(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D12_RESOURCE_EXT, 336, 67, 9, widgetD);
+        a(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D11_IMAGE_EXT, "req2.2", this.a, 0, 13421823, false);
+        b(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D11_IMAGE_EXT, 336, 76, 10, widgetD);
+        a(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D11_IMAGE_KMT_EXT, "req2.3", this.a, 0, 13421823, false);
+        b(EXTMemoryObjectWin32.GL_HANDLE_TYPE_D3D11_IMAGE_KMT_EXT, 336, 85, 11, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_GENERAL_EXT, "req2.4", this.a, 0, 13421823, false);
+        b(EXTSemaphore.GL_LAYOUT_GENERAL_EXT, 336, 94, 12, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_COLOR_ATTACHMENT_EXT, "lvl2", this.a, 0, class_492.e, false);
+        b(EXTSemaphore.GL_LAYOUT_COLOR_ATTACHMENT_EXT, 284, 89, 13, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_DEPTH_STENCIL_ATTACHMENT_EXT, "Name3", this.a, 0, class_492.e, false);
+        b(EXTSemaphore.GL_LAYOUT_DEPTH_STENCIL_ATTACHMENT_EXT, 140, 126, 14, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_DEPTH_STENCIL_READ_ONLY_EXT, "Req3.1", this.a, 0, 13421823, false);
+        b(EXTSemaphore.GL_LAYOUT_DEPTH_STENCIL_READ_ONLY_EXT, 140, 135, 15, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_SHADER_READ_ONLY_EXT, "Req3.2", this.a, 0, 13421823, false);
+        b(EXTSemaphore.GL_LAYOUT_SHADER_READ_ONLY_EXT, 140, 144, 16, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_TRANSFER_SRC_EXT, "Req3.3", this.a, 0, 13421823, false);
+        b(EXTSemaphore.GL_LAYOUT_TRANSFER_SRC_EXT, 140, 153, 17, widgetD);
+        a(EXTSemaphore.GL_LAYOUT_TRANSFER_DST_EXT, "Req3.4", this.a, 0, 13421823, false);
+        b(EXTSemaphore.GL_LAYOUT_TRANSFER_DST_EXT, 140, 162, 18, widgetD);
+        a(EXTSemaphoreWin32.GL_HANDLE_TYPE_D3D12_FENCE_EXT, "lvl3", this.a, 0, class_492.e, false);
+        b(EXTSemaphoreWin32.GL_HANDLE_TYPE_D3D12_FENCE_EXT, 88, 158, 19, widgetD);
+        a(38293, "Name4", this.a, 0, class_492.e, false);
+        b(38293, 336, 126, 20, widgetD);
+        a(38294, "Req4.1", this.a, 0, 13421823, false);
+        b(38294, 336, 135, 21, widgetD);
+        a(38295, "Req4.2", this.a, 0, 13421823, false);
+        b(38295, 336, 144, 22, widgetD);
+        a(38296, "Req4.3", this.a, 0, 13421823, false);
+        b(38296, 336, 153, 23, widgetD);
+        a(38297, "Req4.4", this.a, 0, 13421823, false);
+        b(38297, 336, 162, 24, widgetD);
+        a(38298, "lvl4", this.a, 0, class_492.e, false);
+        b(38298, 284, 158, 25, widgetD);
+        a(38299, "Name5", this.a, 0, class_492.e, false);
+        b(38299, 140, 196, 26, widgetD);
+        a(NVMeshShader.GL_UNIFORM_BLOCK_REFERENCED_BY_MESH_SHADER_NV, "req5.1", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_UNIFORM_BLOCK_REFERENCED_BY_MESH_SHADER_NV, 140, aU.ho_, 27, widgetD);
+        a(NVMeshShader.GL_UNIFORM_BLOCK_REFERENCED_BY_TASK_SHADER_NV, "req5.2", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_UNIFORM_BLOCK_REFERENCED_BY_TASK_SHADER_NV, 140, 214, 28, widgetD);
+        a(NVMeshShader.GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_MESH_SHADER_NV, "req5.3", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_MESH_SHADER_NV, 140, 223, 29, widgetD);
+        a(NVMeshShader.GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TASK_SHADER_NV, "req5.4", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TASK_SHADER_NV, 140, aU.hK_, 30, widgetD);
+        a(NVMeshShader.GL_REFERENCED_BY_MESH_SHADER_NV, "lvl5", this.a, 0, class_492.e, false);
+        b(NVMeshShader.GL_REFERENCED_BY_MESH_SHADER_NV, 89, 228, 31, widgetD);
+        a(NVMeshShader.GL_REFERENCED_BY_TASK_SHADER_NV, "Name6", this.a, 0, class_492.e, false);
+        b(NVMeshShader.GL_REFERENCED_BY_TASK_SHADER_NV, 336, 196, 32, widgetD);
+        a(NVMeshShader.GL_MAX_MESH_WORK_GROUP_INVOCATIONS_NV, "req6.1", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_MAX_MESH_WORK_GROUP_INVOCATIONS_NV, 336, aU.ho_, 33, widgetD);
+        a(NVMeshShader.GL_MAX_TASK_WORK_GROUP_INVOCATIONS_NV, "req6.2", this.a, 0, 13421823, false);
+        b(NVMeshShader.GL_MAX_TASK_WORK_GROUP_INVOCATIONS_NV, 336, 214, 34, widgetD);
+        a(NVMemoryAttachment.GL_ATTACHED_MEMORY_OBJECT_NV, "req6.3", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_ATTACHED_MEMORY_OBJECT_NV, 336, 223, 35, widgetD);
+        a(NVMemoryAttachment.GL_ATTACHED_MEMORY_OFFSET_NV, "req6.4", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_ATTACHED_MEMORY_OFFSET_NV, 336, aU.hK_, 36, widgetD);
+        a(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_ALIGNMENT_NV, "lvl6", this.a, 0, class_492.e, false);
+        b(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_ALIGNMENT_NV, 284, 228, 37, widgetD);
+        a(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_SIZE_NV, "Name7", this.a, 0, class_492.e, false);
+        b(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_SIZE_NV, 140, User32.WM_UNICHAR, 38, widgetD);
+        a(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_NV, "req7.1", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_MEMORY_ATTACHABLE_NV, 140, 274, 39, widgetD);
+        a(NVMemoryAttachment.GL_DETACHED_MEMORY_INCARNATION_NV, "req7.2", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_DETACHED_MEMORY_INCARNATION_NV, 140, 283, 40, widgetD);
+        a(NVMemoryAttachment.GL_DETACHED_TEXTURES_NV, "req7.3", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_DETACHED_TEXTURES_NV, 140, User32.WM_MENUGETOBJECT, 41, widgetD);
+        a(NVMemoryAttachment.GL_DETACHED_BUFFERS_NV, "req7.4", this.a, 0, 13421823, false);
+        b(NVMemoryAttachment.GL_DETACHED_BUFFERS_NV, 140, 301, 42, widgetD);
+        a(NVMemoryAttachment.GL_MAX_DETACHED_TEXTURES_NV, "lvl7", this.a, 0, class_492.e, false);
+        b(NVMemoryAttachment.GL_MAX_DETACHED_TEXTURES_NV, 89, User32.WM_QUERYUISTATE, 43, widgetD);
+        a(NVMemoryAttachment.GL_MAX_DETACHED_BUFFERS_NV, "Name8", this.a, 0, class_492.e, false);
+        b(NVMemoryAttachment.GL_MAX_DETACHED_BUFFERS_NV, 336, User32.WM_UNICHAR, 44, widgetD);
+        a(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV, "req8.1", this.a, 0, 13421823, false);
+        b(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_DEFAULT_NV, 336, 274, 45, widgetD);
+        a(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV, "req8.2", this.a, 0, 13421823, false);
+        b(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_PIXEL_MAJOR_NV, 336, 283, 46, widgetD);
+        a(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV, "req8.3", this.a, 0, 13421823, false);
+        b(NVShadingRateImage.GL_SHADING_RATE_SAMPLE_ORDER_SAMPLE_MAJOR_NV, 336, User32.WM_MENUGETOBJECT, 47, widgetD);
+        a(NVPrimitiveShadingRate.GL_SHADING_RATE_IMAGE_PER_PRIMITIVE_NV, "req8.4", this.a, 0, 13421823, false);
+        b(NVPrimitiveShadingRate.GL_SHADING_RATE_IMAGE_PER_PRIMITIVE_NV, 336, 301, 48, widgetD);
+        a(NVPrimitiveShadingRate.GL_SHADING_RATE_IMAGE_PALETTE_COUNT_NV, "lvl8", this.a, 0, class_492.e, false);
+        b(NVPrimitiveShadingRate.GL_SHADING_RATE_IMAGE_PALETTE_COUNT_NV, 284, User32.WM_QUERYUISTATE, 49, widgetD);
+        b(65418, 460, 25, 50, widgetD);
+        b(65419, 460, 25, 51, widgetD);
+    }
+}
