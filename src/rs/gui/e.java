@@ -1,16 +1,102 @@
 package rs.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/E.class */
-public class E extends JPanel {
-    public E() {
-        setSize(Launcher.j);
-        setMinimumSize(Launcher.j);
-        setPreferredSize(Launcher.j);
-        setLayout(new BorderLayout());
-        setBackground(Color.black);
-    }
+public class e extends JPanel {
+   private static final int a = 6;
+   private static final long b = 6217721914414303902L;
+
+   public e() {
+      this.setLayout(new BoxLayout(this, 1));
+      this.setAlignmentX(0.5F);
+      JLabel var1 = new JLabel("Check these pages out for server information!");
+      var1.setAlignmentX(0.5F);
+      this.add(var1);
+      this.add(Box.createRigidArea(new Dimension(0, 9)));
+      JButton var2 = new JButton("Server rules");
+      var2.setAlignmentX(0.5F);
+      var2.addActionListener(new f(this));
+      this.add(var2);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var3 = new JButton("Forums/Community");
+      var3.setAlignmentX(0.5F);
+      var3.addActionListener(new m(this));
+      this.add(var3);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var4 = new JButton("Latest updates");
+      var4.setAlignmentX(0.5F);
+      var4.addActionListener(new n(this));
+      this.add(var4);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var5 = new JButton("Price guide");
+      var5.setAlignmentX(0.5F);
+      var5.addActionListener(new o(this));
+      this.add(var5);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JLabel var6 = new JLabel("These commands will aid your PKing needs!");
+      var6.setAlignmentX(0.5F);
+      this.add(var6);
+      this.add(Box.createRigidArea(new Dimension(0, 9)));
+      JButton var7 = new JButton("::switch (Switches your magic spell book)");
+      var7.setAlignmentX(0.5F);
+      var7.addActionListener(new p(this));
+      this.add(var7);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var8 = new JButton("::food (Spawns x28 un-noted food)");
+      var8.setAlignmentX(0.5F);
+      var8.addActionListener(new q(this));
+      this.add(var8);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var9 = new JButton("::veng (Spawns a set of veng runes)");
+      var9.setAlignmentX(0.5F);
+      var9.addActionListener(new r(this));
+      this.add(var9);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var10 = new JButton("::barrage (Spawns a set of barrage runes)");
+      var10.setAlignmentX(0.5F);
+      var10.addActionListener(new s(this));
+      this.add(var10);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var11 = new JButton("::tb (Spawns a set of teleblock runes)");
+      var11.setAlignmentX(0.5F);
+      var11.addActionListener(new t(this));
+      this.add(var11);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var12 = new JButton("::entangle (Spawns a set of entangle runes)");
+      var12.setAlignmentX(0.5F);
+      var12.addActionListener(new g(this));
+      this.add(var12);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var13 = new JButton("::pots (Spawns a set of melee pots)");
+      var13.setAlignmentX(0.5F);
+      var13.addActionListener(new h(this));
+      this.add(var13);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var14 = new JButton("::brew (Spawns a saradomin brew)");
+      var14.setAlignmentX(0.5F);
+      var14.addActionListener(new i(this));
+      this.add(var14);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var15 = new JButton("::rest (Spawns a restore pot)");
+      var15.setAlignmentX(0.5F);
+      var15.addActionListener(new j(this));
+      this.add(var15);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var16 = new JButton("::range (Spawns a ranger pot set)");
+      var16.setAlignmentX(0.5F);
+      var16.addActionListener(new k(this));
+      this.add(var16);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+      JButton var17 = new JButton("::mage (Spawns a set of mage pot set)");
+      var17.setAlignmentX(0.5F);
+      var17.addActionListener(new l(this));
+      this.add(var17);
+      this.add(Box.createRigidArea(new Dimension(0, 6)));
+   }
 }

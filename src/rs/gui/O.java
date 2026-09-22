@@ -1,18 +1,15 @@
 package rs.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import rs.Client;
+import javax.swing.JPanel;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/o.class */
-class o implements ActionListener {
-    final /* synthetic */ e a;
+class O extends JPanel {
+   private static final int a = 23;
+   private static final int b = 4;
 
-    o(e eVar) {
-        this.a = eVar;
-    }
+   O() {
+      this.setLayout(new P(this));
+   }
 
-    public void actionPerformed(ActionEvent actionEvent) {
-        Client.d("https://spawnpk.net/forums/index.php?/topic/5710-the-official-spawnpk-price-guide-for-2017/");
-    }
+   private void a() {
+   }
 }

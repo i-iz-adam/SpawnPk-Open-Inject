@@ -1,22 +1,18 @@
 package rs.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import rs.Client;
+import javax.swing.JTabbedPane;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/l.class */
-class l implements ActionListener {
-    final /* synthetic */ e a;
+class L implements ChangeListener {
+   L(J var1) {
+      this.a = var1;
+   }
 
-    l(e eVar) {
-        this.a = eVar;
-    }
-
-    public void actionPerformed(ActionEvent actionEvent) {
-        if (Launcher.n().o() == null || !Launcher.n().o().fc) {
-            return;
-        }
-        Launcher.n().o();
-        Client.ap = "::mage";
-    }
+   @Override
+   public void stateChanged(ChangeEvent var1) {
+      JTabbedPane var2 = (JTabbedPane)var1.getSource();
+      int var3 = var2.getSelectedIndex();
+      Launcher.n().d();
+   }
 }

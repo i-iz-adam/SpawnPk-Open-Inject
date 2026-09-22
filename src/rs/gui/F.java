@@ -1,16 +1,14 @@
 package rs.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.Graphics;
+import javax.swing.JPanel;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/f.class */
-class f implements ActionListener {
-    final /* synthetic */ e a;
+public class F extends JPanel {
+   private static final long b = 7859280353454207964L;
+   x a;
 
-    f(e eVar) {
-        this.a = eVar;
-    }
-
-    public void actionPerformed(ActionEvent actionEvent) {
-    }
+   @Override
+   public void paintComponent(Graphics var1) {
+      super.paintComponent(var1);
+   }
 }

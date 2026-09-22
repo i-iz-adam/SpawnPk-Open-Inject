@@ -1,22 +1,23 @@
 package rs.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import rs.Client;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/k.class */
-class k implements ActionListener {
-    final /* synthetic */ e a;
+class K extends MouseAdapter {
+   boolean a;
 
-    k(e eVar) {
-        this.a = eVar;
-    }
+   K(J var1) {
+      this.b = var1;
+      this.a = true;
+   }
 
-    public void actionPerformed(ActionEvent actionEvent) {
-        if (Launcher.n().o() == null || !Launcher.n().o().fc) {
-            return;
-        }
-        Launcher.n().o();
-        Client.ap = "::range";
-    }
+   @Override
+   public void mouseEntered(MouseEvent var1) {
+      if (this.a) {
+      }
+   }
+
+   @Override
+   public void mouseExited(MouseEvent var1) {
+   }
 }

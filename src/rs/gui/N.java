@@ -1,18 +1,24 @@
 package rs.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import rs.Client;
+import java.awt.Frame;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import rs.class_17;
+import rs.l.j;
 
-/* JADX INFO: loaded from: client-final.jar:rs/gui/n.class */
-class n implements ActionListener {
-    final /* synthetic */ e a;
+class N extends MouseAdapter {
+   N(Frame var1) {
+      this.a = var1;
+   }
 
-    n(e eVar) {
-        this.a = eVar;
-    }
+   @Override
+   public void mouseClicked(MouseEvent var1) {
+      if (j.a() == j.b && !this.a.isFocused()) {
+         this.a.setVisible(false);
+         class_17.b();
+      }
 
-    public void actionPerformed(ActionEvent actionEvent) {
-        Client.d("https://spawnpk.net/forums/index.php?/forum/10-updates/");
-    }
+      this.a.setVisible(true);
+      this.a.setState(0);
+   }
 }
