@@ -6,7 +6,7 @@ echo Generating source list...
 dir /s /b src\*.java > sources.txt
 
 echo Compiling Java sources...
-javac --release 11 -cp "deps.jar;build" -d build @sources.txt
+javac --release 11 -cp "deps.jar;build;tools\lombok.jar" -d build @sources.txt
 
 if %ERRORLEVEL% NEQ 0 (
     echo Compilation failed with error code %ERRORLEVEL%.
